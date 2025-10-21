@@ -5,9 +5,8 @@ namespace WebApplication1.Database.Models;
 public class Node
 {
     [Key]
-    public Guid ID { get; set; }
+    public Guid Id { get; set; }
     
-    public List<Flow> Flows { get; set; }
-    
-    public Flow Flow { get; set; }
+    public List<Flow> OutgoingFlows { get; set; }
+    public List<Flow> IncomingFlows { get; set; }
 }

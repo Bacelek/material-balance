@@ -18,5 +18,6 @@ public class Flow
     [Required]
     public double UpperBound {get; set;}
     
-    public Node Node { get; set; }
+    public Node SourceNode { get; set; }
+    public Node TargetNode { get; set; }
 }

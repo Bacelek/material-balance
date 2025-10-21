@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebApplication1.Database.Models;
 
-namespace WebApplication1.Models;
+namespace WebApplication1.Database;
 
 public class ApplicationDbContext : DbContext
 {
@@ -18,14 +18,14 @@ public class ApplicationDbContext : DbContext
     {
         modelBuilder
             .Entity<Flow>()
-            .HasOne(flow => flow.Node)
-            .WithMany(node => node.Flows)
+            .HasOne(flow => flow.SourceNode)
+            .WithMany(node => node.OutgoingFlows)
             .HasForeignKey(flow => flow.SourceNodeId)
             .OnDelete(DeleteBehavior.Cascade);
         modelBuilder
             .Entity<Flow>()
-            .HasOne(flow => flow.Node)
-            .WithMany(node => node.Flows)
+            .HasOne(flow => flow.TargetNode)
+            .WithMany(node => node.IncomingFlows)
             .HasForeignKey(flow => flow.TargetNodeId)
             .OnDelete(DeleteBehavior.Cascade);
         

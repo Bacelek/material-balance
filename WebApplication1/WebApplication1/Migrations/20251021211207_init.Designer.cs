@@ -5,14 +5,14 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using WebApplication1.Models;
+using WebApplication1.Database;
 
 #nullable disable
 
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251020232809_init")]
+    [Migration("20251021211207_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -48,6 +48,8 @@ namespace WebApplication1.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("SourceNodeId");
+
                     b.HasIndex("TargetNodeId");
 
                     b.ToTable("Flows");
@@ -55,45 +57,39 @@ namespace WebApplication1.Migrations
 
             modelBuilder.Entity("WebApplication1.Database.Models.Node", b =>
                 {
-                    b.Property<Guid>("ID")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("FlowId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("FlowId");
+                    b.HasKey("Id");
 
                     b.ToTable("Nodes");
                 });
 
             modelBuilder.Entity("WebApplication1.Database.Models.Flow", b =>
                 {
-                    b.HasOne("WebApplication1.Database.Models.Node", "Node")
-                        .WithMany("Flows")
+                    b.HasOne("WebApplication1.Database.Models.Node", "SourceNode")
+                        .WithMany("OutgoingFlows")
+                        .HasForeignKey("SourceNodeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebApplication1.Database.Models.Node", "TargetNode")
+                        .WithMany("IncomingFlows")
                         .HasForeignKey("TargetNodeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Node");
+                    b.Navigation("SourceNode");
+
+                    b.Navigation("TargetNode");
                 });
 
             modelBuilder.Entity("WebApplication1.Database.Models.Node", b =>
                 {
-                    b.HasOne("WebApplication1.Database.Models.Flow", "Flow")
-                        .WithMany()
-                        .HasForeignKey("FlowId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("IncomingFlows");
 
-                    b.Navigation("Flow");
-                });
-
-            modelBuilder.Entity("WebApplication1.Database.Models.Node", b =>
-                {
-                    b.Navigation("Flows");
+                    b.Navigation("OutgoingFlows");
                 });
 #pragma warning restore 612, 618
         }
