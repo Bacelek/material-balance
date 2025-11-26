@@ -76,28 +76,44 @@ public class PostgresBdProvider :  IDBProvider
     
     public async Task AddFlows(IEnumerable<Flow> flows)
     {
+        const int batchSize = 100;
+        var flowsList = flows.ToList();
+    
         await using var connection = (NpgsqlConnection)await GetDataBaseConnection();
-        
-        foreach (var flow in flows)
+
+        for (int i = 0; i < flowsList.Count; i += batchSize)
         {
+            var batch = flowsList.Skip(i).Take(batchSize);
+        
             await using var command = new NpgsqlCommand();
             command.Connection = connection;
-            command.CommandText = """
-                                  INSERT INTO "Flows" ("Id", "SourceNodeId", "TargetNodeId", "Type", "LowerBound", "UpperBound")
-                                  VALUES (@Id, @SourceNodeId, @TargetNodeId, @Type, @LowerBound, @UpperBound)
-                                  ON CONFLICT ("Id") DO UPDATE SET
-                                      "SourceNodeId" = EXCLUDED."SourceNodeId",
-                                      "TargetNodeId" = EXCLUDED."TargetNodeId",
-                                      "Type" = EXCLUDED."Type",
-                                      "LowerBound" = EXCLUDED."LowerBound",
-                                      "UpperBound" = EXCLUDED."UpperBound"
-                                  """;
-            command.Parameters.AddWithValue("Id", flow.Id);
-            command.Parameters.AddWithValue("SourceNodeId", flow.SourceNodeId);
-            command.Parameters.AddWithValue("TargetNodeId", flow.TargetNodeId);
-            command.Parameters.AddWithValue("Type", (int)flow.Type);
-            command.Parameters.AddWithValue("LowerBound", flow.LowerBound);
-            command.Parameters.AddWithValue("UpperBound", flow.UpperBound);
+        
+            var values = new List<string>();
+            int paramIndex = 0;
+        
+            foreach (var flow in batch)
+            {
+                int index = paramIndex++;
+                values.Add($"(@Id{index}, @SourceNodeId{index}, @TargetNodeId{index}, @Type{index}, @LowerBound{index}, @UpperBound{index})");
+                
+                command.Parameters.AddWithValue($"Id{index}", flow.Id);
+                command.Parameters.AddWithValue($"SourceNodeId{index}", flow.SourceNodeId);
+                command.Parameters.AddWithValue($"TargetNodeId{index}", flow.TargetNodeId);
+                command.Parameters.AddWithValue($"Type{index}", (int)flow.Type);
+                command.Parameters.AddWithValue($"LowerBound{index}", flow.LowerBound);
+                command.Parameters.AddWithValue($"UpperBound{index}", flow.UpperBound);
+            }
+        
+            command.CommandText = $"""
+                                   INSERT INTO "Flows" ("Id", "SourceNodeId", "TargetNodeId", "Type", "LowerBound", "UpperBound")
+                                   VALUES {string.Join(", ", values)}
+                                   ON CONFLICT ("Id") DO UPDATE SET
+                                       "SourceNodeId" = EXCLUDED."SourceNodeId",
+                                       "TargetNodeId" = EXCLUDED."TargetNodeId",
+                                       "Type" = EXCLUDED."Type",
+                                       "LowerBound" = EXCLUDED."LowerBound",
+                                       "UpperBound" = EXCLUDED."UpperBound"
+                                   """;
             
             await command.ExecuteNonQueryAsync();
         }
