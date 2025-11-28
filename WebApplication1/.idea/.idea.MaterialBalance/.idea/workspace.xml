@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a801d17-b998-4472-b204-32f74370046a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/Controllers/MaterialBalanceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Controllers/MaterialBalanceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/Interfaces/IDBProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Interfaces/IDBProvider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/Providers/PostgresBdProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Providers/PostgresBdProvider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" afterDir="false" />
@@ -27,7 +28,6 @@
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/refint/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/refint/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.MaterialBalance: http.executor": "Debug",
+    ".NET Launch Settings Profile.MaterialBalance: http.executor": "Run",
     ".NET Launch Settings Profile.MaterialBalance: https.executor": "Run",
     ".NET Launch Settings Profile.WebApplication1: http.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
@@ -85,7 +85,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "ImportDB",
+    "git-widget-placeholder": "deleteFlows",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -143,7 +143,8 @@
       <workItem from="1763072197712" duration="40000" />
       <workItem from="1763072271218" duration="705000" />
       <workItem from="1763372158174" duration="747000" />
-      <workItem from="1764196050164" duration="2884000" />
+      <workItem from="1764196050164" duration="3082000" />
+      <workItem from="1764285423958" duration="3324000" />
     </task>
     <servers />
   </component>

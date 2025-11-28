@@ -17,4 +17,11 @@ public interface IDBProvider
     /// <param name="flows"></param>
     /// <returns></returns>
     Task AddFlows(IEnumerable<Flow> flows);
+    
+    /// <summary>
+    /// Удаление записей из таблицы flows.
+    /// </summary>
+    /// <param name="flowsId"></param>
+    /// <returns></returns>
+    Task DeleteFlows(IEnumerable<Guid> flowsId);
 }

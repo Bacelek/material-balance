@@ -118,4 +118,25 @@ public class PostgresBdProvider :  IDBProvider
             await command.ExecuteNonQueryAsync();
         }
     }
+
+    public async Task DeleteFlows(IEnumerable<Guid> flowsId)
+    {
+        const int batchSize = 100;
+        var flowsIdList = flowsId.ToList();
+    
+        await using var connection = (NpgsqlConnection)await GetDataBaseConnection();
+        
+        for (int i = 0; i < flowsIdList.Count; i += batchSize)
+        {
+            var batch = flowsIdList.Skip(i).Take(batchSize).ToArray();
+        
+            await using var command = new NpgsqlCommand();
+            command.Connection = connection;
+            
+            command.CommandText = $"""DELETE FROM "Flows" WHERE "Id" = ANY(@flowId)""";
+            command.Parameters.AddWithValue("flowId", batch);
+        
+            await command.ExecuteNonQueryAsync();
+        }
+    }
 }

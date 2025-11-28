@@ -33,6 +33,23 @@ public class MaterialBalanceController : Controller
         }
     }
 
-    
+    [HttpPost("deleteFlows")]
+    public async Task<IActionResult> DeleteFlows([FromBody] IEnumerable<Guid> flowsId)
+    {
+        try
+        {
+            if (flowsId == null)
+            {
+                return BadRequest();
+            }
+
+            await _dbProvider.DeleteFlows(flowsId);
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message, ex);
+        }
+    }
     
 }
