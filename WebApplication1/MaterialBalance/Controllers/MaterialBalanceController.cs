@@ -52,4 +52,22 @@ public class MaterialBalanceController : Controller
         }
     }
     
+    [HttpPost("getFlows")]
+    public async Task<IActionResult> GetFlows([FromBody] IEnumerable<Guid> flowsId)
+    {
+        try
+        {
+            if (flowsId == null)
+            {
+                return BadRequest();
+            }
+
+            var flows = await _dbProvider.GetFlows(flowsId);
+            return Ok(flows);
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message, ex);
+        }
+    }
 }

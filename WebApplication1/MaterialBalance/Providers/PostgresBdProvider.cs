@@ -139,4 +139,46 @@ public class PostgresBdProvider :  IDBProvider
             await command.ExecuteNonQueryAsync();
         }
     }
+    
+    public async Task<IEnumerable<Flow>> GetFlows(IEnumerable<Guid> flowsId)
+    {
+        const int batchSize = 100;
+        var flowsIdList = flowsId.ToList();
+        var result = new List<Flow>();
+    
+        await using var connection = (NpgsqlConnection)await GetDataBaseConnection();
+    
+        for (int i = 0; i < flowsIdList.Count; i += batchSize)
+        {
+            var batch = flowsIdList.Skip(i).Take(batchSize).ToArray();
+        
+            await using var command = new NpgsqlCommand();
+            command.Connection = connection;
+        
+            command.CommandText = $"""
+                                   SELECT "Id", "SourceNodeId", "TargetNodeId", "Type", "LowerBound", "UpperBound" 
+                                   FROM "Flows" 
+                                   WHERE "Id" = ANY(@flowIds)
+                                   """;
+            command.Parameters.AddWithValue("flowIds", batch);
+        
+            await using var reader = await command.ExecuteReaderAsync();
+        
+            while (await reader.ReadAsync())
+            {
+                var flow = new Flow
+                {
+                    Id = reader.GetGuid(0),
+                    SourceNodeId = reader.IsDBNull(1) ? Guid.Empty : reader.GetGuid(1),
+                    TargetNodeId = reader.GetGuid(2),
+                    Type = (FlowType)reader.GetInt32(3),
+                    LowerBound = reader.GetDouble(4),
+                    UpperBound = reader.GetDouble(5)
+                };
+                result.Add(flow);
+            }
+        }
+    
+        return result;
+    }
 }
