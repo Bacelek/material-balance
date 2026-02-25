@@ -143,11 +143,36 @@ public class PostgresBdProvider :  IDBProvider
     public async Task<IEnumerable<Flow>> GetFlows(IEnumerable<Guid> flowsId)
     {
         const int batchSize = 100;
-        var flowsIdList = flowsId.ToList();
         var result = new List<Flow>();
     
         await using var connection = (NpgsqlConnection)await GetDataBaseConnection();
     
+        if (flowsId == null || !flowsId.Any())
+        {
+            await using var command = new NpgsqlCommand();
+            command.Connection = connection;
+            command.CommandText = """
+                                  SELECT "Id", "SourceNodeId", "TargetNodeId", "Type", "LowerBound", "UpperBound" 
+                                  FROM "Flows"
+                                  """;
+            await using var reader = await command.ExecuteReaderAsync();
+            while (await reader.ReadAsync())
+            {
+                var flow = new Flow
+                {
+                    Id = reader.GetGuid(0),
+                    SourceNodeId = reader.IsDBNull(1) ? Guid.Empty : reader.GetGuid(1),
+                    TargetNodeId = reader.GetGuid(2),
+                    Type = (FlowType)reader.GetInt32(3),
+                    LowerBound = reader.GetDouble(4),
+                    UpperBound = reader.GetDouble(5)
+                };
+                result.Add(flow);
+            }
+            return result;
+        }
+        
+        var flowsIdList = flowsId.ToList();
         for (int i = 0; i < flowsIdList.Count; i += batchSize)
         {
             var batch = flowsIdList.Skip(i).Take(batchSize).ToArray();
@@ -180,5 +205,42 @@ public class PostgresBdProvider :  IDBProvider
         }
     
         return result;
+    }
+    
+    public AdjacencyMatrix CreateAdjacencyMatrix(IEnumerable<Flow> flows)
+    {
+        var nodesSet = new HashSet<Guid>();
+        foreach (var flow in flows)
+        {
+            if (flow.SourceNodeId != Guid.Empty)
+                nodesSet.Add(flow.SourceNodeId);
+            if (flow.TargetNodeId != Guid.Empty)
+                nodesSet.Add(flow.TargetNodeId);
+        }
+
+        var nodesList = nodesSet.ToList();
+        var indexMap = nodesList.Select((id, idx) => new { id, idx })
+            .ToDictionary(x => x.id, x => x.idx);
+
+        int n = nodesList.Count;
+        var matrix = new List<List<int>>(n);
+        for (int i = 0; i < n; i++)
+            matrix.Add(new List<int>(new int[n]));
+        
+        foreach (var flow in flows)
+        {
+            if (flow.SourceNodeId != Guid.Empty && flow.TargetNodeId != Guid.Empty)
+            {
+                int i = indexMap[flow.SourceNodeId];
+                int j = indexMap[flow.TargetNodeId];
+                matrix[i][j] = 1;  
+            }
+        }
+
+        return new AdjacencyMatrix
+        {
+            Nodes = nodesList,
+            Matrix = matrix
+        };
     }
 }

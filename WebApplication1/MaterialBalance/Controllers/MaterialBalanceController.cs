@@ -57,13 +57,24 @@ public class MaterialBalanceController : Controller
     {
         try
         {
-            if (flowsId == null)
-            {
-                return BadRequest();
-            }
-
             var flows = await _dbProvider.GetFlows(flowsId);
             return Ok(flows);
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message, ex);
+        }
+    }
+    
+    [HttpPost("createAdjacencyMatrix")]
+    public async Task<IActionResult> CreateAdjacencyMatrix()
+    {
+        try
+        {
+            var flows = await _dbProvider.GetFlows(null);
+            var result = _dbProvider.CreateAdjacencyMatrix(flows);
+
+            return Ok(result);
         }
         catch (Exception ex)
         {

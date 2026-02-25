@@ -1,5 +1,6 @@
 ﻿using MaterialBalance.API.Request;
 
+
 namespace MaterialBalance.Interfaces;
 
 public interface IDBProvider
@@ -31,5 +32,11 @@ public interface IDBProvider
     /// <param name="flowsId"></param>
     /// <returns></returns>
     Task<IEnumerable<Flow>> GetFlows(IEnumerable<Guid> flowsId);
-
+    
+    /// <summary>
+    /// Создание матрицы смежности 
+    /// </summary>
+    /// <param name="flows"></param>
+    /// <returns></returns>
+    AdjacencyMatrix CreateAdjacencyMatrix(IEnumerable<Flow> flows);
 }
