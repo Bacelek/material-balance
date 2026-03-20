@@ -8,10 +8,12 @@ namespace MaterialBalance.Controllers;
 public class MaterialBalanceController : Controller
 {
     private readonly IDBProvider _dbProvider;
+    private readonly IGraphService _graphService;
 
-    public MaterialBalanceController(IDBProvider  dbProvider)
+    public MaterialBalanceController(IDBProvider dbProvider, IGraphService graphService)
     {
         _dbProvider = dbProvider;
+        _graphService = graphService;
     }
     
     [HttpPost("addFlows")]
@@ -57,6 +59,11 @@ public class MaterialBalanceController : Controller
     {
         try
         {
+            if (flowsId == null)
+            {
+                return BadRequest();
+            }
+            
             var flows = await _dbProvider.GetFlows(flowsId);
             return Ok(flows);
         }
@@ -66,15 +73,16 @@ public class MaterialBalanceController : Controller
         }
     }
     
-    [HttpPost("createAdjacencyMatrix")]
-    public async Task<IActionResult> CreateAdjacencyMatrix()
+    [HttpPost("createGraph")]
+    public async Task<IActionResult> CreateGraph([FromBody] IEnumerable<Guid> flowIds)
     {
         try
         {
-            var flows = await _dbProvider.GetFlows(null);
-            var result = _dbProvider.CreateAdjacencyMatrix(flows);
-
-            return Ok(result);
+            var flows = await _dbProvider.GetFlows(flowIds);
+            
+            var graph = _graphService.CreateGraph(flows);
+        
+            return Ok(graph);
         }
         catch (Exception ex)
         {

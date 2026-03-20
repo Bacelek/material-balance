@@ -12,8 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4a801d17-b998-4472-b204-32f74370046a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/AdjacencyMatrix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/Graph.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/Controllers/MaterialBalanceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Controllers/MaterialBalanceController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/Interfaces/IDBProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Interfaces/IDBProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/Providers/PostgresBdProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Providers/PostgresBdProvider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" afterDir="false" />
@@ -62,8 +64,14 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cb777b867e6dc842518466a0c9353bd65551bbcc745a7b94c913b6e4f6d44/DbParameterCollection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MaterialBalance/API/Request/AdjacencyMatrix.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="HttpClientEndpointsTabState">
+    <option name="cachedRequestData" value="&lt;CachedHttpClientTabRequests&gt;&#10;  &lt;entry key=&quot;9536db656e4dc0a7e2b02772aff7831a04acf311&quot; value=&quot;###&amp;#10;POST http://localhost:5273/api/addFlows&quot; /&gt;&#10;&lt;/CachedHttpClientTabRequests&gt;" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -99,7 +107,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;swagger&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -156,7 +164,14 @@
       <workItem from="1769401487727" duration="1470000" />
       <workItem from="1771623288622" duration="3745000" />
       <workItem from="1771678899250" duration="2409000" />
-      <workItem from="1772057896093" duration="4128000" />
+      <workItem from="1772057896093" duration="4220000" />
+      <workItem from="1772087324387" duration="256000" />
+      <workItem from="1772788433145" duration="1127000" />
+      <workItem from="1773245911295" duration="969000" />
+      <workItem from="1773249921118" duration="88000" />
+      <workItem from="1773251066841" duration="42000" />
+      <workItem from="1773251156626" duration="3454000" />
+      <workItem from="1773955306301" duration="8918000" />
     </task>
     <servers />
   </component>
@@ -196,5 +211,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
