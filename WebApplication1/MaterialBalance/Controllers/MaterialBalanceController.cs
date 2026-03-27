@@ -89,4 +89,48 @@ public class MaterialBalanceController : Controller
             throw new Exception(ex.Message, ex);
         }
     }
+    
+    [HttpPost("createTask")]
+    public async Task<IActionResult> StartComputation([FromBody] IEnumerable<Guid> flowsId)
+    {
+        try
+        {
+            if (flowsId == null)
+                return BadRequest();
+
+            var taskId = await _dbProvider.CreateSolverTask(flowsId);
+
+            return Ok(taskId);
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message, ex);
+        }
+    }
+    
+    [HttpPost("getStatus")]
+    public async Task<IActionResult> GetStatus(Guid taskId)
+    {
+        try
+        {
+            var task = await _dbProvider.GetSolverTask(taskId);
+            if (task == null)
+                return BadRequest();
+
+            return Ok(new
+            {
+                task.Id,
+                Status = task.Status.ToString(),
+                task.CreatedTime,
+                task.StartedTime,
+                task.CompletedTime,
+                task.Result
+            });
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message, ex);
+        }
+    }
+    
 }

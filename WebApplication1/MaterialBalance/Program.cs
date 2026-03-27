@@ -12,6 +12,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IDBProvider, PostgresBdProvider>();
 builder.Services.AddScoped<IGraphService, GraphService>();
+builder.Services.AddHostedService<BackgroundSolverService>();
 
 builder.Services.Configure<Config>(builder.Configuration.GetSection(nameof(Config)));
 

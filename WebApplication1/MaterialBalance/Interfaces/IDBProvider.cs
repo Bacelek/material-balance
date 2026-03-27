@@ -32,4 +32,10 @@ public interface IDBProvider
     /// <param name="flowsId"></param>
     /// <returns></returns>
     Task<IEnumerable<Flow>> GetFlows(IEnumerable<Guid> flowsId);
+    
+    Task<Guid> CreateSolverTask(IEnumerable<Guid> flowsId);
+    Task<SolverTask?> GetSolverTask(Guid taskId);
+    Task<SolverTask?> GetPendingSolverTask();  
+    Task<bool> HasProcessingSolverTask();  
+    Task UpdateSolverTaskStatus(Guid taskId, StatusType status, ResultType? result = null);
 }

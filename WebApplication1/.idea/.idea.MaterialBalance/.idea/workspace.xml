@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a801d17-b998-4472-b204-32f74370046a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/AdjacencyMatrix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/Graph.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/Controllers/MaterialBalanceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Controllers/MaterialBalanceController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/Interfaces/IDBProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Interfaces/IDBProvider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Program.cs" afterDir="false" />
@@ -64,10 +63,13 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cb777b867e6dc842518466a0c9353bd65551bbcc745a7b94c913b6e4f6d44/DbParameterCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MaterialBalance/API/Request/ResultType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MaterialBalance/API/Request/StatusType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MaterialBalance/Services/BackgroundSolverService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="HttpClientEndpointsTabState">
-    <option name="cachedRequestData" value="&lt;CachedHttpClientTabRequests&gt;&#10;  &lt;entry key=&quot;9536db656e4dc0a7e2b02772aff7831a04acf311&quot; value=&quot;###&amp;#10;POST http://localhost:5273/api/addFlows&quot; /&gt;&#10;&lt;/CachedHttpClientTabRequests&gt;" />
+    <option name="cachedRequestData" value="&lt;CachedHttpClientTabRequests /&gt;" />
   </component>
   <component name="HttpClientOnboardingState">{
   &quot;isOnboardingCommentShown&quot;: true
@@ -100,7 +102,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;createGraph&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;DBqueue&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -171,7 +173,9 @@
       <workItem from="1773249921118" duration="88000" />
       <workItem from="1773251066841" duration="42000" />
       <workItem from="1773251156626" duration="3454000" />
-      <workItem from="1773955306301" duration="8918000" />
+      <workItem from="1773955306301" duration="9421000" />
+      <workItem from="1774420043620" duration="17957000" />
+      <workItem from="1774596834409" duration="1438000" />
     </task>
     <servers />
   </component>

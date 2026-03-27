@@ -181,4 +181,128 @@ public class PostgresBdProvider :  IDBProvider
     
         return result;
     }
+    
+    public async Task<Guid> CreateSolverTask(IEnumerable<Guid> flowsId)
+    {
+        await using var connection = (NpgsqlConnection)await GetDataBaseConnection();
+        await using var command = new NpgsqlCommand();
+        command.Connection = connection;
+        
+        var id = Guid.NewGuid();
+        var flowsArray = flowsId.ToArray();
+        command.CommandText = $"""
+        INSERT INTO "Tasks" ("Id", "Status", "CreatedTime", "FlowsId")
+        VALUES (@Id, @Status, @CreatedTime, @FlowsId)
+        """;
+        
+        
+        
+        command.Parameters.AddWithValue("Id", id);
+        command.Parameters.AddWithValue("Status", (int)StatusType.Pending);
+        command.Parameters.AddWithValue("CreatedTime", DateTime.Now);
+        command.Parameters.AddWithValue("FlowsId", flowsArray);
+        await command.ExecuteNonQueryAsync();
+        return id;
+    }
+    
+    public async Task<SolverTask?> GetSolverTask(Guid taskId)
+    {
+        await using var connection = (NpgsqlConnection)await GetDataBaseConnection();
+        await using var command = new NpgsqlCommand();
+        command.Connection = connection;
+
+        command.CommandText = $"""
+            SELECT *
+            FROM "Tasks"
+            WHERE "Id" = @Id
+            """;
+        
+        command.Parameters.AddWithValue("Id", taskId);
+        await using var reader = await command.ExecuteReaderAsync();
+        
+        if (await reader.ReadAsync())
+        {
+            return new SolverTask
+            {
+                Id = reader.GetGuid(0),
+                Status = (StatusType)reader.GetInt32(1),
+                CreatedTime = reader.GetDateTime(2),
+                StartedTime = reader.IsDBNull(3) ? null : reader.GetDateTime(3),
+                CompletedTime = reader.IsDBNull(4) ? null : reader.GetDateTime(4),
+                Result = reader.IsDBNull(5) ? null : (ResultType)reader.GetInt32(5),
+                FlowsId = reader.GetFieldValue<Guid[]>(6).ToList()
+            };
+        }
+        return null;
+    }
+
+    public async Task<SolverTask?> GetPendingSolverTask()
+    {
+        await using var connection = (NpgsqlConnection)await GetDataBaseConnection();
+        await using var command = new NpgsqlCommand();
+        command.Connection = connection;
+        
+        command.CommandText = $"""
+            SELECT *
+            FROM "Tasks"
+            WHERE "Status" = @PendingStatus
+            ORDER BY "CreatedTime" 
+            LIMIT 1
+            """;
+        
+        command.Parameters.AddWithValue("PendingStatus", (int)StatusType.Pending);
+        await using var reader = await command.ExecuteReaderAsync();
+        if (await reader.ReadAsync())
+        {
+            return new SolverTask
+            {
+                Id = reader.GetGuid(0),
+                Status = (StatusType)reader.GetInt32(1),
+                CreatedTime = reader.GetDateTime(2),
+                StartedTime = reader.IsDBNull(3) ? null : reader.GetDateTime(3),
+                CompletedTime = reader.IsDBNull(4) ? null : reader.GetDateTime(4),
+                Result = reader.IsDBNull(5) ? null : (ResultType)reader.GetInt32(5),
+                FlowsId = reader.GetFieldValue<Guid[]>(6).ToList()
+            };
+        }
+        return null;
+    }
+
+    public async Task<bool> HasProcessingSolverTask()
+    {
+        await using var connection = (NpgsqlConnection)await GetDataBaseConnection();
+        await using var command = new NpgsqlCommand();
+        command.Connection = connection;
+
+        command.CommandText = $"""
+                               SELECT EXISTS (SELECT * FROM "Tasks" WHERE "Status" = @TaskStatus)
+                               """;
+        command.Parameters.AddWithValue("TaskStatus", (int)StatusType.Processing);
+        
+        return (bool)await command.ExecuteScalarAsync();
+    }
+
+    public async Task UpdateSolverTaskStatus(Guid taskId, StatusType status, ResultType? result = null)
+    {
+        await using var connection = (NpgsqlConnection)await GetDataBaseConnection();
+        await using var command = new NpgsqlCommand();
+        command.Connection = connection;
+        
+        command.CommandText = $"""
+            UPDATE "Tasks"
+            SET "Status" = @Status,
+                "StartedTime" = CASE WHEN @Status = @ProcessingStatus THEN @Now ELSE "StartedTime" END,
+                "CompletedTime" = CASE WHEN @Status = @CompletedStatus THEN @Now ELSE "CompletedTime" END,
+                "Result" = @Result
+            WHERE "Id" = @Id
+            """;
+        
+        command.Parameters.AddWithValue("Id", taskId);
+        command.Parameters.AddWithValue("Status", (int)status);
+        command.Parameters.AddWithValue("ProcessingStatus", (int)StatusType.Processing);
+        command.Parameters.AddWithValue("CompletedStatus", (int)StatusType.Completed);
+        command.Parameters.AddWithValue("Now", DateTime.Now);
+        command.Parameters.AddWithValue("Result", result.HasValue ? (int)result.Value : (object)DBNull.Value);
+        await command.ExecuteNonQueryAsync();
+    }
 }
