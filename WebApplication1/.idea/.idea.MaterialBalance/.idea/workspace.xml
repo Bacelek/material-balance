@@ -9,19 +9,28 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4a801d17-b998-4472-b204-32f74370046a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/Controllers/MaterialBalanceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Controllers/MaterialBalanceController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/Interfaces/IDBProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Interfaces/IDBProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/Providers/PostgresBdProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Providers/PostgresBdProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/Flow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/Flow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/FlowType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/FlowType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/Graph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/ResultType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/ResultType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/SolverTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/SolverTask.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/StatusType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/StatusType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/Interfaces/IGraphService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Interfaces/IGraphService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/MaterialBalance.sourcelink.json" afterDir="false" />
@@ -30,6 +39,7 @@
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/refint/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/refint/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,29 +100,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.MaterialBalance: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.MaterialBalance: https.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.WebApplication1: http.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;DBqueue&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;swagger&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.MaterialBalance: http.executor": "Run",
+    ".NET Launch Settings Profile.MaterialBalance: https.executor": "Run",
+    ".NET Launch Settings Profile.WebApplication1: http.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "DBqueue",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Lingma",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MaterialBalance: http">
     <configuration name="MaterialBalance: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MaterialBalance/MaterialBalance.csproj" />
@@ -175,7 +189,10 @@
       <workItem from="1773251156626" duration="3454000" />
       <workItem from="1773955306301" duration="9421000" />
       <workItem from="1774420043620" duration="17957000" />
-      <workItem from="1774596834409" duration="1438000" />
+      <workItem from="1774596834409" duration="2799000" />
+      <workItem from="1776628829028" duration="829000" />
+      <workItem from="1776629726387" duration="593000" />
+      <workItem from="1776630378545" duration="4467000" />
     </task>
     <servers />
   </component>

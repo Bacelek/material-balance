@@ -12,5 +12,5 @@ public interface IGraphService
     
     List<Guid> ExtractNodes(IEnumerable<Flow> flows);
     
-    List<List<int>> CalculateAdjacencyMatrix(Graph graph);
+    int[,] CalculateAdjacencyMatrix(Graph graph);
 }

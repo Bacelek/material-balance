@@ -4,6 +4,7 @@ using MaterialBalance.Configurations;
 using MaterialBalance.Interfaces;
 using Microsoft.Extensions.Options;
 using Npgsql;
+using System.Collections.Generic;
 using MaterialBalance.API.Request;
 
 
@@ -13,7 +14,7 @@ public class GraphService : IGraphService
 {
     public Graph CreateGraph(IEnumerable<Flow> flows)
     {
-        var flowsList = flows.ToList();
+        var flowsList = new List<Flow>(flows);
         var nodes = ExtractNodes(flowsList);
         
         var graph = new Graph
@@ -40,7 +41,7 @@ public class GraphService : IGraphService
         return nodesSet.ToList();
     }
 
-    public List<List<int>> CalculateAdjacencyMatrix(Graph graph)
+    public int[,] CalculateAdjacencyMatrix(Graph graph)
     {
         var nodesList = graph.Nodes;
         var flows = graph.Flows;
@@ -50,9 +51,7 @@ public class GraphService : IGraphService
             .ToDictionary(x => x.id, x => x.idx);
 
         int n = nodesList.Count;
-        var matrix = new List<List<int>>(n);
-        for (int i = 0; i < n; i++)
-            matrix.Add(new List<int>(new int[n]));
+        int[,] matrix = new int[n, n];
         
         foreach (var flow in flows)
         {
@@ -60,7 +59,7 @@ public class GraphService : IGraphService
             {
                 int i = indexMap[flow.SourceNodeId];
                 int j = indexMap[flow.TargetNodeId];
-                matrix[i][j] = 1;  
+                matrix[i,j] = 1;  
             }
         }
         return matrix;

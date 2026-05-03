@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace MaterialBalance.API.Request;
 
