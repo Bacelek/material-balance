@@ -25,6 +25,8 @@ public class GraphService : IGraphService
         
         graph.AdjacencyMatrix = CalculateAdjacencyMatrix(graph);
 
+        graph.IsConnectedGraph = IsConnectedGraph(graph);
+
         return graph;
     }
 
@@ -63,5 +65,35 @@ public class GraphService : IGraphService
             }
         }
         return matrix;
+    }
+
+    public bool IsConnectedGraph(Graph graph)
+    {
+        int[,] adj = graph.AdjacencyMatrix;
+        int n = adj.GetLength(0);
+
+        if (n == 0) return true;
+
+        bool[] visited = new bool[n];
+        var queue = new Queue<int>();
+        queue.Enqueue(0);
+        visited[0] = true;
+        int visitedCount = 1;
+
+        while (queue.Count > 0)
+        {
+            int v = queue.Dequeue();
+            for (int u = 0; u < n; u++)
+            {
+                
+                if ((adj[v, u] != 0 || adj[u, v] != 0) && !visited[u])
+                {
+                    visited[u] = true;
+                    queue.Enqueue(u);
+                    visitedCount++;
+                }
+            }
+        }
+        return visitedCount == n;
     }
 }

@@ -5,6 +5,7 @@ using MaterialBalance.Interfaces;
 using Microsoft.Extensions.Options;
 using Npgsql;
 using MaterialBalance.API.Request;
+using System.Text.Json;
 
 namespace MaterialBalance.Providers;
 
@@ -170,7 +171,7 @@ public class PostgresBdProvider :  IDBProvider
                 {
                     Id = reader.GetGuid(0),
                     SourceNodeId = reader.IsDBNull(1) ? Guid.Empty : reader.GetGuid(1),
-                    TargetNodeId = reader.GetGuid(2),
+                    TargetNodeId = reader.IsDBNull(2) ? Guid.Empty : reader.GetGuid(2),
                     Type = (FlowType)reader.GetInt32(3),
                     LowerBound = reader.GetDouble(4),
                     UpperBound = reader.GetDouble(5)
@@ -282,18 +283,23 @@ public class PostgresBdProvider :  IDBProvider
         return (bool)await command.ExecuteScalarAsync();
     }
 
-    public async Task UpdateSolverTaskStatus(Guid taskId, StatusType status, ResultType? result = null)
+    public async Task UpdateSolverTaskStatus(Guid taskId, StatusType status, SolverResult? result = null)
     {
         await using var connection = (NpgsqlConnection)await GetDataBaseConnection();
         await using var command = new NpgsqlCommand();
         command.Connection = connection;
-        
+        string? resultJson = null;
+        if (result != null)
+        {
+            resultJson = JsonSerializer.Serialize(result);
+        }
+
         command.CommandText = $"""
             UPDATE "Tasks"
             SET "Status" = @Status,
                 "StartedTime" = CASE WHEN @Status = @ProcessingStatus THEN @Now ELSE "StartedTime" END,
                 "CompletedTime" = CASE WHEN @Status = @CompletedStatus THEN @Now ELSE "CompletedTime" END,
-                "Result" = @Result
+                "Result" = CASE WHEN @ResultJson IS NOT NULL THEN @ResultJson::jsonb ELSE "Result" END
             WHERE "Id" = @Id
             """;
         
@@ -302,7 +308,8 @@ public class PostgresBdProvider :  IDBProvider
         command.Parameters.AddWithValue("ProcessingStatus", (int)StatusType.Processing);
         command.Parameters.AddWithValue("CompletedStatus", (int)StatusType.Completed);
         command.Parameters.AddWithValue("Now", DateTime.Now);
-        command.Parameters.AddWithValue("Result", result.HasValue ? (int)result.Value : (object)DBNull.Value);
+        command.Parameters.AddWithValue("ResultJson", NpgsqlTypes.NpgsqlDbType.Jsonb, (object?)resultJson ?? DBNull.Value);
+
         await command.ExecuteNonQueryAsync();
     }
 }

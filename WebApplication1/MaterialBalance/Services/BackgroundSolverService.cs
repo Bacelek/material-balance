@@ -26,7 +26,7 @@ public class BackgroundSolverService : BackgroundService
                 using (var scope = _scopeFactory.CreateScope())
                 {
                     var dbProvider = scope.ServiceProvider.GetRequiredService<IDBProvider>();
-                    
+                    var solverService = scope.ServiceProvider.GetRequiredService<ISolverService>();
                     if (await dbProvider.HasProcessingSolverTask())
                     {
                         await Task.Delay(TimeSpan.FromSeconds(10), stoppingToken);
@@ -41,10 +41,11 @@ public class BackgroundSolverService : BackgroundService
                     }
 
                     await dbProvider.UpdateSolverTaskStatus(task.Id, StatusType.Processing);
+                    
+                    IEnumerable<Flow> flows = await dbProvider.GetFlows(task.FlowsId);
+                    SolverResult result= await solverService.Solve(flows);
 
-                    await Task.Delay(TimeSpan.FromSeconds(15), stoppingToken);
-
-                    await dbProvider.UpdateSolverTaskStatus(task.Id, StatusType.Completed, ResultType.Solved);
+                    await dbProvider.UpdateSolverTaskStatus(task.Id, StatusType.Completed, result);
                 }
             }
             catch (OperationCanceledException)

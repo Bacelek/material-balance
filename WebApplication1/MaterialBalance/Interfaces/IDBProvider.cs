@@ -37,5 +37,5 @@ public interface IDBProvider
     Task<SolverTask?> GetSolverTask(Guid taskId);
     Task<SolverTask?> GetPendingSolverTask();  
     Task<bool> HasProcessingSolverTask();  
-    Task UpdateSolverTaskStatus(Guid taskId, StatusType status, ResultType? result = null);
+    Task UpdateSolverTaskStatus(Guid taskId, StatusType status, SolverResult? result = null);
 }

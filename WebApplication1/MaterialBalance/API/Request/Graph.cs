@@ -8,6 +8,7 @@ public class Graph
     public List<Guid> Nodes { get; set; }
     public int[,] AdjacencyMatrix { get; set; } 
     public List<Flow>  Flows { get; set; }
+    public bool IsConnectedGraph { get; set; }
 }
 /*"matrix": [
 [ 0, 1, 0, 0, 0, 0, 0, 0, 1, 0],

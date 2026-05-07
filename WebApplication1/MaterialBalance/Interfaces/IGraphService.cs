@@ -1,5 +1,6 @@
 ﻿using MaterialBalance.API.Request;
 
+
 namespace MaterialBalance.Interfaces;
 
 public interface IGraphService
@@ -13,4 +14,6 @@ public interface IGraphService
     List<Guid> ExtractNodes(IEnumerable<Flow> flows);
     
     int[,] CalculateAdjacencyMatrix(Graph graph);
+
+    bool IsConnectedGraph(Graph graph);
 }
