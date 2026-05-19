@@ -35,7 +35,7 @@ public class MaterialBalanceController : Controller
         }
     }
 
-    [HttpPost("deleteFlows")]
+    [HttpDelete("deleteFlows")]
     public async Task<IActionResult> DeleteFlows([FromBody] IEnumerable<Guid> flowsId)
     {
         try
@@ -52,10 +52,10 @@ public class MaterialBalanceController : Controller
         {
             throw new Exception(ex.Message, ex);
         }
-    }
+    } 
     
-    [HttpPost("getFlows")]
-    public async Task<IActionResult> GetFlows([FromBody] IEnumerable<Guid> flowsId)
+    [HttpGet("getFlows")]
+    public async Task<IActionResult> GetFlows([FromQuery] IEnumerable<Guid> flowsId)
     {
         try
         {
@@ -73,7 +73,7 @@ public class MaterialBalanceController : Controller
         }
     }
     
-    [HttpPost("createGraph")]
+    /*[HttpPost("createGraph")]
     public async Task<IActionResult> CreateGraph([FromBody] IEnumerable<Guid> flowIds)
     {
         try
@@ -88,10 +88,10 @@ public class MaterialBalanceController : Controller
         {
             throw new Exception(ex.Message, ex);
         }
-    }
+    }*/
     
     [HttpPost("createTask")]
-    public async Task<IActionResult> StartComputation([FromBody] IEnumerable<Guid> flowsId)
+    public async Task<IActionResult> CreateTask([FromBody] IEnumerable<Guid> flowsId)
     {
         try
         {
@@ -108,7 +108,7 @@ public class MaterialBalanceController : Controller
         }
     }
     
-    [HttpPost("getStatus")]
+    [HttpGet("getStatus")]
     public async Task<IActionResult> GetStatus(Guid taskId)
     {
         try

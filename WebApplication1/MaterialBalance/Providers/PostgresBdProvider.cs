@@ -95,7 +95,7 @@ public class PostgresBdProvider :  IDBProvider
             foreach (var flow in batch)
             {
                 int index = paramIndex++;
-                values.Add($"(@Id{index}, @SourceNodeId{index}, @TargetNodeId{index}, @Type{index}, @LowerBound{index}, @UpperBound{index})");
+                values.Add($"(@Id{index}, @SourceNodeId{index}, @TargetNodeId{index}, @Type{index}, @LowerBound{index}, @UpperBound{index}, @Measured{index}, @Tolerance{index})");
                 
                 command.Parameters.AddWithValue($"Id{index}", flow.Id);
                 command.Parameters.AddWithValue($"SourceNodeId{index}", flow.SourceNodeId);
@@ -103,17 +103,21 @@ public class PostgresBdProvider :  IDBProvider
                 command.Parameters.AddWithValue($"Type{index}", (int)flow.Type);
                 command.Parameters.AddWithValue($"LowerBound{index}", flow.LowerBound);
                 command.Parameters.AddWithValue($"UpperBound{index}", flow.UpperBound);
+                command.Parameters.AddWithValue($"Measured{index}", flow.Measured);
+                command.Parameters.AddWithValue($"Tolerance{index}", flow.Tolerance);
             }
         
             command.CommandText = $"""
-                                   INSERT INTO "Flows" ("Id", "SourceNodeId", "TargetNodeId", "Type", "LowerBound", "UpperBound")
+                                   INSERT INTO "Flows" ("Id", "SourceNodeId", "TargetNodeId", "Type", "LowerBound", "UpperBound", "Measured", "Tolerance")
                                    VALUES {string.Join(", ", values)}
                                    ON CONFLICT ("Id") DO UPDATE SET
                                        "SourceNodeId" = EXCLUDED."SourceNodeId",
                                        "TargetNodeId" = EXCLUDED."TargetNodeId",
                                        "Type" = EXCLUDED."Type",
                                        "LowerBound" = EXCLUDED."LowerBound",
-                                       "UpperBound" = EXCLUDED."UpperBound"
+                                       "UpperBound" = EXCLUDED."UpperBound",
+                                       "Measured" = EXCLUDED."Measured",
+                                       "Tolerance" = EXCLUDED."Tolerance"
                                    """;
             
             await command.ExecuteNonQueryAsync();
@@ -157,7 +161,7 @@ public class PostgresBdProvider :  IDBProvider
             command.Connection = connection;
         
             command.CommandText = $"""
-                                   SELECT "Id", "SourceNodeId", "TargetNodeId", "Type", "LowerBound", "UpperBound" 
+                                   SELECT "Id", "SourceNodeId", "TargetNodeId", "Type", "LowerBound", "UpperBound", "Measured", "Tolerance"
                                    FROM "Flows" 
                                    WHERE "Id" = ANY(@flowIds)
                                    """;
@@ -174,7 +178,9 @@ public class PostgresBdProvider :  IDBProvider
                     TargetNodeId = reader.IsDBNull(2) ? Guid.Empty : reader.GetGuid(2),
                     Type = (FlowType)reader.GetInt32(3),
                     LowerBound = reader.GetDouble(4),
-                    UpperBound = reader.GetDouble(5)
+                    UpperBound = reader.GetDouble(5),
+                    Measured = reader.GetDouble(6),
+                    Tolerance = reader.GetDouble(7)
                 };
                 result.Add(flow);
             }
@@ -223,6 +229,12 @@ public class PostgresBdProvider :  IDBProvider
         
         if (await reader.ReadAsync())
         {
+            SolverResult result = new();
+            if (!reader.IsDBNull(5))
+            {
+                string json = reader.GetString(5); 
+                result = JsonSerializer.Deserialize<SolverResult>(json);
+            }
             return new SolverTask
             {
                 Id = reader.GetGuid(0),
@@ -230,7 +242,7 @@ public class PostgresBdProvider :  IDBProvider
                 CreatedTime = reader.GetDateTime(2),
                 StartedTime = reader.IsDBNull(3) ? null : reader.GetDateTime(3),
                 CompletedTime = reader.IsDBNull(4) ? null : reader.GetDateTime(4),
-                Result = reader.IsDBNull(5) ? null : (ResultType)reader.GetInt32(5),
+                Result = result,
                 FlowsId = reader.GetFieldValue<Guid[]>(6).ToList()
             };
         }
@@ -255,6 +267,12 @@ public class PostgresBdProvider :  IDBProvider
         await using var reader = await command.ExecuteReaderAsync();
         if (await reader.ReadAsync())
         {
+            SolverResult result = new();
+            if (!reader.IsDBNull(5))
+            {
+                string json = reader.GetString(5); 
+                result = JsonSerializer.Deserialize<SolverResult>(json);
+            }
             return new SolverTask
             {
                 Id = reader.GetGuid(0),
@@ -262,7 +280,7 @@ public class PostgresBdProvider :  IDBProvider
                 CreatedTime = reader.GetDateTime(2),
                 StartedTime = reader.IsDBNull(3) ? null : reader.GetDateTime(3),
                 CompletedTime = reader.IsDBNull(4) ? null : reader.GetDateTime(4),
-                Result = reader.IsDBNull(5) ? null : (ResultType)reader.GetInt32(5),
+                Result = result,
                 FlowsId = reader.GetFieldValue<Guid[]>(6).ToList()
             };
         }

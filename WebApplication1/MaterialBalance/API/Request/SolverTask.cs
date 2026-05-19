@@ -10,6 +10,6 @@ public class SolverTask
     public DateTime CreatedTime { get; set; }
     public DateTime? StartedTime { get; set; }
     public DateTime? CompletedTime { get; set; }
-    public ResultType? Result { get; set; }    
+    public SolverResult Result { get; set; } = new();    
     public List<Guid> FlowsId  { get; set; }
 }

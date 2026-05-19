@@ -89,7 +89,7 @@ public class SolverService : ISolverService
             var xNominal = Vector<double>.Build.Dense(n);
 
             double epsilonWeight = 1e-6;
-            var W = Matrix<double>.Build.Diagonal(n, n, i => epsilonWeight);
+            var W = Matrix<double>.Build.Diagonal(n, n, 0.0);
             var c = Vector<double>.Build.Dense(n);
 
             for (int i = 0; i < n; i++)

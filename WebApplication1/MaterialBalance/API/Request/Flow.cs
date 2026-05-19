@@ -44,5 +44,12 @@ public class Flow
     /// </summary>
     [Required]
     public double UpperBound {get; set;}
+    
+    [Required]
+    public double Measured {get; set;}
+    
+    [Required]
+    public double Tolerance {get; set;}
+    
 
 }
