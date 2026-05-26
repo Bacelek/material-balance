@@ -213,7 +213,7 @@ public class PostgresBdProvider :  IDBProvider
         return id;
     }
     
-    public async Task<SolverTask?> GetSolverTask(Guid taskId)
+    public async Task<SolverTask?> GetSolverTask(Guid? taskId)
     {
         await using var connection = (NpgsqlConnection)await GetDataBaseConnection();
         await using var command = new NpgsqlCommand();

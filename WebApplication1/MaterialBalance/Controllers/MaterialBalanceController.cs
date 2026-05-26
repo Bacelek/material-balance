@@ -17,105 +17,93 @@ public class MaterialBalanceController : Controller
     }
     
     [HttpPost("addFlows")]
-    public async Task<IActionResult> AddFlows([FromBody] IEnumerable<Flow> flows)
+    public async Task<IActionResult> AddFlows([FromBody] IEnumerable<Flow>? flows)
     {
+        if (flows == null)
+        {
+            return BadRequest("Список потоков не может быть null.");
+        }
+            
         try
         {
-            if (flows == null)
-            {
-                return BadRequest();
-            }
-
             await _dbProvider.AddFlows(flows);
             return Ok();
         }
         catch (Exception ex)
         {
-            throw new Exception(ex.Message, ex);
+            return StatusCode(500, new { error = ex.Message });
         }
     }
 
     [HttpDelete("deleteFlows")]
-    public async Task<IActionResult> DeleteFlows([FromBody] IEnumerable<Guid> flowsId)
+    public async Task<IActionResult> DeleteFlows([FromBody] IEnumerable<Guid>? flowsId)
     {
+        if (flowsId == null)
+        {
+            return BadRequest("Список идентификаторов не может быть null.");
+        }
         try
         {
-            if (flowsId == null)
-            {
-                return BadRequest();
-            }
-
             await _dbProvider.DeleteFlows(flowsId);
             return Ok();
         }
         catch (Exception ex)
         {
-            throw new Exception(ex.Message, ex);
+            return StatusCode(500, new { error = ex.Message });
         }
     } 
     
     [HttpGet("getFlows")]
-    public async Task<IActionResult> GetFlows([FromQuery] IEnumerable<Guid> flowsId)
+    public async Task<IActionResult> GetFlows([FromQuery] IEnumerable<Guid>? flowsId)
     {
+        if (flowsId == null)
+        {
+            return BadRequest("Список идентификаторов не может быть null.");
+        }
         try
         {
-            if (flowsId == null)
-            {
-                return BadRequest();
-            }
-            
             var flows = await _dbProvider.GetFlows(flowsId);
             return Ok(flows);
         }
         catch (Exception ex)
         {
-            throw new Exception(ex.Message, ex);
+            return StatusCode(500, new { error = ex.Message });
         }
     }
     
-    /*[HttpPost("createGraph")]
-    public async Task<IActionResult> CreateGraph([FromBody] IEnumerable<Guid> flowIds)
-    {
-        try
-        {
-            var flows = await _dbProvider.GetFlows(flowIds);
-            
-            var graph = _graphService.CreateGraph(flows);
-        
-            return Ok(graph);
-        }
-        catch (Exception ex)
-        {
-            throw new Exception(ex.Message, ex);
-        }
-    }*/
     
     [HttpPost("createTask")]
-    public async Task<IActionResult> CreateTask([FromBody] IEnumerable<Guid> flowsId)
+    public async Task<IActionResult> CreateTask([FromBody] IEnumerable<Guid>? flowsId)
     {
+        if (flowsId == null)
+        { 
+            return BadRequest("Список идентификаторов не может быть null.");
+        }
         try
         {
-            if (flowsId == null)
-                return BadRequest();
-
             var taskId = await _dbProvider.CreateSolverTask(flowsId);
-
             return Ok(taskId);
         }
         catch (Exception ex)
         {
-            throw new Exception(ex.Message, ex);
+            return StatusCode(500, new { error = ex.Message });
         }
     }
     
     [HttpGet("getStatus")]
-    public async Task<IActionResult> GetStatus(Guid taskId)
+    public async Task<IActionResult> GetStatus(Guid? taskId)
     {
+        if (taskId == null)
+        { 
+            return BadRequest("Идентификатор не может быть null.");
+        }
         try
         {
             var task = await _dbProvider.GetSolverTask(taskId);
             if (task == null)
-                return BadRequest();
+            {
+                return NotFound($"Задача с Id={taskId} не найдена.");
+            }
 
             return Ok(new
             {
@@ -129,7 +117,7 @@ public class MaterialBalanceController : Controller
         }
         catch (Exception ex)
         {
-            throw new Exception(ex.Message, ex);
+            return StatusCode(500, new { error = ex.Message });
         }
     }
     
