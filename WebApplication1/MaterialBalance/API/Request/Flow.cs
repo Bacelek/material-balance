@@ -19,13 +19,13 @@ public class Flow
     /// Id потока из которого выходит текущий поток
     /// </summary>
     [Required]
-    public Guid SourceNodeId { get; set; }
+    public Guid? SourceNodeId { get; set; }
     
     /// <summary>
     /// Id потока в который входит поток
     /// </summary>
     [Required]
-    public Guid TargetNodeId { get; set; }
+    public Guid? TargetNodeId { get; set; }
     
     /// <summary>
     /// Тип потока

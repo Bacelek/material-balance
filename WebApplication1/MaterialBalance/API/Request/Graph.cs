@@ -5,7 +5,7 @@ namespace MaterialBalance.API.Request;
 
 public class Graph
 {
-    public List<Guid> Nodes { get; set; }
+    public List<Guid?> Nodes { get; set; }
     public int[,] AdjacencyMatrix { get; set; } 
     public List<Flow>  Flows { get; set; }
     public bool IsConnectedGraph { get; set; }

@@ -18,9 +18,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4a801d17-b998-4472-b204-32f74370046a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/SolverTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/SolverTask.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/Controllers/MaterialBalanceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Controllers/MaterialBalanceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/Flow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/Flow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/Graph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/Interfaces/IGraphService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Interfaces/IGraphService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/Providers/PostgresBdProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Providers/PostgresBdProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/Services/BackgroundSolverService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Services/BackgroundSolverService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/Services/SolverService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Services/SolverService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.pdb" afterDir="false" />
@@ -34,7 +38,6 @@
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/refint/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/refint/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +194,8 @@
       <workItem from="1776630378545" duration="4467000" />
       <workItem from="1777391881819" duration="46188000" />
       <workItem from="1778671644011" duration="25558000" />
+      <workItem from="1779199828090" duration="18914000" />
+      <workItem from="1779754521358" duration="1173000" />
     </task>
     <servers />
   </component>

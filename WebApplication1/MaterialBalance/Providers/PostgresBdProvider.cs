@@ -6,6 +6,7 @@ using Microsoft.Extensions.Options;
 using Npgsql;
 using MaterialBalance.API.Request;
 using System.Text.Json;
+using NpgsqlTypes;
 
 namespace MaterialBalance.Providers;
 
@@ -98,8 +99,8 @@ public class PostgresBdProvider :  IDBProvider
                 values.Add($"(@Id{index}, @SourceNodeId{index}, @TargetNodeId{index}, @Type{index}, @LowerBound{index}, @UpperBound{index}, @Measured{index}, @Tolerance{index})");
                 
                 command.Parameters.AddWithValue($"Id{index}", flow.Id);
-                command.Parameters.AddWithValue($"SourceNodeId{index}", flow.SourceNodeId);
-                command.Parameters.AddWithValue($"TargetNodeId{index}", flow.TargetNodeId);
+                command.Parameters.AddWithValue($"SourceNodeId{index}", NpgsqlDbType.Uuid, (object?)flow.SourceNodeId ?? DBNull.Value);
+                command.Parameters.AddWithValue($"TargetNodeId{index}", NpgsqlDbType.Uuid, (object?)flow.TargetNodeId ?? DBNull.Value);
                 command.Parameters.AddWithValue($"Type{index}", (int)flow.Type);
                 command.Parameters.AddWithValue($"LowerBound{index}", flow.LowerBound);
                 command.Parameters.AddWithValue($"UpperBound{index}", flow.UpperBound);

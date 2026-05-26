@@ -30,9 +30,9 @@ public class GraphService : IGraphService
         return graph;
     }
 
-    public List<Guid> ExtractNodes(IEnumerable<Flow> flows)
+    public List<Guid?> ExtractNodes(IEnumerable<Flow> flows)
     {
-        var nodesSet = new HashSet<Guid>();
+        var nodesSet = new HashSet<Guid?>();
         foreach (var flow in flows)
         {
             if (flow.SourceNodeId != Guid.Empty)
@@ -48,7 +48,7 @@ public class GraphService : IGraphService
         var nodesList = graph.Nodes;
         var flows = graph.Flows;
         
-        var indexMap = nodesList
+        Dictionary<Guid?, int> indexMap = nodesList
             .Select((id, idx) => new { id, idx })
             .ToDictionary(x => x.id, x => x.idx);
 

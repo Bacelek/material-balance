@@ -43,6 +43,7 @@ public class BackgroundSolverService : BackgroundService
                     await dbProvider.UpdateSolverTaskStatus(task.Id, StatusType.Processing);
                     
                     IEnumerable<Flow> flows = await dbProvider.GetFlows(task.FlowsId);
+                    Console.WriteLine("get");
                     SolverResult result= await solverService.Solve(flows);
 
                     await dbProvider.UpdateSolverTaskStatus(task.Id, StatusType.Completed, result);
