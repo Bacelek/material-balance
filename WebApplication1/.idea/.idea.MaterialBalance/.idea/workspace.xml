@@ -18,12 +18,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4a801d17-b998-4472-b204-32f74370046a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/Flow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/Flow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/Graph.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/Interfaces/IGraphService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Interfaces/IGraphService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/Providers/PostgresBdProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Providers/PostgresBdProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/Services/BackgroundSolverService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Services/BackgroundSolverService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/Services/SolverService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Services/SolverService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" afterDir="false" />
@@ -38,6 +35,8 @@
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/refint/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/refint/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +78,8 @@
     <setting file="file://$PROJECT_DIR$/MaterialBalance/Services/BackgroundSolverService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MaterialBalance/Services/SolverService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MaterialBalanceTests/PostgresBdProviderTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MaterialBalanceTests/SolverServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="HttpClientOnboardingState">{
   &quot;isOnboardingCommentShown&quot;: true
@@ -88,6 +89,65 @@
     <urls />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.4226781076046162" />
+      <entry key="MS500" value="2.584263619285517" />
+      <entry key="S2" value="6.333354680877033" />
+      <entry key="S5" value="9.462205986928383" />
+      <entry key="S10" value="11.792868733611545" />
+      <entry key="S30" value="20.766012114763573" />
+      <entry key="S60" value="28.484895516058486" />
+      <entry key="M2" value="34.804178907215636" />
+      <entry key="M5" value="44.178374239983306" />
+      <entry key="M10" value="56.63062725802231" />
+      <entry key="M15" value="65.61053290771673" />
+      <entry key="M30" value="80.53327746079712" />
+      <entry key="H1" value="92.1671196532544" />
+      <entry key="H2" value="102.44758073494548" />
+      <entry key="H4" value="116.54219749706822" />
+      <entry key="D1" value="152.77433715327146" />
+      <entry key="W1" value="165.51312345218753" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="4.584824683437839E-280" />
+      <entry key="S5" value="1.8387771296043389E-112" />
+      <entry key="S10" value="1.3560151656985014E-56" />
+      <entry key="S30" value="2.384633009567997E-19" />
+      <entry key="S60" value="4.885507862558227E-10" />
+      <entry key="M2" value="2.2893732322244965E-5" />
+      <entry key="M5" value="0.02069801699070764" />
+      <entry key="M10" value="0.2615312957647394" />
+      <entry key="M15" value="0.6362025410950721" />
+      <entry key="M30" value="1.5805891651057333" />
+      <entry key="H1" value="2.591362591060366" />
+      <entry key="H2" value="4.419688571922103" />
+      <entry key="H4" value="8.773855352236993" />
+      <entry key="D1" value="22.725419543960292" />
+      <entry key="W1" value="27.96675981338945" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.120692215412818" />
+      <entry key="MS500" value="2.4403650397385626" />
+      <entry key="S2" value="6.259064635707219" />
+      <entry key="S5" value="9.420842011244982" />
+      <entry key="S10" value="11.767841380286573" />
+      <entry key="S30" value="20.75195844085501" />
+      <entry key="S60" value="28.475416932195113" />
+      <entry key="M2" value="34.79846107756405" />
+      <entry key="M5" value="44.19606176195609" />
+      <entry key="M10" value="56.889598452813054" />
+      <entry key="M15" value="66.24417454779486" />
+      <entry key="M30" value="82.11158838019749" />
+      <entry key="H1" value="94.75680886100537" />
+      <entry key="H2" value="106.86590073353022" />
+      <entry key="H4" value="125.31470983006089" />
+      <entry key="D1" value="175.4991817821648" />
+      <entry key="W1" value="193.4797823168327" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -104,6 +164,7 @@
     &quot;.NET Launch Settings Profile.MaterialBalance: http.executor&quot;: &quot;Run&quot;,
     &quot;.NET Launch Settings Profile.MaterialBalance: https.executor&quot;: &quot;Run&quot;,
     &quot;.NET Launch Settings Profile.WebApplication1: http.executor&quot;: &quot;Run&quot;,
+    &quot;614f88ff-d912-4444-8247-24446e210023.executor&quot;: &quot;Debug&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
@@ -115,15 +176,20 @@
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;solverService&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;unitTests&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Lingma&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MaterialBalance: http">
@@ -196,6 +262,9 @@
       <workItem from="1778671644011" duration="25558000" />
       <workItem from="1779199828090" duration="18914000" />
       <workItem from="1779754521358" duration="1173000" />
+      <workItem from="1779803260469" duration="5361000" />
+      <workItem from="1779826199958" duration="15234000" />
+      <workItem from="1779914545895" duration="5072000" />
     </task>
     <servers />
   </component>

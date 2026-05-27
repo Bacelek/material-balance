@@ -24,7 +24,6 @@ public class SolverService : ISolverService
             
             Graph graph;
             graph = _graphService.CreateGraph(flows);
-            Console.WriteLine("graph");
             if (!graph.IsConnectedGraph)
             {
                 return new SolverResult { Status = SolverResultStatus.GraphConnectedError};
@@ -32,9 +31,7 @@ public class SolverService : ISolverService
             
             QpData data;
             data = PrepareQpData(flows, graph);
-            Console.WriteLine("data");
             Vector<double> x0;
-            //Console.WriteLine(data.W);
             try
             {
                 x0 = FindAvailablePoint(data);
@@ -44,10 +41,8 @@ public class SolverService : ISolverService
                 return new SolverResult { Status = SolverResultStatus.AvailablePointError};
             }
             data.x0 = x0;
-            //Console.WriteLine(data.x0);
             Vector<double> solution;
             solution = ActiveSet(data);
-            Console.WriteLine("sol");
             return new SolverResult
             {
                 Status = SolverResultStatus.Optimal,
@@ -202,10 +197,9 @@ public class SolverService : ISolverService
                     boundStatus[i] = 2;
             }
 
-            int iter = 0;
+            
             while (true)
             {
-                iter++;
                 var freeIndices = new List<int>();
                 var activeLower = new List<int>();
                 var activeUpper = new List<int>();
@@ -221,9 +215,6 @@ public class SolverService : ISolverService
 
                 int nFree = freeIndices.Count;
                 
-                Console.WriteLine($"--- Iter {iter} ---");
-                Console.WriteLine($"nFree={nFree}, x[0..2] = [{x[0]:F6}, {x[1]:F6}, {x[2]:F6}] ...");
-                Console.WriteLine($"activeLower: [{string.Join(",", activeLower)}], activeUpper: [{string.Join(",", activeUpper)}]");
                 
                 var W_FF = Matrix<double>.Build.Dense(nFree, nFree);
                 for (int r = 0; r < nFree; r++)
@@ -284,10 +275,7 @@ public class SolverService : ISolverService
                    sol = KKT.Solve(rhs);
                    if (sol.Any(v => double.IsNaN(v) || double.IsInfinity(v)))
                    {
-                       Console.WriteLine("KKT solution contains NaN/Infinity!");
-                       // Здесь можно принудительно добавить регуляризацию и пересчитать
                        sol = (KKT + Matrix<double>.Build.DiagonalIdentity(dim) * 1e-10).Solve(rhs);
-                       // если всё ещё плохо – увеличить регуляризацию
                    }
                    p_F = sol.SubVector(0, nFree);
                    lambda = sol.SubVector(nFree, m); 
@@ -298,8 +286,6 @@ public class SolverService : ISolverService
                 for (int idx = 0; idx < nFree; idx++)
                     p[freeIndices[idx]] = p_F[idx];
                 
-                double pNorm = p_F.L2Norm();
-                Console.WriteLine($"pNorm = {pNorm:E2}");
                 
                 if (p_F.L2Norm() <= tol)
                 {
@@ -316,7 +302,6 @@ public class SolverService : ISolverService
                     foreach (int i in activeLower)
                     {
                         double mu = g[i] + ATlambda[i];
-                        Console.WriteLine($"  Lower[{i}]: mu = {mu:E3}");
                         if (mu < -tol) 
                         {
                             allMu = false;
@@ -330,7 +315,6 @@ public class SolverService : ISolverService
                     foreach (int i in activeUpper)
                     {
                         double mu = g[i] + ATlambda[i]; 
-                        Console.WriteLine($"  Upper[{i}]: mu = {mu:E3}");
                         if (mu > tol)
                         {
                             allMu = false;
@@ -386,7 +370,6 @@ public class SolverService : ISolverService
                     if (alpha < 1.0 - 1e-12) 
                     {
                         boundStatus[blockingIndex] = newBoundType;
-                        Console.WriteLine($"Added constraint {blockingIndex} as type {newBoundType}");
                     }
 
                     for (int i = 0; i < n; i++)
@@ -400,11 +383,7 @@ public class SolverService : ISolverService
                         }
                     }
                 }
-                if (iter > 1000)
-                {
-                    Console.WriteLine("STOPPED: too many iterations");
-                    return null;
-                }
+                
             }
         }
 }
