@@ -1,0 +1,3256 @@
+[
+    {
+      "id": "0ae30158-104b-4525-b278-f08cb6e337a0",
+      "name": "SegmentName: 11. Перем. грохоченных хвостов СМС на открытый склад отсевов (0-10 мм) SegmentId: 8469ee06-f77b-4d8e-a3c2-ec7048e40f02 SourceId: 27f9d05b-94a7-498b-a6b3-1122542f7a03 - DestinationId: 224af7f9-a7f5-4b7c-90ea-6c4620b96050 MaterialName: Отсевы 0-10\nMaterialLotId: 0ae30158-104b-4525-b278-f08cb6e337a0\n",
+      "sourceId": "27f9d05b-94a7-498b-a6b3-1122542f7a03",
+      "sourceName": "SourceName",
+      "destinationId": "224af7f9-a7f5-4b7c-90ea-6c4620b96050",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 79.84692033330367,
+      "measured": 7984.692033330367,
+      "bounds": {
+        "lowerBound": 7904.845112997064,
+        "upperBound": 8064.53895366367
+      }
+    },
+    {
+      "id": "c292ffb4-f934-4084-8041-c9d9dc04de33",
+      "name": "SegmentName: 104. Перем. окатышей из погрузочных бункеров на дозирование SegmentId: 6c40a773-7a0f-4f99-ae29-ee23ab9fe7bb SourceId: b4848fb9-9807-4da1-b7c1-d7fdf5f14e31 - DestinationId: 1eef4726-a345-49de-ba99-4a53219fbe67 MaterialName: Окатыши\nMaterialLotId: c292ffb4-f934-4084-8041-c9d9dc04de33\n",
+      "sourceId": "b4848fb9-9807-4da1-b7c1-d7fdf5f14e31",
+      "sourceName": "SourceName",
+      "destinationId": "1eef4726-a345-49de-ba99-4a53219fbe67",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 426.6,
+      "measured": 21330,
+      "bounds": {
+        "lowerBound": 20903.4,
+        "upperBound": 21756.6
+      }
+    },
+    {
+      "id": "ede00dd0-4857-49dd-87cb-ee3af06feccb",
+      "name": "SegmentName: 42. Перем. щебня 4-8 мм с ДСК на склад ДСК №3 SegmentId: 88ae5093-eab0-48ac-952b-aff928e0bb42 SourceId: 893c1930-271d-4401-8797-a9336149a5de - DestinationId: 296673cb-a9ee-4b70-952f-f70408477e7d MaterialName: Щебень 4-8\nMaterialLotId: ede00dd0-4857-49dd-87cb-ee3af06feccb\n",
+      "sourceId": "893c1930-271d-4401-8797-a9336149a5de",
+      "sourceName": "SourceName",
+      "destinationId": "296673cb-a9ee-4b70-952f-f70408477e7d",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "d12c2543-6079-4847-80cc-b70153de388d",
+      "name": "SegmentName: 56. Перем. щебня 10-15 мм с склада №3 на отгрузку (авто) SegmentId: 7b2ce629-7e26-4821-a4ab-179acc64fd51 SourceId: 223a435e-138f-4bfe-b8a8-119a1b5efa5a - DestinationId:  MaterialName: Щебень 10-15\nMaterialLotId: d12c2543-6079-4847-80cc-b70153de388d\n",
+      "sourceId": "223a435e-138f-4bfe-b8a8-119a1b5efa5a",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 3.2880000000000003,
+      "measured": 657.6,
+      "bounds": {
+        "lowerBound": 654.312,
+        "upperBound": 660.888
+      }
+    },
+    {
+      "id": "f4c03421-bb65-4c6c-af24-645d416abebd",
+      "name": "SegmentName: 58. Перем. из бункера промпродукта на измельчение, ММС, классификацию, сгущение  SegmentId: f38906b9-dc24-446d-bd6f-26279d985f39 SourceId: 645e8dca-e954-4760-9655-669cd8d7d33d - DestinationId: 0700f5c0-cba9-4c3d-9a6a-cec90b76eedd MaterialName: Промпродукт\nMaterialLotId: f4c03421-bb65-4c6c-af24-645d416abebd\n",
+      "sourceId": "645e8dca-e954-4760-9655-669cd8d7d33d",
+      "sourceName": "SourceName",
+      "destinationId": "0700f5c0-cba9-4c3d-9a6a-cec90b76eedd",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 1399.0793713553244,
+      "measured": 139907.93713553244,
+      "bounds": {
+        "lowerBound": 138508.8577641771,
+        "upperBound": 141307.01650688777
+      }
+    },
+    {
+      "id": "a8d37f73-66ab-44ed-87e6-94b7e96a37b3",
+      "name": "SegmentName: 129. Перем. агломерата с дозирования на дозирование агломерата УГЖДТ SegmentId: 49f46481-d8bd-48d3-875d-62b2961f9012 SourceId: 8d0dd1f0-5eb2-4290-8b61-cd2921e126ea - DestinationId: 5f8aa82b-0276-49df-9e67-01087fb05d90 MaterialName: Агломерат\nMaterialLotId: a8d37f73-66ab-44ed-87e6-94b7e96a37b3\n",
+      "sourceId": "8d0dd1f0-5eb2-4290-8b61-cd2921e126ea",
+      "sourceName": "SourceName",
+      "destinationId": "5f8aa82b-0276-49df-9e67-01087fb05d90",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "4170bbef-17f4-408b-827f-3a46b07505a9",
+      "name": "SegmentName: 131. Перем. агломерата с ЗНК на отгрузку (ст. Комбинатская) SegmentId: ada2cc88-bc8c-4931-bf4a-779002db28ac SourceId: 3a355bd7-a417-4c6e-b569-3c61f5bce69f - DestinationId:  MaterialName: Агломерат\nMaterialLotId: 4170bbef-17f4-408b-827f-3a46b07505a9\n",
+      "sourceId": "3a355bd7-a417-4c6e-b569-3c61f5bce69f",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 11612,
+      "bounds": {
+        "lowerBound": 11612,
+        "upperBound": 11612
+      }
+    },
+    {
+      "id": "449d6c6c-7ba7-4aee-a9ee-06d49c5c025a",
+      "name": "SegmentName: 126. Перем. агломерата из бункера погрузки на дозирование SegmentId: 41b4e329-41db-4acb-89cf-cef8d1c48d59 SourceId: d6093e47-5292-4695-8516-2c15759d7304 - DestinationId: 8d0dd1f0-5eb2-4290-8b61-cd2921e126ea MaterialName: Агломерат\nMaterialLotId: 449d6c6c-7ba7-4aee-a9ee-06d49c5c025a\n",
+      "sourceId": "d6093e47-5292-4695-8516-2c15759d7304",
+      "sourceName": "SourceName",
+      "destinationId": "8d0dd1f0-5eb2-4290-8b61-cd2921e126ea",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 344.6,
+      "measured": 17230,
+      "bounds": {
+        "lowerBound": 16885.4,
+        "upperBound": 17574.6
+      }
+    },
+    {
+      "id": "edae59cc-4eb6-4fb1-9d13-863111ce2c8a",
+      "name": "SegmentName: 24. Перем. на собственные нужды щебня 5-20 мм сорт Б со склада №1 на точку отгрузки Авто SegmentId: 8c84dd66-e132-4f0e-992e-371fc952c669 SourceId: b5437eba-a9fc-462b-a2a0-b59014b191b6 - DestinationId:  MaterialName: Щебень 5-20 ТУ сорт Б\nMaterialLotId: edae59cc-4eb6-4fb1-9d13-863111ce2c8a\n",
+      "sourceId": "b5437eba-a9fc-462b-a2a0-b59014b191b6",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 0.19399999999999998,
+      "measured": 38.8,
+      "bounds": {
+        "lowerBound": 38.605999999999995,
+        "upperBound": 38.994
+      }
+    },
+    {
+      "id": "fc275fa3-0b1b-4e95-9114-e401e71a8e83",
+      "name": "SegmentName: 38. Перем. щебня \u002B20 мм со склада на ДСК SegmentId: 029c686a-8728-4771-b8ce-2a758ac21a84 SourceId: 83aebc0f-8375-4d53-a921-33b1e5eb370b - DestinationId: 893c1930-271d-4401-8797-a9336149a5de MaterialName: Щебень \u002B20\nMaterialLotId: fc275fa3-0b1b-4e95-9114-e401e71a8e83\n",
+      "sourceId": "83aebc0f-8375-4d53-a921-33b1e5eb370b",
+      "sourceName": "SourceName",
+      "destinationId": "893c1930-271d-4401-8797-a9336149a5de",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "ea4a0069-4d59-4943-a3f9-cf6aaae46a60",
+      "name": "SegmentName: 45. Перем. щебня 5-15мм с ДСК на склад ДСК №3 SegmentId: 62fdca0e-a389-4332-83b9-ef0e9a456df9 SourceId: 893c1930-271d-4401-8797-a9336149a5de - DestinationId: ab0e41db-d401-4390-92a3-6833121d7f78 MaterialName: Щебень 5-15\nMaterialLotId: ea4a0069-4d59-4943-a3f9-cf6aaae46a60\n",
+      "sourceId": "893c1930-271d-4401-8797-a9336149a5de",
+      "sourceName": "SourceName",
+      "destinationId": "ab0e41db-d401-4390-92a3-6833121d7f78",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "011daf66-74f6-4160-8d8b-6b35e3e86f34",
+      "name": "SegmentName: 114. Перем. шихты из промежуточных бункеров на окомкование  SegmentId: 81fa866c-8c8a-48e0-9e77-4bbc45093fae SourceId: f108ac2e-54b7-4230-b72e-a1257682387d - DestinationId: 1a5d13e1-fa32-40cd-b3dd-b9deb8738a4b MaterialName: Шихта\nMaterialLotId: 011daf66-74f6-4160-8d8b-6b35e3e86f34\n",
+      "sourceId": "f108ac2e-54b7-4230-b72e-a1257682387d",
+      "sourceName": "SourceName",
+      "destinationId": "1a5d13e1-fa32-40cd-b3dd-b9deb8738a4b",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 1482.9479665860054,
+      "measured": 14829.479665860055,
+      "bounds": {
+        "lowerBound": 13346.53169927405,
+        "upperBound": 16312.42763244606
+      }
+    },
+    {
+      "id": "3eadeed4-8e57-4ff2-8348-3d5c97aae310",
+      "name": "SegmentName: 109. Перем. окатышей с ЗНК на отгрузку (ст. Комбинатская) SegmentId: 790bc582-a5d3-48a3-bf74-28af56ad5dce SourceId: 2b8539d9-4507-41e2-b087-56b36e3a8870 - DestinationId:  MaterialName: Окатыши\nMaterialLotId: 3eadeed4-8e57-4ff2-8348-3d5c97aae310\n",
+      "sourceId": "2b8539d9-4507-41e2-b087-56b36e3a8870",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 16731.9,
+      "bounds": {
+        "lowerBound": 16731.9,
+        "upperBound": 16731.9
+      }
+    },
+    {
+      "id": "d8df020d-cbfd-47ae-a1cc-2916c51b98f2",
+      "name": "SegmentName: 59. Перем. хвостов ММС в хвостохранилище SegmentId: 6afc13cb-83e1-4b7c-a4b2-b8cc36875113 SourceId: 0700f5c0-cba9-4c3d-9a6a-cec90b76eedd - DestinationId:  MaterialName: Хвосты ММС\nMaterialLotId: d8df020d-cbfd-47ae-a1cc-2916c51b98f2\n",
+      "sourceId": "0700f5c0-cba9-4c3d-9a6a-cec90b76eedd",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "e67aee6b-d264-46d3-b601-a0feb28835e6",
+      "name": "SegmentName: 26. Перем. потребителю щебня 5-20 мм сорт ТУ на точку отгрузки ж/д SegmentId: 3b79fb08-c30b-43df-9c40-ec9d6394e31b SourceId: 27ea8df3-b210-4813-8676-c4acbd7decb1 - DestinationId:  MaterialName: Щебень 5-20 ТУ сорт Б\nMaterialLotId: e67aee6b-d264-46d3-b601-a0feb28835e6\n",
+      "sourceId": "27ea8df3-b210-4813-8676-c4acbd7decb1",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "31a3489f-ef30-48ce-b962-26db3c0fb9ae",
+      "name": "SegmentName: 50. Перем. Щебня 8-16 мм с склада №3 на отгрузку (авто) SegmentId: 69f5ac41-660c-4d94-a3c0-40241fd1c3e7 SourceId: 3690c3cf-3fa1-47a6-9fd3-ab25a7acc560 - DestinationId:  MaterialName: Щебень 8-16\nMaterialLotId: 31a3489f-ef30-48ce-b962-26db3c0fb9ae\n",
+      "sourceId": "3690c3cf-3fa1-47a6-9fd3-ab25a7acc560",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 3.4507499999999998,
+      "measured": 690.15,
+      "bounds": {
+        "lowerBound": 686.69925,
+        "upperBound": 693.60075
+      }
+    },
+    {
+      "id": "b2a38a8f-2989-41dc-9cdf-21689d88cd07",
+      "name": "SegmentName: 17. Перем.на собственные нужды щебня  (20-40 мм) со склада щебня на отгрузку ЖД SegmentId: 3e81a505-2d05-4c06-a341-1fde2fdae9f3 SourceId: 350af09e-9e06-4015-b71d-5773e3249d1b - DestinationId:  MaterialName: Щебень 20-40\nMaterialLotId: b2a38a8f-2989-41dc-9cdf-21689d88cd07\n",
+      "sourceId": "350af09e-9e06-4015-b71d-5773e3249d1b",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 1494,
+      "bounds": {
+        "lowerBound": 1486.53,
+        "upperBound": 1501.47
+      }
+    },
+    {
+      "id": "34675a91-8c52-4688-80f4-781597386b22",
+      "name": "SegmentName: 74. Перем. модифицированной глины со смешивания на склад корпуса бентонита  SegmentId: ab52f778-ff42-452d-98e6-3b54276395c0 SourceId: 15f5ad47-b6eb-4cd6-a887-8ec26021bd80 - DestinationId: 56a180e2-197b-4ec9-bf8e-ed4e218bbacf MaterialName: Глина\nMaterialLotId: 34675a91-8c52-4688-80f4-781597386b22\n",
+      "sourceId": "15f5ad47-b6eb-4cd6-a887-8ec26021bd80",
+      "sourceName": "SourceName",
+      "destinationId": "56a180e2-197b-4ec9-bf8e-ed4e218bbacf",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "50b5446e-9fc9-4b83-ac64-3012fe31d683",
+      "name": "SegmentName: 111. Перем. шихты  с узла объединения потоков шихты и горячего возврата на смешивание SegmentId: dfcb0ad8-24bf-42ea-9021-dc355c7c01a4 SourceId: e1642c3b-bfff-4a0b-8407-ba2cadcf1744 - DestinationId: b8630d45-4ac4-4f73-bb33-197939e6de00 MaterialName: Шихта\nMaterialLotId: 50b5446e-9fc9-4b83-ac64-3012fe31d683\n",
+      "sourceId": "e1642c3b-bfff-4a0b-8407-ba2cadcf1744",
+      "sourceName": "SourceName",
+      "destinationId": "b8630d45-4ac4-4f73-bb33-197939e6de00",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 1512.5956002213854,
+      "measured": 15125.956002213856,
+      "bounds": {
+        "lowerBound": 13613.36040199247,
+        "upperBound": 16638.55160243524
+      }
+    },
+    {
+      "id": "885b123e-8b5f-4f7d-9f7b-b3a30ecfa017",
+      "name": "SegmentName: 68. Перем. концентрата из бункера с концентратом для окатышей на дозирование (конвейеры 56, 57) SegmentId: 7aa6d5ce-652f-48d7-8d68-e624d12b65b4 SourceId: b65d53e5-c023-48e7-a529-76bc43cad511 - DestinationId: cd1e30a1-04a8-4131-8460-297209d1505c MaterialName: Богатый концентрат\nMaterialLotId: 885b123e-8b5f-4f7d-9f7b-b3a30ecfa017\n",
+      "sourceId": "b65d53e5-c023-48e7-a529-76bc43cad511",
+      "sourceName": "SourceName",
+      "destinationId": "cd1e30a1-04a8-4131-8460-297209d1505c",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 290.2742999505709,
+      "measured": 14513.714997528545,
+      "bounds": {
+        "lowerBound": 14223.440697577973,
+        "upperBound": 14803.989297479116
+      }
+    },
+    {
+      "id": "bfba6448-c88a-41ba-a919-faac46cd31b4",
+      "name": "SegmentName: 63. Перем. бедного концентрата с измельчения, фильтрации на объединение потоков концентрата  SegmentId: 93e443ca-4c16-4a68-a215-1c93e310d5e8 SourceId: 0700f5c0-cba9-4c3d-9a6a-cec90b76eedd - DestinationId: ef7fe280-f7ca-412b-aef8-21ccfd29287c MaterialName: Богатый концентрат\nMaterialLotId: bfba6448-c88a-41ba-a919-faac46cd31b4\n",
+      "sourceId": "0700f5c0-cba9-4c3d-9a6a-cec90b76eedd",
+      "sourceName": "SourceName",
+      "destinationId": "ef7fe280-f7ca-412b-aef8-21ccfd29287c",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 100.38799874010218,
+      "measured": 10038.799874010218,
+      "bounds": {
+        "lowerBound": 9938.411875270116,
+        "upperBound": 10139.187872750319
+      }
+    },
+    {
+      "id": "6e79e394-ba66-4d02-86d8-239aed554478",
+      "name": "SegmentName: 43. Перем. щебня 8-16 мм с ДСК на склад ДСК №3 SegmentId: 341d922d-93c3-4de6-9dbb-9c93849c058b SourceId: 893c1930-271d-4401-8797-a9336149a5de - DestinationId: 3690c3cf-3fa1-47a6-9fd3-ab25a7acc560 MaterialName: Щебень 8-16\nMaterialLotId: 6e79e394-ba66-4d02-86d8-239aed554478\n",
+      "sourceId": "893c1930-271d-4401-8797-a9336149a5de",
+      "sourceName": "SourceName",
+      "destinationId": "3690c3cf-3fa1-47a6-9fd3-ab25a7acc560",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "2d84421a-ac78-45c6-a6c8-a8a41d38ab97",
+      "name": "SegmentName: 22. Перем. щебня 20-40 на склад №3 SegmentId: f7c31e72-a85e-4834-8a19-45cd17ccad7a SourceId: 350af09e-9e06-4015-b71d-5773e3249d1b - DestinationId: af7375e5-2943-4cfd-a6e9-cd918cabb55e MaterialName: Щебень 20-40\nMaterialLotId: 2d84421a-ac78-45c6-a6c8-a8a41d38ab97\n",
+      "sourceId": "350af09e-9e06-4015-b71d-5773e3249d1b",
+      "sourceName": "SourceName",
+      "destinationId": "af7375e5-2943-4cfd-a6e9-cd918cabb55e",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 37.293,
+      "measured": 3729.3,
+      "bounds": {
+        "lowerBound": 3692.007,
+        "upperBound": 3766.5930000000003
+      }
+    },
+    {
+      "id": "f2f1624a-13e6-4984-b092-cd36e9218329",
+      "name": "SegmentName: 31. Перем. отсевов с узла рассева на склад отсевов  SegmentId: 314d78ae-4672-41ed-9311-589fc7ee6a7e SourceId: 347e240f-3d6b-4cbc-bc50-04da92e943fb - DestinationId: 0fc5c9e1-16a8-4a0e-be40-ef714f0e3c21 MaterialName: Отсевы\nMaterialLotId: f2f1624a-13e6-4984-b092-cd36e9218329\n",
+      "sourceId": "347e240f-3d6b-4cbc-bc50-04da92e943fb",
+      "sourceName": "SourceName",
+      "destinationId": "0fc5c9e1-16a8-4a0e-be40-ef714f0e3c21",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "cc43cfe8-57a4-4752-af84-58c46f36b43c",
+      "name": "SegmentName: 125. Перем. агломерата с грохочения в бункер погрузки  SegmentId: 4bd5b9ef-406a-49c0-aaf9-8f0fff227329 SourceId: f906de1d-6083-4632-9f72-2408e510f1c2 - DestinationId: d6093e47-5292-4695-8516-2c15759d7304 MaterialName: Агломерат\nMaterialLotId: cc43cfe8-57a4-4752-af84-58c46f36b43c\n",
+      "sourceId": "f906de1d-6083-4632-9f72-2408e510f1c2",
+      "sourceName": "SourceName",
+      "destinationId": "d6093e47-5292-4695-8516-2c15759d7304",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "868382b0-b2be-4afa-b8a4-e0c901b3f923",
+      "name": "SegmentName: 106. Перем. окатышей с дозирования на склад окатышей  SegmentId: 876a6f08-f932-46e4-9698-6e8638cf7abc SourceId: 1eef4726-a345-49de-ba99-4a53219fbe67 - DestinationId: ab3a3d5d-975d-4729-b940-a8538cc9b57c MaterialName: Окатыши\nMaterialLotId: 868382b0-b2be-4afa-b8a4-e0c901b3f923\n",
+      "sourceId": "1eef4726-a345-49de-ba99-4a53219fbe67",
+      "sourceName": "SourceName",
+      "destinationId": "ab3a3d5d-975d-4729-b940-a8538cc9b57c",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 0
+      }
+    },
+    {
+      "id": "47d6a8f0-821b-4aa5-8d7a-2931caaed0df",
+      "name": "SegmentName: 103. Перем. окатышей с грохочения в погрузочные бункера  SegmentId: 4b237241-c5e3-4f67-b293-915a80f5ac44 SourceId: 61d971cd-09a4-4686-9c90-983f63e20c83 - DestinationId: b4848fb9-9807-4da1-b7c1-d7fdf5f14e31 MaterialName: Окатыши\nMaterialLotId: 47d6a8f0-821b-4aa5-8d7a-2931caaed0df\n",
+      "sourceId": "61d971cd-09a4-4686-9c90-983f63e20c83",
+      "sourceName": "SourceName",
+      "destinationId": "b4848fb9-9807-4da1-b7c1-d7fdf5f14e31",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "b04a7634-5b3e-4e44-bf4d-326bd3f2a196",
+      "name": "SegmentName: 53. Перем. щебня 5-15 мм с склада №3 на отгрузку (ж/д) SegmentId: 70c35445-0c0d-4c22-9933-d682977c4bdf SourceId: ab0e41db-d401-4390-92a3-6833121d7f78 - DestinationId:  MaterialName: Щебень 5-15\nMaterialLotId: b04a7634-5b3e-4e44-bf4d-326bd3f2a196\n",
+      "sourceId": "ab0e41db-d401-4390-92a3-6833121d7f78",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 2.334,
+      "measured": 466.8,
+      "bounds": {
+        "lowerBound": 464.466,
+        "upperBound": 469.134
+      }
+    },
+    {
+      "id": "45b5b1c5-9d09-4897-8522-21a3a260fc77",
+      "name": "SegmentName: 105. перем. окатышей с дозирования на дозирование УГЖДТ SegmentId: e6f83093-4eef-4f89-a84d-9937bb75dd51 SourceId: 1eef4726-a345-49de-ba99-4a53219fbe67 - DestinationId: c39e49b6-1856-48d5-a9a1-4f75a7575094 MaterialName: Окатыши\nMaterialLotId: 45b5b1c5-9d09-4897-8522-21a3a260fc77\n",
+      "sourceId": "1eef4726-a345-49de-ba99-4a53219fbe67",
+      "sourceName": "SourceName",
+      "destinationId": "c39e49b6-1856-48d5-a9a1-4f75a7575094",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "6d712713-465a-498c-a214-e6daca4c4ac5",
+      "name": "SegmentName: 30. Перем. щебня 5-20 со склада КСЩ на узел рассева SegmentId: ee42804f-1bec-4b65-b176-3fb3b4229331 SourceId: 27ea8df3-b210-4813-8676-c4acbd7decb1 - DestinationId: 347e240f-3d6b-4cbc-bc50-04da92e943fb MaterialName: Щебень 5-20\nMaterialLotId: 6d712713-465a-498c-a214-e6daca4c4ac5\n",
+      "sourceId": "27ea8df3-b210-4813-8676-c4acbd7decb1",
+      "sourceName": "SourceName",
+      "destinationId": "347e240f-3d6b-4cbc-bc50-04da92e943fb",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "f2afca8f-1e33-4558-8572-b7b83cfd9477",
+      "name": "SegmentName: 51. Перем. щебня 5-10 мм с склада №3 на отгрузку (ж/д) SegmentId: 1385929e-accd-47a7-b8f4-4209bc3bf5dd SourceId: c3524694-07a3-405d-a299-893e3c3704ee - DestinationId:  MaterialName: Щебень 5-10\nMaterialLotId: f2afca8f-1e33-4558-8572-b7b83cfd9477\n",
+      "sourceId": "c3524694-07a3-405d-a299-893e3c3704ee",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 3.4507499999999998,
+      "measured": 690.15,
+      "bounds": {
+        "lowerBound": 686.69925,
+        "upperBound": 693.60075
+      }
+    },
+    {
+      "id": "e5f2b1c6-ef97-4d53-9265-98aea83bb403",
+      "name": "SegmentName: 91. Перем. измельченного известняка из расходных бункеров на дозирование  (конвейеры 54,55) SegmentId: 3fd361cc-544b-4ff3-833c-f425ddf3b955 SourceId: 8530ec5c-06f9-4054-a943-31a1d53f246c - DestinationId: 4c2a1390-8a16-4df1-933d-922ff654b712 MaterialName: Измельченный известняк\nMaterialLotId: e5f2b1c6-ef97-4d53-9265-98aea83bb403\n",
+      "sourceId": "8530ec5c-06f9-4054-a943-31a1d53f246c",
+      "sourceName": "SourceName",
+      "destinationId": "4c2a1390-8a16-4df1-933d-922ff654b712",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 50.793837623517405,
+      "measured": 1693.1279207839136,
+      "bounds": {
+        "lowerBound": 1642.3340831603962,
+        "upperBound": 1743.921758407431
+      }
+    },
+    {
+      "id": "07a55f61-5f5a-40ca-954d-a119d030359c",
+      "name": "SegmentName: 49. Перем. щебня 8-16 мм с склада №3 на отгрузку (ж/д) SegmentId: 6711595c-387e-4199-a1cb-280fcc13ae12 SourceId: 3690c3cf-3fa1-47a6-9fd3-ab25a7acc560 - DestinationId:  MaterialName: Щебень 8-16\nMaterialLotId: 07a55f61-5f5a-40ca-954d-a119d030359c\n",
+      "sourceId": "3690c3cf-3fa1-47a6-9fd3-ab25a7acc560",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 218.3,
+      "bounds": {
+        "lowerBound": 217.20850000000002,
+        "upperBound": 219.3915
+      }
+    },
+    {
+      "id": "f4e1df98-97c9-4fb6-9e19-75db767e95fe",
+      "name": "SegmentName: 21. Перем.  щебня  (20-40 мм) со склада щебня в отвал SegmentId: 1dbcbbea-2f98-4a3c-8be2-0c0c10c831ab SourceId: 350af09e-9e06-4015-b71d-5773e3249d1b - DestinationId:  MaterialName: Щебень 20-40\nMaterialLotId: f4e1df98-97c9-4fb6-9e19-75db767e95fe\n",
+      "sourceId": "350af09e-9e06-4015-b71d-5773e3249d1b",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "be381320-51b6-4115-8743-2ebad51b6484",
+      "name": "SegmentName: 122. Перем. высева постели с горохочения постели на окомкование SegmentId: fd355681-bdc2-4470-8bdd-ed6db785c49a SourceId: 4c8d8c10-3be7-4fbb-8081-8989154fbd0f - DestinationId: 1a5d13e1-fa32-40cd-b3dd-b9deb8738a4b MaterialName: Постель агломерата\nMaterialLotId: be381320-51b6-4115-8743-2ebad51b6484\n",
+      "sourceId": "4c8d8c10-3be7-4fbb-8081-8989154fbd0f",
+      "sourceName": "SourceName",
+      "destinationId": "1a5d13e1-fa32-40cd-b3dd-b9deb8738a4b",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "2b958b76-eb34-4b92-bbd3-38871a271296",
+      "name": "SegmentName: 123. Перем. высева постели с горохочения постели в бункер постели SegmentId: a80b36e0-44d7-49e8-a7b5-1d6fc467ca64 SourceId: 4c8d8c10-3be7-4fbb-8081-8989154fbd0f - DestinationId: 36422e2c-b24a-4bb1-a9e2-cede9fe8996d MaterialName: Постель окатышей\nMaterialLotId: 2b958b76-eb34-4b92-bbd3-38871a271296\n",
+      "sourceId": "4c8d8c10-3be7-4fbb-8081-8989154fbd0f",
+      "sourceName": "SourceName",
+      "destinationId": "36422e2c-b24a-4bb1-a9e2-cede9fe8996d",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 138.00110227844525,
+      "measured": 1380.0110227844525,
+      "bounds": {
+        "lowerBound": 1242.0099205060073,
+        "upperBound": 1518.0121250628977
+      }
+    },
+    {
+      "id": "5a60d53e-4105-429c-b906-379882fa191a",
+      "name": "SegmentName: 92. Перем. извести с точки приемки в бункера расходные SegmentId: de80a03d-ff3d-4931-b785-3e51c104950d SourceId:  - DestinationId: ddb99c35-3153-4dbf-aad1-ae119fe6e6cc MaterialName: Известь\nMaterialLotId: 5a60d53e-4105-429c-b906-379882fa191a\n",
+      "sourceName": "SourceName",
+      "destinationId": "ddb99c35-3153-4dbf-aad1-ae119fe6e6cc",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 2.5383999999999998,
+      "measured": 253.83999999999997,
+      "bounds": {
+        "lowerBound": 251.30159999999998,
+        "upperBound": 256.3784
+      }
+    },
+    {
+      "id": "2ef72a96-10c8-43c7-a775-f001da181a62",
+      "name": "SegmentName: 78.  Перем. бентопрошка из расходных бункеров бентопорошка на дозирование (кновейеры 56,57) SegmentId: 9bc19cd7-8815-44d7-980e-0e7de611f9bb SourceId: c90e1fa2-a9cd-48f9-81ed-f55c80a83090 - DestinationId: cd1e30a1-04a8-4131-8460-297209d1505c MaterialName: Бентопорошок\nMaterialLotId: 2ef72a96-10c8-43c7-a775-f001da181a62\n",
+      "sourceId": "c90e1fa2-a9cd-48f9-81ed-f55c80a83090",
+      "sourceName": "SourceName",
+      "destinationId": "cd1e30a1-04a8-4131-8460-297209d1505c",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 0.9956360279657014,
+      "measured": 99.56360279657014,
+      "bounds": {
+        "lowerBound": 98.56796676860444,
+        "upperBound": 100.55923882453584
+      }
+    },
+    {
+      "id": "6f534a07-5031-4df8-8967-2820594c3399",
+      "name": "SegmentName: 96. Перем. гидросмыва с цеха окатышей в цех обогащения  SegmentId: 1aa89bf9-189d-4f15-92e7-f600e981817b SourceId: 16cc8535-17f8-4b41-a318-d7aabed20063 - DestinationId: aade80e0-5b02-45d3-8f4d-680b6975d3ee MaterialName: Гидросмыв\nMaterialLotId: 6f534a07-5031-4df8-8967-2820594c3399\n",
+      "sourceId": "16cc8535-17f8-4b41-a318-d7aabed20063",
+      "sourceName": "SourceName",
+      "destinationId": "aade80e0-5b02-45d3-8f4d-680b6975d3ee",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 14.719499999999998,
+      "measured": 490.65,
+      "bounds": {
+        "lowerBound": 475.9305,
+        "upperBound": 505.36949999999996
+      }
+    },
+    {
+      "id": "9a818759-0074-4520-9b2d-d1b0a52e43f6",
+      "name": "SegmentName: 25. Перем. на собственные нужды щебня 5-20 мм сорт Б со склада №1 на точку отгрузки ЖД SegmentId: e7db6dc0-f340-4d8e-bbfb-57a2a5fbd9e5 SourceId: b5437eba-a9fc-462b-a2a0-b59014b191b6 - DestinationId:  MaterialName: Щебень 5-20 ТУ сорт Б\nMaterialLotId: 9a818759-0074-4520-9b2d-d1b0a52e43f6\n",
+      "sourceId": "b5437eba-a9fc-462b-a2a0-b59014b191b6",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "75970a1f-712f-4e63-9a44-900ff4e8d579",
+      "name": "SegmentName: 97. Перем. с грохочения просыпи сырых окатышей в промежуточный бункер просыпи SegmentId: e658430f-5908-48c2-8b31-55d39b6efc2b SourceId: 16cc8535-17f8-4b41-a318-d7aabed20063 - DestinationId: 915278fd-64c0-4687-b21d-8848fdecda8a MaterialName: Просыпь сырых окатышей\nMaterialLotId: 75970a1f-712f-4e63-9a44-900ff4e8d579\n",
+      "sourceId": "16cc8535-17f8-4b41-a318-d7aabed20063",
+      "sourceName": "SourceName",
+      "destinationId": "915278fd-64c0-4687-b21d-8848fdecda8a",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "14f5fc69-0bd8-448d-9f51-a7c787113fbc",
+      "name": "SegmentName: 36. Перем. потребителю щебня (5-20 мм) ГОСТ со склада на отгрузку ЖД SegmentId: cc0963ca-5f52-406e-a818-8df3e3cc611d SourceId: f9912952-eefa-4427-8e50-1bd12bc06816 - DestinationId:  MaterialName: Щебень 5-20 ГОСТ\nMaterialLotId: 14f5fc69-0bd8-448d-9f51-a7c787113fbc\n",
+      "sourceId": "f9912952-eefa-4427-8e50-1bd12bc06816",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 4.83425,
+      "measured": 966.85,
+      "bounds": {
+        "lowerBound": 962.01575,
+        "upperBound": 971.68425
+      }
+    },
+    {
+      "id": "01d261e4-2f63-4700-9d6d-e21df6444e54",
+      "name": "SegmentName: 69. Перем. концентрата из бункера с концентратом для агломерата на дозирование (конвейеры 54,55) SegmentId: 38984de5-e5d9-4bc3-a6ec-882abaec4c97 SourceId: 5fb7ddac-ee4c-466f-9608-e02e328d3e44 - DestinationId: 4c2a1390-8a16-4df1-933d-922ff654b712 MaterialName: Бедный концентрат\nMaterialLotId: 01d261e4-2f63-4700-9d6d-e21df6444e54\n",
+      "sourceId": "5fb7ddac-ee4c-466f-9608-e02e328d3e44",
+      "sourceName": "SourceName",
+      "destinationId": "4c2a1390-8a16-4df1-933d-922ff654b712",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 210.14064068004404,
+      "measured": 10507.032034002203,
+      "bounds": {
+        "lowerBound": 10296.89139332216,
+        "upperBound": 10717.172674682246
+      }
+    },
+    {
+      "id": "81fdc270-a162-4b4a-90f9-8d83c4f004f1",
+      "name": "SegmentName: 40. Перем. отсевов с ДСК на склад ДСК №3  SegmentId: 10767a9b-3390-4014-a16f-280eb8400efa SourceId: 893c1930-271d-4401-8797-a9336149a5de - DestinationId: 4bb6c962-42f4-4b18-a8e5-40858d290de6 MaterialName: Отсевы\nMaterialLotId: 81fdc270-a162-4b4a-90f9-8d83c4f004f1\n",
+      "sourceId": "893c1930-271d-4401-8797-a9336149a5de",
+      "sourceName": "SourceName",
+      "destinationId": "4bb6c962-42f4-4b18-a8e5-40858d290de6",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "22fa60dc-ef7a-4836-8363-b6ddf2351f61",
+      "name": "SegmentName: 4. Перем. дробленой руды в бункера обогащения ОФ 2 половина SegmentId: 38eddb3a-613d-46ad-9c8d-8c7c8e374ce4 SourceId: 58b0587b-5401-4c5b-b141-cbc6bfbf6aad - DestinationId: ff563aaf-13b1-40a2-9e42-b36fa288ab96 MaterialName: Руда\nMaterialLotId: 22fa60dc-ef7a-4836-8363-b6ddf2351f61\n",
+      "sourceId": "58b0587b-5401-4c5b-b141-cbc6bfbf6aad",
+      "sourceName": "SourceName",
+      "destinationId": "ff563aaf-13b1-40a2-9e42-b36fa288ab96",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 754.4435268959496,
+      "measured": 75444.35268959496,
+      "bounds": {
+        "lowerBound": 74689.90916269901,
+        "upperBound": 78198.79621649091
+      }
+    },
+    {
+      "id": "54770426-4699-4a27-93f4-9f01c1f0fda8",
+      "name": "SegmentName: 120. Перем. агломерата с грохочения на охлаждение и грохочение агломерата  SegmentId: 47d681e6-e6e3-49e7-a794-96bafd2c3889 SourceId: 4aa382c6-e9af-4717-ad6c-7ef152975799 - DestinationId: f906de1d-6083-4632-9f72-2408e510f1c2 MaterialName: Агломерат\nMaterialLotId: 54770426-4699-4a27-93f4-9f01c1f0fda8\n",
+      "sourceId": "4aa382c6-e9af-4717-ad6c-7ef152975799",
+      "sourceName": "SourceName",
+      "destinationId": "f906de1d-6083-4632-9f72-2408e510f1c2",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "e677e958-ac48-47a3-b520-f14191ca9e48",
+      "name": "SegmentName: 62. Перем. богатого концентрата с измельчения, фильтрации на объединение потоков концентрата  SegmentId: c0e3e646-38e5-47e7-afba-26b4625ad7dd SourceId: 0700f5c0-cba9-4c3d-9a6a-cec90b76eedd - DestinationId: ef7fe280-f7ca-412b-aef8-21ccfd29287c MaterialName: Богатый концентрат\nMaterialLotId: e677e958-ac48-47a3-b520-f14191ca9e48\n",
+      "sourceId": "0700f5c0-cba9-4c3d-9a6a-cec90b76eedd",
+      "sourceName": "SourceName",
+      "destinationId": "ef7fe280-f7ca-412b-aef8-21ccfd29287c",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 116.31806502112997,
+      "measured": 11631.806502112997,
+      "bounds": {
+        "lowerBound": 11515.488437091866,
+        "upperBound": 11748.124567134128
+      }
+    },
+    {
+      "id": "7e1fcd5b-eee9-4b78-b723-040f41245d25",
+      "name": "SegmentName: 19. Перем. потребителю щебня  (20-40 мм)  со склада щебня на отгрузку жд SegmentId: 861cea20-f6d4-48aa-a39a-35f6cc5b60cb SourceId: 350af09e-9e06-4015-b71d-5773e3249d1b - DestinationId:  MaterialName: Щебень 20-40\nMaterialLotId: 7e1fcd5b-eee9-4b78-b723-040f41245d25\n",
+      "sourceId": "350af09e-9e06-4015-b71d-5773e3249d1b",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 4.83425,
+      "measured": 966.85,
+      "bounds": {
+        "lowerBound": 962.01575,
+        "upperBound": 971.68425
+      }
+    },
+    {
+      "id": "33fbef86-9a48-4e96-9daf-c53404640230",
+      "name": "SegmentName: 3. Перем. дробленой руды в бункера обогащения ОФ 1 половина SegmentId: e2978a22-97c1-48f4-86f9-06783672653a SourceId: 58b0587b-5401-4c5b-b141-cbc6bfbf6aad - DestinationId: 61a1c43f-52cd-457a-a2e3-f02962a3d054 MaterialName: Руда\nMaterialLotId: 33fbef86-9a48-4e96-9daf-c53404640230\n",
+      "sourceId": "58b0587b-5401-4c5b-b141-cbc6bfbf6aad",
+      "sourceName": "SourceName",
+      "destinationId": "61a1c43f-52cd-457a-a2e3-f02962a3d054",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 808.729670342551,
+      "measured": 80872.9670342551,
+      "bounds": {
+        "lowerBound": 76064.23736391254,
+        "upperBound": 83681.69670459765
+      }
+    },
+    {
+      "id": "f33c6534-7757-470f-9ab2-1043ef77fe71",
+      "name": "SegmentName: 90. Перем. измельченного известняка в расходные бункера с известняком SegmentId: 9b143101-b595-4986-93bd-b174f0d1ed63 SourceId: ffc0c286-25df-4482-a00f-04247114d2e0 - DestinationId: 8530ec5c-06f9-4054-a943-31a1d53f246c MaterialName: Измельченный известняк\nMaterialLotId: f33c6534-7757-470f-9ab2-1043ef77fe71\n",
+      "sourceId": "ffc0c286-25df-4482-a00f-04247114d2e0",
+      "sourceName": "SourceName",
+      "destinationId": "8530ec5c-06f9-4054-a943-31a1d53f246c",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 56.13856692449671,
+      "measured": 1871.2855641498902,
+      "bounds": {
+        "lowerBound": 1815.1469972253935,
+        "upperBound": 1927.4241310743869
+      }
+    },
+    {
+      "id": "960902f0-e6fe-4305-af40-041a369f23c9",
+      "name": "SegmentName: 81. Перем. соды на смешивание с глиной SegmentId: 6af13036-8949-4108-983e-29b56912b4b9 SourceId: 1e5b5329-2fbd-4185-8953-59a63ed8dda5 - DestinationId: 15f5ad47-b6eb-4cd6-a887-8ec26021bd80 MaterialName: Сода\nMaterialLotId: 960902f0-e6fe-4305-af40-041a369f23c9\n",
+      "sourceId": "1e5b5329-2fbd-4185-8953-59a63ed8dda5",
+      "sourceName": "SourceName",
+      "destinationId": "15f5ad47-b6eb-4cd6-a887-8ec26021bd80",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 0.206520205012015,
+      "measured": 20.652020501201502,
+      "bounds": {
+        "lowerBound": 20.445500296189486,
+        "upperBound": 20.858540706213518
+      }
+    },
+    {
+      "id": "3dd57c97-f210-4a9b-af9e-a7c5f6034306",
+      "name": "SegmentName: 95. Перем. с окомкования шихтовых материалов на грохочение сырых оактышей SegmentId: 266b90a9-2d82-419e-880b-a4c04dcc3bbe SourceId: d59cfedb-b9c0-4359-b4a4-a270553b3b6d - DestinationId: 16cc8535-17f8-4b41-a318-d7aabed20063 MaterialName: Шихта\nMaterialLotId: 3dd57c97-f210-4a9b-af9e-a7c5f6034306\n",
+      "sourceId": "d59cfedb-b9c0-4359-b4a4-a270553b3b6d",
+      "sourceName": "SourceName",
+      "destinationId": "16cc8535-17f8-4b41-a318-d7aabed20063",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 1719.197156289105,
+      "measured": 13224.59350991619,
+      "bounds": {
+        "lowerBound": 11505.396353627086,
+        "upperBound": 14943.790666205296
+      }
+    },
+    {
+      "id": "0e4e8d44-7512-4824-90dc-13c260350aa2",
+      "name": "SegmentName: 118. Перем. аглошихты со спекания на дробление и грохочение SegmentId: 5f2ffd17-4282-40cd-b263-1d2d495af678 SourceId: e8470e51-70c7-4130-bd33-03b07d3158cf - DestinationId: 4aa382c6-e9af-4717-ad6c-7ef152975799 MaterialName: Аглошихта\nMaterialLotId: 0e4e8d44-7512-4824-90dc-13c260350aa2\n",
+      "sourceId": "e8470e51-70c7-4130-bd33-03b07d3158cf",
+      "sourceName": "SourceName",
+      "destinationId": "4aa382c6-e9af-4717-ad6c-7ef152975799",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "54cbc947-00e6-48e1-a7e5-079d26f916cb",
+      "name": "SegmentName: 10. Перем. грохоченных хвостов СМС на открытый склад щебня (5-20 мм) SegmentId: 6ac7543a-5f57-4a19-85b9-5cb27c39a091 SourceId: 27f9d05b-94a7-498b-a6b3-1122542f7a03 - DestinationId: 27ea8df3-b210-4813-8676-c4acbd7decb1 MaterialName: Щебень 5-20\nMaterialLotId: 54cbc947-00e6-48e1-a7e5-079d26f916cb\n",
+      "sourceId": "27f9d05b-94a7-498b-a6b3-1122542f7a03",
+      "sourceName": "SourceName",
+      "destinationId": "27ea8df3-b210-4813-8676-c4acbd7decb1",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 30.828109737373694,
+      "measured": 3082.8109737373693,
+      "bounds": {
+        "lowerBound": 3051.9828639999955,
+        "upperBound": 3113.639083474743
+      }
+    },
+    {
+      "id": "9e7c9a3e-43bf-41dd-8d82-bd5e10ad3aa9",
+      "name": "SegmentName: 71. Перем. комовой глины со склада корпуса модификации в бункер глинорыхлителя  SegmentId: c7476e31-12ea-4bf3-8cd5-6ed84644e59b SourceId: a7ce8deb-0c09-4386-bf06-959e9b85e5a1 - DestinationId: 77e9d03a-4e23-4d16-8cce-900c08c44fd8 MaterialName: Глина\nMaterialLotId: 9e7c9a3e-43bf-41dd-8d82-bd5e10ad3aa9\n",
+      "sourceId": "a7ce8deb-0c09-4386-bf06-959e9b85e5a1",
+      "sourceName": "SourceName",
+      "destinationId": "77e9d03a-4e23-4d16-8cce-900c08c44fd8",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "9ce86217-3591-4143-a668-da1c3941e1de",
+      "name": "SegmentName: 70. Перем. комовой глины с точки приемки на склад корпуса модификации SegmentId: 40cab8f2-26b0-459f-aa94-656a5a18a9c2 SourceId:  - DestinationId: a7ce8deb-0c09-4386-bf06-959e9b85e5a1 MaterialName: Глина\nMaterialLotId: 9ce86217-3591-4143-a668-da1c3941e1de\n",
+      "sourceName": "SourceName",
+      "destinationId": "a7ce8deb-0c09-4386-bf06-959e9b85e5a1",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 0
+      }
+    },
+    {
+      "id": "2b01d652-87b0-402a-8fdc-d5a7f713b30f",
+      "name": "SegmentName: 15. Перем. потребителю отсевов (0-10) со склада  на отгрузку Авто SegmentId: c8c78f39-57db-4a71-ba99-36af0a0b654e SourceId: 224af7f9-a7f5-4b7c-90ea-6c4620b96050 - DestinationId:  MaterialName: Отсевы 0-10\nMaterialLotId: 2b01d652-87b0-402a-8fdc-d5a7f713b30f\n",
+      "sourceId": "224af7f9-a7f5-4b7c-90ea-6c4620b96050",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 0.507,
+      "measured": 101.4,
+      "bounds": {
+        "lowerBound": 100.893,
+        "upperBound": 101.90700000000001
+      }
+    },
+    {
+      "id": "6fbd77f3-a5b5-4075-ba6f-4a1704619c2c",
+      "name": "SegmentName: 14. Перем. потребителю отсевов (0-10) со склада  на отгрузку жд SegmentId: e35ad085-0dc1-40c7-a084-9eafd895e1e9 SourceId: 224af7f9-a7f5-4b7c-90ea-6c4620b96050 - DestinationId:  MaterialName: Отсевы 0-10\nMaterialLotId: 6fbd77f3-a5b5-4075-ba6f-4a1704619c2c\n",
+      "sourceId": "224af7f9-a7f5-4b7c-90ea-6c4620b96050",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 7.47,
+      "measured": 281.7,
+      "bounds": {
+        "lowerBound": 280.2915,
+        "upperBound": 283.1085
+      }
+    },
+    {
+      "id": "3d636281-c91c-4ef9-b91b-7308d2b60434",
+      "name": "SegmentName: 06. Перем.руды из бункеров обогащения ОФ 2 половина на СМС SegmentId: 9ae85935-8a75-451c-9492-4357d877f0d9 SourceId: ff563aaf-13b1-40a2-9e42-b36fa288ab96 - DestinationId: 2a177e15-a4e0-46b7-8c51-986e0d704eac MaterialName: Руда\nMaterialLotId: 3d636281-c91c-4ef9-b91b-7308d2b60434\n",
+      "sourceId": "ff563aaf-13b1-40a2-9e42-b36fa288ab96",
+      "sourceName": "SourceName",
+      "destinationId": "2a177e15-a4e0-46b7-8c51-986e0d704eac",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "8ba28128-01eb-460f-aa38-4e556927e263",
+      "name": "SegmentName: 89. Перем. известняка со склада на дробление и измельчение  SegmentId: 6f6ede84-0161-4502-8b06-cc12ed9a5d6c SourceId: 33666395-351f-452e-bb32-e27a6a681acb - DestinationId: ffc0c286-25df-4482-a00f-04247114d2e0 MaterialName: Известняк\nMaterialLotId: 8ba28128-01eb-460f-aa38-4e556927e263\n",
+      "sourceId": "33666395-351f-452e-bb32-e27a6a681acb",
+      "sourceName": "SourceName",
+      "destinationId": "ffc0c286-25df-4482-a00f-04247114d2e0",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "ff32c85a-7784-40ca-98cf-c0b42b1b7a2d",
+      "name": "SegmentName: 87. Перем. извстняка с точки приемки в бункер корпуса вагоноопрокидывателя  SegmentId: bc4ccba5-4c3c-4e76-bf0b-20e2f29bd0eb SourceId:  - DestinationId: 24c122a4-8efa-418f-ba01-23a1b354ed92 MaterialName: Известняк\nMaterialLotId: ff32c85a-7784-40ca-98cf-c0b42b1b7a2d\n",
+      "sourceName": "SourceName",
+      "destinationId": "24c122a4-8efa-418f-ba01-23a1b354ed92",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 2.5383999999999998,
+      "measured": 253.83999999999997,
+      "bounds": {
+        "lowerBound": 251.30159999999998,
+        "upperBound": 256.3784
+      }
+    },
+    {
+      "id": "f20d7c44-c3b7-4a37-8e32-2b7fdd7e24af",
+      "name": "SegmentName: 29. Перем. щебня 5-20 со склада КСЩ на склад №3 SegmentId: d6ceb412-ebb6-4065-b849-7b1eb5e1f4c1 SourceId: 27ea8df3-b210-4813-8676-c4acbd7decb1 - DestinationId: af7375e5-2943-4cfd-a6e9-cd918cabb55e MaterialName: Щебень 5-20\nMaterialLotId: f20d7c44-c3b7-4a37-8e32-2b7fdd7e24af\n",
+      "sourceId": "27ea8df3-b210-4813-8676-c4acbd7decb1",
+      "sourceName": "SourceName",
+      "destinationId": "af7375e5-2943-4cfd-a6e9-cd918cabb55e",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 16.938499999999998,
+      "measured": 1693.85,
+      "bounds": {
+        "lowerBound": 1676.9115,
+        "upperBound": 1710.7884999999999
+      }
+    },
+    {
+      "id": "1825b5ad-333d-4846-a798-64cf87ae0b28",
+      "name": "SegmentName: 102. Перем. постели с грохочения охлажденных окатышей на обжиг SegmentId: 2927f898-f01d-4932-8500-0809bf538ca5 SourceId: 61d971cd-09a4-4686-9c90-983f63e20c83 - DestinationId: 3604ae53-6fff-4222-956c-40b4ea18fffe MaterialName: Постель окатышей\nMaterialLotId: 1825b5ad-333d-4846-a798-64cf87ae0b28\n",
+      "sourceId": "61d971cd-09a4-4686-9c90-983f63e20c83",
+      "sourceName": "SourceName",
+      "destinationId": "3604ae53-6fff-4222-956c-40b4ea18fffe",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 157.793,
+      "measured": 15779.316157793159,
+      "bounds": {
+        "lowerBound": 15621.522,
+        "upperBound": 15937.109
+      }
+    },
+    {
+      "id": "5f06ab09-606e-4403-a072-4f8edb51d314",
+      "name": "SegmentName: 08. Перем. хвостов из бункера хвостов на грохочение  SegmentId: 3924825c-178a-4052-b8b0-4e68d9d4286d SourceId: 3872a36e-f961-4d38-9b3b-cdff911c582f - DestinationId: 27f9d05b-94a7-498b-a6b3-1122542f7a03 MaterialName: Хвосты СМС\nMaterialLotId: 5f06ab09-606e-4403-a072-4f8edb51d314\n",
+      "sourceId": "3872a36e-f961-4d38-9b3b-cdff911c582f",
+      "sourceName": "SourceName",
+      "destinationId": "27f9d05b-94a7-498b-a6b3-1122542f7a03",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "335211a2-184f-4b81-bc39-398747b2d4e1",
+      "name": "SegmentName: 35. Перем. щебня \u002B20 мм сорт Б на отгрузку (ж/д) SegmentId: c3f54d16-3c1b-4796-b1cf-7415f137033c SourceId: 83aebc0f-8375-4d53-a921-33b1e5eb370b - DestinationId:  MaterialName: Щебень \u002B20\nMaterialLotId: 335211a2-184f-4b81-bc39-398747b2d4e1\n",
+      "sourceId": "83aebc0f-8375-4d53-a921-33b1e5eb370b",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 0.065,
+      "measured": 13,
+      "bounds": {
+        "lowerBound": 12.935,
+        "upperBound": 13.065
+      }
+    },
+    {
+      "id": "80770f93-6284-4b72-9a38-3f82017d71f8",
+      "name": "SegmentName: 47. Перем. щебня 4-8 мм с склада №3 на отгрузку (ж/д) SegmentId: 318f9d8e-52ff-4602-9ceb-9679be105c11 SourceId: 296673cb-a9ee-4b70-952f-f70408477e7d - DestinationId:  MaterialName: Щебень 4-8\nMaterialLotId: 80770f93-6284-4b72-9a38-3f82017d71f8\n",
+      "sourceId": "296673cb-a9ee-4b70-952f-f70408477e7d",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 0.228,
+      "measured": 45.6,
+      "bounds": {
+        "lowerBound": 45.372,
+        "upperBound": 45.828
+      }
+    },
+    {
+      "id": "a655bc2d-4125-4fff-b940-201196ac4c64",
+      "name": "SegmentName: 100. Перем. сырых окатышей с обжига на узел безвозвратные потери SegmentId: e57d5a3a-8699-414b-9f15-47cae3173e3c SourceId: 3604ae53-6fff-4222-956c-40b4ea18fffe - DestinationId:  MaterialName: Сырые окатыши\nMaterialLotId: a655bc2d-4125-4fff-b940-201196ac4c64\n",
+      "sourceId": "3604ae53-6fff-4222-956c-40b4ea18fffe",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 4.689150589103081,
+      "measured": 156.30501963676937,
+      "bounds": {
+        "lowerBound": 151.61586904766628,
+        "upperBound": 160.99417022587247
+      }
+    },
+    {
+      "id": "6745592c-bc33-4fdd-8894-1934a12af480",
+      "name": "SegmentName: 18. Перем. на собственные нужды  щебня  (20-40 мм)  со склада щебня на отгрузку Авто SegmentId: 29916960-efdf-4d71-b308-a5308a97c02e SourceId: 350af09e-9e06-4015-b71d-5773e3249d1b - DestinationId:  MaterialName: Щебень 20-40\nMaterialLotId: 6745592c-bc33-4fdd-8894-1934a12af480\n",
+      "sourceId": "350af09e-9e06-4015-b71d-5773e3249d1b",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 7.4895000000000005,
+      "measured": 1497.9,
+      "bounds": {
+        "lowerBound": 1490.4105000000002,
+        "upperBound": 1505.3895
+      }
+    },
+    {
+      "id": "fc206cce-1814-4abc-ae81-aac07b3c4bd6",
+      "name": "SegmentName: 117. Перем. аглошихты со спекания на узел безвозратные потери SegmentId: d0bd011a-3ae4-411f-9d57-aab7ce84da27 SourceId: e8470e51-70c7-4130-bd33-03b07d3158cf - DestinationId:  MaterialName: Аглошихта\nMaterialLotId: fc206cce-1814-4abc-ae81-aac07b3c4bd6\n",
+      "sourceId": "e8470e51-70c7-4130-bd33-03b07d3158cf",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 42.97497621954874,
+      "measured": 1432.4992073182914,
+      "bounds": {
+        "lowerBound": 1389.5242310987426,
+        "upperBound": 1475.4741835378402
+      }
+    },
+    {
+      "id": "b22dd608-ab4b-4b3b-af68-24e6ac9f39e0",
+      "name": "SegmentName: 85. Перем. измельченного топлива в  расходные бункера с твердым топливым SegmentId: 477d3ec4-12d4-4173-a9c1-b404e393795e SourceId: 9deb6e89-11c1-44c5-a4cf-2f4836841d58 - DestinationId: c3483051-b182-4de7-a392-8de636b7b265 MaterialName: Измельченное топливо\nMaterialLotId: b22dd608-ab4b-4b3b-af68-24e6ac9f39e0\n",
+      "sourceId": "9deb6e89-11c1-44c5-a4cf-2f4836841d58",
+      "sourceName": "SourceName",
+      "destinationId": "c3483051-b182-4de7-a392-8de636b7b265",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 6.5357993110448405,
+      "measured": 653.579931104484,
+      "bounds": {
+        "lowerBound": 647.0441317934392,
+        "upperBound": 660.1157304155288
+      }
+    },
+    {
+      "id": "d712cf9c-50d8-44f6-ad17-bce7bb32895c",
+      "name": "SegmentName: 124. Перем. постели из бункера постели на спекание аглошихты SegmentId: 34db74d7-5026-46ec-889f-67df90f9c53c SourceId: 36422e2c-b24a-4bb1-a9e2-cede9fe8996d - DestinationId: e8470e51-70c7-4130-bd33-03b07d3158cf MaterialName: Постель агломерата\nMaterialLotId: d712cf9c-50d8-44f6-ad17-bce7bb32895c\n",
+      "sourceId": "36422e2c-b24a-4bb1-a9e2-cede9fe8996d",
+      "sourceName": "SourceName",
+      "destinationId": "e8470e51-70c7-4130-bd33-03b07d3158cf",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "29b21076-6cf4-4b91-a33b-af0aa960268f",
+      "name": "SegmentName: 93. Перем. извести из расходных бункеров на дозирование (конв. 54, 55) SegmentId: 233c4cf6-b376-4701-abf7-562c45b8c97d SourceId: ddb99c35-3153-4dbf-aad1-ae119fe6e6cc - DestinationId: 4c2a1390-8a16-4df1-933d-922ff654b712 MaterialName: Известь\nMaterialLotId: 29b21076-6cf4-4b91-a33b-af0aa960268f\n",
+      "sourceId": "ddb99c35-3153-4dbf-aad1-ae119fe6e6cc",
+      "sourceName": "SourceName",
+      "destinationId": "4c2a1390-8a16-4df1-933d-922ff654b712",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 7.6737,
+      "measured": 255.79000000000002,
+      "bounds": {
+        "lowerBound": 248.11630000000002,
+        "upperBound": 263.4637
+      }
+    },
+    {
+      "id": "4df925b7-d0d2-47d6-86f4-50784132d53a",
+      "name": "SegmentName: 60. Перем. бедного концентрата с фильтрации на склад №1 SegmentId: 7e0c2dc8-1ac0-446e-adfc-753ede978500 SourceId: 0700f5c0-cba9-4c3d-9a6a-cec90b76eedd - DestinationId: aade80e0-5b02-45d3-8f4d-680b6975d3ee MaterialName: Бедный концентрат\nMaterialLotId: 4df925b7-d0d2-47d6-86f4-50784132d53a\n",
+      "sourceId": "0700f5c0-cba9-4c3d-9a6a-cec90b76eedd",
+      "sourceName": "SourceName",
+      "destinationId": "aade80e0-5b02-45d3-8f4d-680b6975d3ee",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "a01ab62b-0433-49b4-a666-7903508297d5",
+      "name": "SegmentName: 41. Перем.  отсевов со склада ДСК №3 в отвал SegmentId: c357a0c3-332e-4037-8843-53746508e30e SourceId: 4bb6c962-42f4-4b18-a8e5-40858d290de6 - DestinationId:  MaterialName: Отсевы\nMaterialLotId: a01ab62b-0433-49b4-a666-7903508297d5\n",
+      "sourceId": "4bb6c962-42f4-4b18-a8e5-40858d290de6",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "fcf6622f-ab55-4813-9fad-868e4eb0a082",
+      "name": "SegmentName: 112. Перем. гидросмыва со смешивания в цех обогащения SegmentId: fd4b4659-17f5-4e2c-9e45-e88c19a0ae7d SourceId: b8630d45-4ac4-4f73-bb33-197939e6de00 - DestinationId: aade80e0-5b02-45d3-8f4d-680b6975d3ee MaterialName: Гидросмыв\nMaterialLotId: fcf6622f-ab55-4813-9fad-868e4eb0a082\n",
+      "sourceId": "b8630d45-4ac4-4f73-bb33-197939e6de00",
+      "sourceName": "SourceName",
+      "destinationId": "aade80e0-5b02-45d3-8f4d-680b6975d3ee",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 4.1253,
+      "measured": 137.51,
+      "bounds": {
+        "lowerBound": 133.38469999999998,
+        "upperBound": 141.6353
+      }
+    },
+    {
+      "id": "cfd13237-93d2-4a53-a2f2-74fc4ba8637f",
+      "name": "SegmentName: 99. Перем. сырых окатышей с грохочения на обжиг  SegmentId: 624db598-a433-4326-a2c9-49159d42b006 SourceId: 16cc8535-17f8-4b41-a318-d7aabed20063 - DestinationId: 3604ae53-6fff-4222-956c-40b4ea18fffe MaterialName: Сырые окатыши\nMaterialLotId: cfd13237-93d2-4a53-a2f2-74fc4ba8637f\n",
+      "sourceId": "16cc8535-17f8-4b41-a318-d7aabed20063",
+      "sourceName": "SourceName",
+      "destinationId": "3604ae53-6fff-4222-956c-40b4ea18fffe",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "e5e21b89-4810-4009-9c81-d0d152fe2cd0",
+      "name": "SegmentName: 55. Перем. щебня 10-15 мм с склада №3 на отгрузку (ж/д) SegmentId: a65d5297-48f2-49fb-8510-36b560eee547 SourceId: 223a435e-138f-4bfe-b8a8-119a1b5efa5a - DestinationId:  MaterialName: Щебень 10-15\nMaterialLotId: e5e21b89-4810-4009-9c81-d0d152fe2cd0\n",
+      "sourceId": "223a435e-138f-4bfe-b8a8-119a1b5efa5a",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 3.2880000000000003,
+      "measured": 657.6,
+      "bounds": {
+        "lowerBound": 654.312,
+        "upperBound": 660.888
+      }
+    },
+    {
+      "id": "0776994f-2906-479c-ab98-78ad708e3529",
+      "name": "SegmentName: 54. Перем. щебня 5-15 мм с склада №3 на отгрузку (авто) SegmentId: b8085623-0665-4a0b-9598-4c516264277b SourceId: ab0e41db-d401-4390-92a3-6833121d7f78 - DestinationId:  MaterialName: Щебень 5-15\nMaterialLotId: 0776994f-2906-479c-ab98-78ad708e3529\n",
+      "sourceId": "ab0e41db-d401-4390-92a3-6833121d7f78",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 1.0915000000000001,
+      "measured": 218.3,
+      "bounds": {
+        "lowerBound": 217.20850000000002,
+        "upperBound": 219.3915
+      }
+    },
+    {
+      "id": "75d667ba-022c-4e9c-8775-bfd06d78db1b",
+      "name": "SegmentName: 98. Перем. просыпи сырых окатышей из промежуточного бункера просыпи на дозирование, смешивание, окомкование SegmentId: 6f9a1b41-3207-422c-834b-08f6b979f2a0 SourceId: 915278fd-64c0-4687-b21d-8848fdecda8a - DestinationId: d59cfedb-b9c0-4359-b4a4-a270553b3b6d MaterialName: Просыпь сырых окатышей\nMaterialLotId: 75d667ba-022c-4e9c-8775-bfd06d78db1b\n",
+      "sourceId": "915278fd-64c0-4687-b21d-8848fdecda8a",
+      "sourceName": "SourceName",
+      "destinationId": "d59cfedb-b9c0-4359-b4a4-a270553b3b6d",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "ce92f952-306d-423a-8c32-4a4d4567d7a3",
+      "name": "SegmentName: 52. Перем. щебня 5-10 мм с склада №3 на отгрузку (авто) SegmentId: 2eb94771-d956-408c-b1c2-7f96a6c99341 SourceId: c3524694-07a3-405d-a299-893e3c3704ee - DestinationId:  MaterialName: Щебень 5-10\nMaterialLotId: ce92f952-306d-423a-8c32-4a4d4567d7a3\n",
+      "sourceId": "c3524694-07a3-405d-a299-893e3c3704ee",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 2.334,
+      "measured": 466.8,
+      "bounds": {
+        "lowerBound": 464.466,
+        "upperBound": 469.134
+      }
+    },
+    {
+      "id": "3975b697-bbde-47e8-95fe-d96f6618b006",
+      "name": "SegmentName: 20. Перем. потребителю щебня  (20-40 мм) со склада щебня на отгрузку Авто SegmentId: 1aea13aa-f8bd-4977-b51a-576e31e03a49 SourceId: 350af09e-9e06-4015-b71d-5773e3249d1b - DestinationId:  MaterialName: Щебень 20-40\nMaterialLotId: 3975b697-bbde-47e8-95fe-d96f6618b006\n",
+      "sourceId": "350af09e-9e06-4015-b71d-5773e3249d1b",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 2.5225,
+      "measured": 504.5,
+      "bounds": {
+        "lowerBound": 501.9775,
+        "upperBound": 507.0225
+      }
+    },
+    {
+      "id": "976300df-0cf3-4eb1-bd22-6c2c565ca914",
+      "name": "SegmentName: 32. Перем. щебня \u002B20 мм с узла рассева на склад SegmentId: b85f9b32-7e75-4d87-ac76-e2ec560906c2 SourceId: 347e240f-3d6b-4cbc-bc50-04da92e943fb - DestinationId: 83aebc0f-8375-4d53-a921-33b1e5eb370b MaterialName: Щебень \u002B20\nMaterialLotId: 976300df-0cf3-4eb1-bd22-6c2c565ca914\n",
+      "sourceId": "347e240f-3d6b-4cbc-bc50-04da92e943fb",
+      "sourceName": "SourceName",
+      "destinationId": "83aebc0f-8375-4d53-a921-33b1e5eb370b",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "49a44991-27b1-4be2-af70-a930aa272c61",
+      "name": "SegmentName: 107. Перем. окатышей со склада окатышей на дозирование окатышей УГЖДТ SegmentId: 641710a8-a77f-4125-8195-05f31409fce9 SourceId: ab3a3d5d-975d-4729-b940-a8538cc9b57c - DestinationId: c39e49b6-1856-48d5-a9a1-4f75a7575094 MaterialName: Окатыши\nMaterialLotId: 49a44991-27b1-4be2-af70-a930aa272c61\n",
+      "sourceId": "ab3a3d5d-975d-4729-b940-a8538cc9b57c",
+      "sourceName": "SourceName",
+      "destinationId": "c39e49b6-1856-48d5-a9a1-4f75a7575094",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 40.14,
+      "measured": 4014,
+      "bounds": {
+        "lowerBound": 3973.86,
+        "upperBound": 4054.14
+      }
+    },
+    {
+      "id": "d6dbf094-f4cb-4891-afef-bdedc154caaa",
+      "name": "SegmentName: 88. Перем. Известняка из бункера вагоноопрокидователя на склад известняка SegmentId: 51ca26f1-bb85-43c0-b3a4-11ed242fbc80 SourceId: 24c122a4-8efa-418f-ba01-23a1b354ed92 - DestinationId: 33666395-351f-452e-bb32-e27a6a681acb MaterialName: Известняк\nMaterialLotId: d6dbf094-f4cb-4891-afef-bdedc154caaa\n",
+      "sourceId": "24c122a4-8efa-418f-ba01-23a1b354ed92",
+      "sourceName": "SourceName",
+      "destinationId": "33666395-351f-452e-bb32-e27a6a681acb",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "e9a3cbd2-af19-4d1a-b32f-06eb8ad9c9ea",
+      "name": "SegmentName: 73. Перем. глины с измельчения на смешивание с содой SegmentId: 83d49084-9bbb-4346-90f0-e244484c6376 SourceId: 3125fdbb-455a-4c79-bc9f-e9a7a2c7ec8d - DestinationId: 15f5ad47-b6eb-4cd6-a887-8ec26021bd80 MaterialName: Глина\nMaterialLotId: e9a3cbd2-af19-4d1a-b32f-06eb8ad9c9ea\n",
+      "sourceId": "3125fdbb-455a-4c79-bc9f-e9a7a2c7ec8d",
+      "sourceName": "SourceName",
+      "destinationId": "15f5ad47-b6eb-4cd6-a887-8ec26021bd80",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 0.007324482451847199,
+      "measured": 0.7324482451847198,
+      "bounds": {
+        "lowerBound": 0.7251237627328726,
+        "upperBound": 0.7397727276365671
+      }
+    },
+    {
+      "id": "3b1b229e-0f2e-41b0-b6d9-57bde41db855",
+      "name": "SegmentName: 39. Перем. щебня 5-20 мм со склада №3 на ДСК SegmentId: 49ea2ab4-b500-4787-b70d-da103c21ae5b SourceId: af7375e5-2943-4cfd-a6e9-cd918cabb55e - DestinationId: 893c1930-271d-4401-8797-a9336149a5de MaterialName: Щебень 5-20\nMaterialLotId: 3b1b229e-0f2e-41b0-b6d9-57bde41db855\n",
+      "sourceId": "af7375e5-2943-4cfd-a6e9-cd918cabb55e",
+      "sourceName": "SourceName",
+      "destinationId": "893c1930-271d-4401-8797-a9336149a5de",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "1e64c20f-5756-4aa0-8220-48533fa09f6b",
+      "name": "SegmentName: 108. Перем. окатышей с дозирования УГЖДТ на ЗНК SegmentId: 3a29fc82-2b15-4d4d-af9e-fe284cd26282 SourceId: c39e49b6-1856-48d5-a9a1-4f75a7575094 - DestinationId: 2b8539d9-4507-41e2-b087-56b36e3a8870 MaterialName: Окатыши\nMaterialLotId: 1e64c20f-5756-4aa0-8220-48533fa09f6b\n",
+      "sourceId": "c39e49b6-1856-48d5-a9a1-4f75a7575094",
+      "sourceName": "SourceName",
+      "destinationId": "2b8539d9-4507-41e2-b087-56b36e3a8870",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "bbafdba0-bf46-438b-8a13-4ede6524932d",
+      "name": "SegmentName: 130. Перем. агломерата с дозирования УГЖДТ на ЗНК SegmentId: e6ebcf9b-74f7-4c66-8848-de45b2b0d25b SourceId: 5f8aa82b-0276-49df-9e67-01087fb05d90 - DestinationId: 3a355bd7-a417-4c6e-b569-3c61f5bce69f MaterialName: Агломерат\nMaterialLotId: bbafdba0-bf46-438b-8a13-4ede6524932d\n",
+      "sourceId": "5f8aa82b-0276-49df-9e67-01087fb05d90",
+      "sourceName": "SourceName",
+      "destinationId": "3a355bd7-a417-4c6e-b569-3c61f5bce69f",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "a3e4d601-c8cd-4164-8b98-620bbb5bc065",
+      "name": "SegmentName: 80. Перем. со склада соды в бункер соды  SegmentId: af6b1ced-d838-4a08-8989-0941856e8beb SourceId: 0d901a99-d04e-4050-bd19-ef7349095dca - DestinationId: 1e5b5329-2fbd-4185-8953-59a63ed8dda5 MaterialName: Сода\nMaterialLotId: a3e4d601-c8cd-4164-8b98-620bbb5bc065\n",
+      "sourceId": "0d901a99-d04e-4050-bd19-ef7349095dca",
+      "sourceName": "SourceName",
+      "destinationId": "1e5b5329-2fbd-4185-8953-59a63ed8dda5",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "c8ecae0c-1647-45c6-969d-affdcb3ea6b7",
+      "name": "SegmentName: 05. Перем.руды из бункеров обогащения ОФ 1 половина на СМС SegmentId: c0a49409-cc24-47a0-ba09-eff1fbd95ac8 SourceId: 61a1c43f-52cd-457a-a2e3-f02962a3d054 - DestinationId: 2a177e15-a4e0-46b7-8c51-986e0d704eac MaterialName: Руда\nMaterialLotId: c8ecae0c-1647-45c6-969d-affdcb3ea6b7\n",
+      "sourceId": "61a1c43f-52cd-457a-a2e3-f02962a3d054",
+      "sourceName": "SourceName",
+      "destinationId": "2a177e15-a4e0-46b7-8c51-986e0d704eac",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "01bb66a8-8849-4fec-9581-566788bfe026",
+      "name": "SegmentName: 77.  Перем. бентопрошка из силосов в расходные бункера бентопорошка SegmentId: fc543f16-9dc8-48e2-9d22-13b655124670 SourceId: a354c99f-af4d-4394-aa4d-18de81d645ca - DestinationId: c90e1fa2-a9cd-48f9-81ed-f55c80a83090 MaterialName: Бентопорошок\nMaterialLotId: 01bb66a8-8849-4fec-9581-566788bfe026\n",
+      "sourceId": "a354c99f-af4d-4394-aa4d-18de81d645ca",
+      "sourceName": "SourceName",
+      "destinationId": "c90e1fa2-a9cd-48f9-81ed-f55c80a83090",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "03928ea9-aaff-4c3a-a737-5ce86e165c7c",
+      "name": "SegmentName: 67.  Перем. бедного концентрата с объединения потоков концентрата в бункера с концентратом для агломерации SegmentId: e5d8b7a7-7d46-4b0e-967c-8a9e73132a79 SourceId: ef7fe280-f7ca-412b-aef8-21ccfd29287c - DestinationId: 5fb7ddac-ee4c-466f-9608-e02e328d3e44 MaterialName: Бедный концентрат\nMaterialLotId: 03928ea9-aaff-4c3a-a737-5ce86e165c7c\n",
+      "sourceId": "ef7fe280-f7ca-412b-aef8-21ccfd29287c",
+      "sourceName": "SourceName",
+      "destinationId": "5fb7ddac-ee4c-466f-9608-e02e328d3e44",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 116.04916032589705,
+      "measured": 11604.916032589705,
+      "bounds": {
+        "lowerBound": 11488.866872263807,
+        "upperBound": 11720.965192915603
+      }
+    },
+    {
+      "id": "93035114-ea6c-4bf8-bf6f-27d4ebd4d6ff",
+      "name": "SegmentName: 34. Перем. отсевов со склада отсевов в отвал SegmentId: 2f970254-5f1b-4700-b519-79e5ea36626c SourceId: 0fc5c9e1-16a8-4a0e-be40-ef714f0e3c21 - DestinationId:  MaterialName: Отсевы\nMaterialLotId: 93035114-ea6c-4bf8-bf6f-27d4ebd4d6ff\n",
+      "sourceId": "0fc5c9e1-16a8-4a0e-be40-ef714f0e3c21",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "11972d45-13c8-40c8-9aa4-d50ba8547ed4",
+      "name": "SegmentName: 46. Перем. щебня 10-15 мм с ДСК на склад ДСК №3 SegmentId: 814edfb1-21cc-4507-b0b1-3a592ad4d4d4 SourceId: 893c1930-271d-4401-8797-a9336149a5de - DestinationId: 223a435e-138f-4bfe-b8a8-119a1b5efa5a MaterialName: Щебень 10-15\nMaterialLotId: 11972d45-13c8-40c8-9aa4-d50ba8547ed4\n",
+      "sourceId": "893c1930-271d-4401-8797-a9336149a5de",
+      "sourceName": "SourceName",
+      "destinationId": "223a435e-138f-4bfe-b8a8-119a1b5efa5a",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "9c6156f6-7107-4125-b9dc-0e33a1904e41",
+      "name": "SegmentName: 79. Перем.  соды с точки приема на склад соды SegmentId: c7cc11cc-f020-4cd8-9ecd-93464dac8bf0 SourceId:  - DestinationId: 0d901a99-d04e-4050-bd19-ef7349095dca MaterialName: Сода\nMaterialLotId: 9c6156f6-7107-4125-b9dc-0e33a1904e41\n",
+      "sourceName": "SourceName",
+      "destinationId": "0d901a99-d04e-4050-bd19-ef7349095dca",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 0.00206520205012015,
+      "measured": 20.652020501201502,
+      "bounds": {
+        "lowerBound": 20.649955299151383,
+        "upperBound": 20.65408570325162
+      }
+    },
+    {
+      "id": "f7ce7efd-ab47-4385-9f0d-69a37d3ef58d",
+      "name": "SegmentName: 84. Перем. топлива со склада топлива на дробление и измельчение SegmentId: 48b2ecec-9bb7-4bb1-a000-97c3f9d741d2 SourceId: 763733fd-1138-4c85-b31d-070b49405917 - DestinationId: 9deb6e89-11c1-44c5-a4cf-2f4836841d58 MaterialName: Топливо\nMaterialLotId: f7ce7efd-ab47-4385-9f0d-69a37d3ef58d\n",
+      "sourceId": "763733fd-1138-4c85-b31d-070b49405917",
+      "sourceName": "SourceName",
+      "destinationId": "9deb6e89-11c1-44c5-a4cf-2f4836841d58",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "a044229b-68cd-48ad-9135-f42a20f2e135",
+      "name": "SegmentName: 28. Перем. на собственные нужды щебня  5 -20 ТУ со склада КСЩ щебня на отгрузку Авто SegmentId: 9a229601-e104-4584-b6f0-c311f3c195bc SourceId: 27ea8df3-b210-4813-8676-c4acbd7decb1 - DestinationId:  MaterialName: Щебень 5-20 ГОСТ\nMaterialLotId: a044229b-68cd-48ad-9135-f42a20f2e135\n",
+      "sourceId": "27ea8df3-b210-4813-8676-c4acbd7decb1",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 7.4895000000000005,
+      "measured": 1497.9,
+      "bounds": {
+        "lowerBound": 1490.4105000000002,
+        "upperBound": 1505.3895
+      }
+    },
+    {
+      "id": "833b5587-9ee2-4b26-b2c8-1e40294ebd05",
+      "name": "SegmentName: 128.  Перем. агломерата со склада агломерата на дозирование агломерата УГЖДТ SegmentId: 30b2b232-39bf-4820-92ab-704f37675a1c SourceId: 498ef678-b7f2-4f34-9e3e-c0f555f09f7b - DestinationId: 5f8aa82b-0276-49df-9e67-01087fb05d90 MaterialName: Агломерат\nMaterialLotId: 833b5587-9ee2-4b26-b2c8-1e40294ebd05\n",
+      "sourceId": "498ef678-b7f2-4f34-9e3e-c0f555f09f7b",
+      "sourceName": "SourceName",
+      "destinationId": "5f8aa82b-0276-49df-9e67-01087fb05d90",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 0
+      }
+    },
+    {
+      "id": "b095090a-ed19-4255-b133-17730d210cfd",
+      "name": "SegmentName: 76. Перем. бентопрошка после сушки в силоса (6шт) SegmentId: 2d1ba8f5-3c94-4d46-b6c9-54d84cd685b4 SourceId: fbf48615-5c8a-4130-aea4-0738aaee13f1 - DestinationId: a354c99f-af4d-4394-aa4d-18de81d645ca MaterialName: Бентопорошок\nMaterialLotId: b095090a-ed19-4255-b133-17730d210cfd\n",
+      "sourceId": "fbf48615-5c8a-4130-aea4-0738aaee13f1",
+      "sourceName": "SourceName",
+      "destinationId": "a354c99f-af4d-4394-aa4d-18de81d645ca",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "ec529140-e38d-473e-b02a-025ce7d2136f",
+      "name": "SegmentName: 110. Перем. шихты для цеха агломерата с дозирования (54,55) на объединение потоков шихты и горячего возврата  SegmentId: 4eeb943e-c812-49bb-8f59-ee11012f6da5 SourceId: 4c2a1390-8a16-4df1-933d-922ff654b712 - DestinationId: e1642c3b-bfff-4a0b-8407-ba2cadcf1744 MaterialName: Шихта\nMaterialLotId: ec529140-e38d-473e-b02a-025ce7d2136f\n",
+      "sourceId": "4c2a1390-8a16-4df1-933d-922ff654b712",
+      "sourceName": "SourceName",
+      "destinationId": "e1642c3b-bfff-4a0b-8407-ba2cadcf1744",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 390.6816019958976,
+      "measured": 13022.72006652992,
+      "bounds": {
+        "lowerBound": 12632.038464534024,
+        "upperBound": 13413.401668525818
+      }
+    },
+    {
+      "id": "b5fd4f1c-43ed-4444-a7b0-ad8d47f8c573",
+      "name": "SegmentName: 127. Перем. агломерата с дозирования на склад агломерата  SegmentId: bef5ed9a-5095-469b-9386-cc9858c38bab SourceId: 8d0dd1f0-5eb2-4290-8b61-cd2921e126ea - DestinationId: 498ef678-b7f2-4f34-9e3e-c0f555f09f7b MaterialName: Агломерат\nMaterialLotId: b5fd4f1c-43ed-4444-a7b0-ad8d47f8c573\n",
+      "sourceId": "8d0dd1f0-5eb2-4290-8b61-cd2921e126ea",
+      "sourceName": "SourceName",
+      "destinationId": "498ef678-b7f2-4f34-9e3e-c0f555f09f7b",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 0
+      }
+    },
+    {
+      "id": "6acb6415-9b58-468f-99ec-d484107b6e58",
+      "name": "SegmentName: 94. Перем.  шихты для окатышей с дозирования (конв 56,57) на дозирование и смешивание и окомкование SegmentId: d1f10002-9eea-42b4-a127-086815060436 SourceId: cd1e30a1-04a8-4131-8460-297209d1505c - DestinationId: d59cfedb-b9c0-4359-b4a4-a270553b3b6d MaterialName: Шихта\nMaterialLotId: 6acb6415-9b58-468f-99ec-d484107b6e58\n",
+      "sourceId": "cd1e30a1-04a8-4131-8460-297209d1505c",
+      "sourceName": "SourceName",
+      "destinationId": "d59cfedb-b9c0-4359-b4a4-a270553b3b6d",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 292.80102271486834,
+      "measured": 14640.051135743417,
+      "bounds": {
+        "lowerBound": 14347.25011302855,
+        "upperBound": 14932.852158458285
+      }
+    },
+    {
+      "id": "29217205-7053-4193-b7db-bce6226503af",
+      "name": "SegmentName: 48. Перем. щебня 4-8 мм с склада №3 на отгрузку (авто) SegmentId: 9bd0b579-758e-47fb-9e35-80c7c6644e66 SourceId: 296673cb-a9ee-4b70-952f-f70408477e7d - DestinationId:  MaterialName: Щебень 4-8\nMaterialLotId: 29217205-7053-4193-b7db-bce6226503af\n",
+      "sourceId": "296673cb-a9ee-4b70-952f-f70408477e7d",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 0.228,
+      "measured": 45.6,
+      "bounds": {
+        "lowerBound": 45.372,
+        "upperBound": 45.828
+      }
+    },
+    {
+      "id": "a6ed4cde-1a7e-47c2-8628-3b5a9cc00aa5",
+      "name": "SegmentName: 113. Перем. смешанной шихты в промежуточные бункера (8 шт) SegmentId: 2f7bc8ef-84fb-4f7f-8cae-3f7b3d535539 SourceId: b8630d45-4ac4-4f73-bb33-197939e6de00 - DestinationId: f108ac2e-54b7-4230-b72e-a1257682387d MaterialName: Шихта\nMaterialLotId: a6ed4cde-1a7e-47c2-8628-3b5a9cc00aa5\n",
+      "sourceId": "b8630d45-4ac4-4f73-bb33-197939e6de00",
+      "sourceName": "SourceName",
+      "destinationId": "f108ac2e-54b7-4230-b72e-a1257682387d",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "f14a3037-1c57-492a-9703-302a009dc765",
+      "name": "SegmentName: 132. Перем. бедного концентрата с склада №1 на отгрузку жд SegmentId: 09d796eb-84e0-455e-80ab-a59909cd26f6 SourceId: aade80e0-5b02-45d3-8f4d-680b6975d3ee - DestinationId:  MaterialName: Бедный концентрат\nMaterialLotId: f14a3037-1c57-492a-9703-302a009dc765\n",
+      "sourceId": "aade80e0-5b02-45d3-8f4d-680b6975d3ee",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 0
+      }
+    },
+    {
+      "id": "cb824a15-9f8a-4103-879d-f6e56bc34dd7",
+      "name": "SegmentName: 86. Перем. измельченного топлива из расходых бункеров на дозирование (конвейеры 54,55) SegmentId: 56a91d7b-22b5-42a7-b444-e12543a87715 SourceId: c3483051-b182-4de7-a392-8de636b7b265 - DestinationId: 4c2a1390-8a16-4df1-933d-922ff654b712 MaterialName: Измельченное топливо\nMaterialLotId: cb824a15-9f8a-4103-879d-f6e56bc34dd7\n",
+      "sourceId": "c3483051-b182-4de7-a392-8de636b7b265",
+      "sourceName": "SourceName",
+      "destinationId": "4c2a1390-8a16-4df1-933d-922ff654b712",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 18.99781805492966,
+      "measured": 633.2606018309887,
+      "bounds": {
+        "lowerBound": 614.262783776059,
+        "upperBound": 652.2584198859183
+      }
+    },
+    {
+      "id": "30cdaff6-da73-4d52-8a1d-6aea65a25ae0",
+      "name": "SegmentName: 27. Перем. на собственные нужды щебня  5 -20 ТУ со склада КСЩ щебня на отгрузку ЖД SegmentId: a26ab29c-77bc-4caa-bf69-742c9b85b4ef SourceId: 27ea8df3-b210-4813-8676-c4acbd7decb1 - DestinationId:  MaterialName: Щебень 5-20 ГОСТ\nMaterialLotId: 30cdaff6-da73-4d52-8a1d-6aea65a25ae0\n",
+      "sourceId": "27ea8df3-b210-4813-8676-c4acbd7decb1",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 7.47,
+      "measured": 1494,
+      "bounds": {
+        "lowerBound": 1486.53,
+        "upperBound": 1501.47
+      }
+    },
+    {
+      "id": "9f6c825f-a062-4785-a5f8-570ecad1a79d",
+      "name": "SegmentName: 1. Перем. сырой руды с точки приемки в промежуточные бункера SegmentId: c56b3134-cb90-4382-8f9a-7c166215ef6f SourceId:  - DestinationId: 89e0ca1f-3ef4-4e42-880e-eed0c9502cb2 MaterialName: Руда\nMaterialLotId: 9f6c825f-a062-4785-a5f8-570ecad1a79d\n",
+      "sourceName": "SourceName",
+      "destinationId": "89e0ca1f-3ef4-4e42-880e-eed0c9502cb2",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 1527.777109000001,
+      "measured": 152777.7109000001,
+      "bounds": {
+        "lowerBound": 151249.9337910001,
+        "upperBound": 154305.48800900008
+      }
+    },
+    {
+      "id": "dfb07806-775f-42be-8275-8ef182ea4e49",
+      "name": "SegmentName: 119. Перем. горячего возврата с грохочения агломерата на объединение шихты SegmentId: cea089f1-1ec2-482e-bfc5-d5b237a7a21b SourceId: 4aa382c6-e9af-4717-ad6c-7ef152975799 - DestinationId: e1642c3b-bfff-4a0b-8407-ba2cadcf1744 MaterialName: Горячий возврат\nMaterialLotId: dfb07806-775f-42be-8275-8ef182ea4e49\n",
+      "sourceId": "4aa382c6-e9af-4717-ad6c-7ef152975799",
+      "sourceName": "SourceName",
+      "destinationId": "e1642c3b-bfff-4a0b-8407-ba2cadcf1744",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "b3afff7e-bfee-4aa5-bbdd-221a031e3063",
+      "name": "SegmentName: 13. Перем.  на собственные нужды отсевов (0-10) со склада  на отгрузку Авто SegmentId: 9fc69b95-543f-4c39-8844-80937f4ae77b SourceId: 224af7f9-a7f5-4b7c-90ea-6c4620b96050 - DestinationId:  MaterialName: Отсевы 0-10\nMaterialLotId: b3afff7e-bfee-4aa5-bbdd-221a031e3063\n",
+      "sourceId": "224af7f9-a7f5-4b7c-90ea-6c4620b96050",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 5.892,
+      "measured": 1178.4,
+      "bounds": {
+        "lowerBound": 1172.508,
+        "upperBound": 1184.2920000000001
+      }
+    },
+    {
+      "id": "b7dfecee-f562-4bdb-b323-c9efb4c81a1f",
+      "name": "SegmentName: 116. Перем. из бункеров шихты на спекание аглошихты SegmentId: c3de5683-ff29-4c24-b113-fbfceef3cad5 SourceId: 9aa09831-c7a5-4bec-814b-d3ab3acfdc4c - DestinationId: e8470e51-70c7-4130-bd33-03b07d3158cf MaterialName: Шихта\nMaterialLotId: b7dfecee-f562-4bdb-b323-c9efb4c81a1f\n",
+      "sourceId": "9aa09831-c7a5-4bec-814b-d3ab3acfdc4c",
+      "sourceName": "SourceName",
+      "destinationId": "e8470e51-70c7-4130-bd33-03b07d3158cf",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "eeffadf9-5699-48e0-bdca-6a2915070f9f",
+      "name": "SegmentName: 12. Перем. на собственные нужды отсевов (0-10) со склада на отгрузку ж/д SegmentId: 7009193d-2d19-4717-9e37-402420ecbc3a SourceId: 224af7f9-a7f5-4b7c-90ea-6c4620b96050 - DestinationId:  MaterialName: Отсевы 0-10\nMaterialLotId: eeffadf9-5699-48e0-bdca-6a2915070f9f\n",
+      "sourceId": "224af7f9-a7f5-4b7c-90ea-6c4620b96050",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 14.17,
+      "measured": 2834,
+      "bounds": {
+        "lowerBound": 2819.83,
+        "upperBound": 2848.17
+      }
+    },
+    {
+      "id": "bdb3dcdc-442b-429c-a006-93a4c42153c8",
+      "name": "SegmentName: 44. Перем. щебня 5-10 мм с ДСК на склад ДСК №3 SegmentId: 1416ec8a-85c2-4ef3-8740-c43a5f02e62b SourceId: 893c1930-271d-4401-8797-a9336149a5de - DestinationId: c3524694-07a3-405d-a299-893e3c3704ee MaterialName: Щебень 5-10\nMaterialLotId: bdb3dcdc-442b-429c-a006-93a4c42153c8\n",
+      "sourceId": "893c1930-271d-4401-8797-a9336149a5de",
+      "sourceName": "SourceName",
+      "destinationId": "c3524694-07a3-405d-a299-893e3c3704ee",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "b969dce0-9056-4ebe-9834-48303fe3701a",
+      "name": "SegmentName: 75. Перем. модифицированной глины со склада корпуса бентонита на сушку SegmentId: 3c96b048-ef68-4311-9fc0-39a10cb2e644 SourceId: 56a180e2-197b-4ec9-bf8e-ed4e218bbacf - DestinationId: fbf48615-5c8a-4130-aea4-0738aaee13f1 MaterialName: Глина\nMaterialLotId: b969dce0-9056-4ebe-9834-48303fe3701a\n",
+      "sourceId": "56a180e2-197b-4ec9-bf8e-ed4e218bbacf",
+      "sourceName": "SourceName",
+      "destinationId": "fbf48615-5c8a-4130-aea4-0738aaee13f1",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "7c215553-c771-42de-b060-09fb774a3e35",
+      "name": "SegmentName: 09. Перем. грохоченных хвостов СМС на открытый склад щебня (20-40 мм) SegmentId: e420687d-12a0-4587-890e-8d3fdd471f8b SourceId: 27f9d05b-94a7-498b-a6b3-1122542f7a03 - DestinationId: 350af09e-9e06-4015-b71d-5773e3249d1b MaterialName: Щебень 20-40\nMaterialLotId: 7c215553-c771-42de-b060-09fb774a3e35\n",
+      "sourceId": "27f9d05b-94a7-498b-a6b3-1122542f7a03",
+      "sourceName": "SourceName",
+      "destinationId": "350af09e-9e06-4015-b71d-5773e3249d1b",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 27.683113208882336,
+      "measured": 2768.3113208882337,
+      "bounds": {
+        "lowerBound": 2740.6282076793514,
+        "upperBound": 2795.994434097116
+      }
+    },
+    {
+      "id": "f9e73289-3a54-42f5-ad28-81500202432e",
+      "name": "SegmentName: 23. Перем. щебня 5 -20 мм сорт Б на склад №1 (резервный) SegmentId: 771196b2-6228-44b5-8428-ca76df1a78fb SourceId: 27ea8df3-b210-4813-8676-c4acbd7decb1 - DestinationId: b5437eba-a9fc-462b-a2a0-b59014b191b6 MaterialName: Щебень 5-20 ТУ сорт Б\nMaterialLotId: f9e73289-3a54-42f5-ad28-81500202432e\n",
+      "sourceId": "27ea8df3-b210-4813-8676-c4acbd7decb1",
+      "sourceName": "SourceName",
+      "destinationId": "b5437eba-a9fc-462b-a2a0-b59014b191b6",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 2.49,
+      "measured": 498,
+      "bounds": {
+        "lowerBound": 495.51,
+        "upperBound": 500.49
+      }
+    },
+    {
+      "id": "1a2532da-a559-4341-b8b4-cde28271173b",
+      "name": "SegmentName: 82. Перем. топлива с точки приемки в бункер корпуса вагоноопрокидывателя  SegmentId: 101de971-4e68-4b8d-a631-47bcd6b9ff47 SourceId:  - DestinationId: 92cc5ab5-7cdd-4926-8246-a957c497042d MaterialName: Топливо\nMaterialLotId: 1a2532da-a559-4341-b8b4-cde28271173b\n",
+      "sourceName": "SourceName",
+      "destinationId": "92cc5ab5-7cdd-4926-8246-a957c497042d",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 19.566,
+      "measured": 1956.6,
+      "bounds": {
+        "lowerBound": 1937.0339999999999,
+        "upperBound": 1976.166
+      }
+    },
+    {
+      "id": "7e453ae7-b2a8-4f63-a387-3b138e85b3c8",
+      "name": "SegmentName: 61. Перем.  богатого концентрата с фильтрации на склад №2 SegmentId: 6bc92d9c-36e9-410b-bd02-bad12892371b SourceId: 0700f5c0-cba9-4c3d-9a6a-cec90b76eedd - DestinationId: 6d7af43a-096e-4329-8ecb-955965f041dd MaterialName: Богатый концентрат\nMaterialLotId: 7e453ae7-b2a8-4f63-a387-3b138e85b3c8\n",
+      "sourceId": "0700f5c0-cba9-4c3d-9a6a-cec90b76eedd",
+      "sourceName": "SourceName",
+      "destinationId": "6d7af43a-096e-4329-8ecb-955965f041dd",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "e330fe7f-a863-463f-9458-26cf12b253b3",
+      "name": "SegmentName: 121. Перем. постели с грохочения агломерата на грохочение постели SegmentId: 76a14777-a75f-4b2b-bb09-850efaa24560 SourceId: f906de1d-6083-4632-9f72-2408e510f1c2 - DestinationId: 4c8d8c10-3be7-4fbb-8081-8989154fbd0f MaterialName: Постель агломерата\nMaterialLotId: e330fe7f-a863-463f-9458-26cf12b253b3\n",
+      "sourceId": "f906de1d-6083-4632-9f72-2408e510f1c2",
+      "sourceName": "SourceName",
+      "destinationId": "4c8d8c10-3be7-4fbb-8081-8989154fbd0f",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 81.0122321495776,
+      "measured": 4050.6116074788797,
+      "bounds": {
+        "lowerBound": 3969.599375329302,
+        "upperBound": 4131.623839628457
+      }
+    },
+    {
+      "id": "51ab6691-0ff7-4563-8961-a5857d49d935",
+      "name": "SegmentName: 57. Перем. промпродукта с СМС в бункера промпродукта  SegmentId: ff146985-3a21-4559-912a-5720d64f7e6f SourceId: 2a177e15-a4e0-46b7-8c51-986e0d704eac - DestinationId: 645e8dca-e954-4760-9655-669cd8d7d33d MaterialName: Промпродукт\nMaterialLotId: 51ab6691-0ff7-4563-8961-a5857d49d935\n",
+      "sourceId": "2a177e15-a4e0-46b7-8c51-986e0d704eac",
+      "sourceName": "SourceName",
+      "destinationId": "645e8dca-e954-4760-9655-669cd8d7d33d",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "a126eb2d-29b1-4df7-8735-8b066cdbbd05",
+      "name": "SegmentName: 16. Перем.  отсевов (0-10) со склада в отвал  SegmentId: 1c2a4150-5b75-41e1-b295-e5d9c47fb4a4 SourceId: 224af7f9-a7f5-4b7c-90ea-6c4620b96050 - DestinationId:  MaterialName: Отсевы 0-10\nMaterialLotId: a126eb2d-29b1-4df7-8735-8b066cdbbd05\n",
+      "sourceId": "224af7f9-a7f5-4b7c-90ea-6c4620b96050",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "08f0c99e-dae7-4adc-98b1-b2f518848fd4",
+      "name": "SegmentName: 65. Перем. богатого концентрата со склада №2  на узел объединения потоков концентрата SegmentId: 1b2887b2-6197-401f-b260-aaf4131be2a9 SourceId: 6d7af43a-096e-4329-8ecb-955965f041dd - DestinationId: ef7fe280-f7ca-412b-aef8-21ccfd29287c MaterialName: Богатый концентрат\nMaterialLotId: 08f0c99e-dae7-4adc-98b1-b2f518848fd4\n",
+      "sourceId": "6d7af43a-096e-4329-8ecb-955965f041dd",
+      "sourceName": "SourceName",
+      "destinationId": "ef7fe280-f7ca-412b-aef8-21ccfd29287c",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "e48ef748-5503-4345-8893-07991331f77b",
+      "name": "SegmentName: 115. Перем. шихты с окомкования в бункера шихты  SegmentId: 0236c70b-3dc5-47ae-9bd4-af2cf4efb7ef SourceId: 1a5d13e1-fa32-40cd-b3dd-b9deb8738a4b - DestinationId: 9aa09831-c7a5-4bec-814b-d3ab3acfdc4c MaterialName: Шихта\nMaterialLotId: e48ef748-5503-4345-8893-07991331f77b\n",
+      "sourceId": "1a5d13e1-fa32-40cd-b3dd-b9deb8738a4b",
+      "sourceName": "SourceName",
+      "destinationId": "9aa09831-c7a5-4bec-814b-d3ab3acfdc4c",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 1589.7634817710511,
+      "measured": 15897.63481771051,
+      "bounds": {
+        "lowerBound": 14307.871335939459,
+        "upperBound": 17487.39829948156
+      }
+    },
+    {
+      "id": "7f445c79-64fe-4524-a967-fd0adb72caaa",
+      "name": "SegmentName: 2. Перем. руды из промежуточных бункеров на дробление и грохочение SegmentId: e4c45782-929f-4077-ac1b-1002663a1afb SourceId: 89e0ca1f-3ef4-4e42-880e-eed0c9502cb2 - DestinationId: 58b0587b-5401-4c5b-b141-cbc6bfbf6aad MaterialName: Руда\nMaterialLotId: 7f445c79-64fe-4524-a967-fd0adb72caaa\n",
+      "sourceId": "89e0ca1f-3ef4-4e42-880e-eed0c9502cb2",
+      "sourceName": "SourceName",
+      "destinationId": "58b0587b-5401-4c5b-b141-cbc6bfbf6aad",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "2e1c8e6c-65a9-4e99-8e08-a6ea7e1b81c5",
+      "name": "SegmentName: 72. Перем. глины из бункера глинорыхлителя на измельчение  SegmentId: 8fb757fa-c2b1-43b1-8a4b-db3f120c37d2 SourceId: 77e9d03a-4e23-4d16-8cce-900c08c44fd8 - DestinationId: 3125fdbb-455a-4c79-bc9f-e9a7a2c7ec8d MaterialName: Глина\nMaterialLotId: 2e1c8e6c-65a9-4e99-8e08-a6ea7e1b81c5\n",
+      "sourceId": "77e9d03a-4e23-4d16-8cce-900c08c44fd8",
+      "sourceName": "SourceName",
+      "destinationId": "3125fdbb-455a-4c79-bc9f-e9a7a2c7ec8d",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "3ea8459d-27f4-4ee2-b413-2626a1d8d599",
+      "name": "SegmentName: 66. Перем. богатого концентрата с  объединения потоков концентрата  в бункера с концентратом для окатышей SegmentId: 53818159-7b06-469c-b31c-2ff5f00da745 SourceId: ef7fe280-f7ca-412b-aef8-21ccfd29287c - DestinationId: b65d53e5-c023-48e7-a529-76bc43cad511 MaterialName: Богатый концентрат\nMaterialLotId: 3ea8459d-27f4-4ee2-b413-2626a1d8d599\n",
+      "sourceId": "ef7fe280-f7ca-412b-aef8-21ccfd29287c",
+      "sourceName": "SourceName",
+      "destinationId": "b65d53e5-c023-48e7-a529-76bc43cad511",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 160.23943691443952,
+      "measured": 16023.943691443952,
+      "bounds": {
+        "lowerBound": 15863.704254529512,
+        "upperBound": 16184.183128358392
+      }
+    },
+    {
+      "id": "a366db09-81df-4abb-b728-0c69ac0d4de2",
+      "name": "SegmentName: 37. Перем. потребителю щебня (5-20 мм) ГОСТ со склада на отгрузку Авто SegmentId: 71400e9a-05f3-4063-9f12-b0ec58604fa5 SourceId: f9912952-eefa-4427-8e50-1bd12bc06816 - DestinationId:  MaterialName: Щебень 5-20 ГОСТ\nMaterialLotId: a366db09-81df-4abb-b728-0c69ac0d4de2\n",
+      "sourceId": "f9912952-eefa-4427-8e50-1bd12bc06816",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 2.5225,
+      "measured": 504.5,
+      "bounds": {
+        "lowerBound": 501.9775,
+        "upperBound": 507.0225
+      }
+    },
+    {
+      "id": "f2983884-bde0-480b-9ce3-5ce3005655fb",
+      "name": "SegmentName: 33. Перем. щебня 5-20 ГОСТ с узла рассева на склад SegmentId: 62b8e717-d826-4259-931f-6825ae3f5496 SourceId: 347e240f-3d6b-4cbc-bc50-04da92e943fb - DestinationId: f9912952-eefa-4427-8e50-1bd12bc06816 MaterialName: Щебень 5-20 ГОСТ\nMaterialLotId: f2983884-bde0-480b-9ce3-5ce3005655fb\n",
+      "sourceId": "347e240f-3d6b-4cbc-bc50-04da92e943fb",
+      "sourceName": "SourceName",
+      "destinationId": "f9912952-eefa-4427-8e50-1bd12bc06816",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "e934d9a2-8c36-4b3d-a657-dfabc7c2e0c0",
+      "name": "SegmentName: 83. Перем. топлива из бункера корпуса вагоноопрокидователя на склад топлива  SegmentId: fa15a6f6-ff1d-485f-b0dc-d9facd5703cc SourceId: 92cc5ab5-7cdd-4926-8246-a957c497042d - DestinationId: 763733fd-1138-4c85-b31d-070b49405917 MaterialName: Топливо\nMaterialLotId: e934d9a2-8c36-4b3d-a657-dfabc7c2e0c0\n",
+      "sourceId": "92cc5ab5-7cdd-4926-8246-a957c497042d",
+      "sourceName": "SourceName",
+      "destinationId": "763733fd-1138-4c85-b31d-070b49405917",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "bd536b4d-48b8-4202-b112-ae2753518b9c",
+      "name": "SegmentName: 101. Перем. окатышей с обжига на грохочение SegmentId: ad61f9be-c013-4ba6-8581-79c3afbeff1a SourceId: 3604ae53-6fff-4222-956c-40b4ea18fffe - DestinationId: 61d971cd-09a4-4686-9c90-983f63e20c83 MaterialName: Окатыши\nMaterialLotId: bd536b4d-48b8-4202-b112-ae2753518b9c\n",
+      "sourceId": "3604ae53-6fff-4222-956c-40b4ea18fffe",
+      "sourceName": "SourceName",
+      "destinationId": "61d971cd-09a4-4686-9c90-983f63e20c83",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "0d0343b4-64f1-4b3d-ba9d-3c52c58e99ca",
+      "name": "SegmentName: 64.  Перем. бедного концентрата со склада №1 на узел объединения потоков концентрата SegmentId: 1c631fbd-b2b7-420a-82c8-f8871f9bce69 SourceId: aade80e0-5b02-45d3-8f4d-680b6975d3ee - DestinationId: ef7fe280-f7ca-412b-aef8-21ccfd29287c MaterialName: Бедный концентрат\nMaterialLotId: 0d0343b4-64f1-4b3d-ba9d-3c52c58e99ca\n",
+      "sourceId": "aade80e0-5b02-45d3-8f4d-680b6975d3ee",
+      "sourceName": "SourceName",
+      "destinationId": "ef7fe280-f7ca-412b-aef8-21ccfd29287c",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "9e154779-799c-42c4-9a75-0f5022641d57",
+      "name": "SegmentName: 07. Перем. хвостов  с СМС в бункер хвостов  SegmentId: a01ba0da-db36-44b8-ab86-ab32206ed230 SourceId: 2a177e15-a4e0-46b7-8c51-986e0d704eac - DestinationId: 3872a36e-f961-4d38-9b3b-cdff911c582f MaterialName: Хвосты СМС\nMaterialLotId: 9e154779-799c-42c4-9a75-0f5022641d57\n",
+      "sourceId": "2a177e15-a4e0-46b7-8c51-986e0d704eac",
+      "sourceName": "SourceName",
+      "destinationId": "3872a36e-f961-4d38-9b3b-cdff911c582f",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "b84d45b8-9683-40fb-8940-2294cc715154",
+      "name": "SegmentName: 06. Хран. хвостов в бункере хвостов SegmentId: 3872a36e-f961-4d38-9b3b-cdff911c582f Хвосты СМС.06. Хран. хвостов в бункере хвостов. На начало \nMaterialName: Хвосты СМС\nMaterialLotId: b84d45b8-9683-40fb-8940-2294cc715154\n",
+      "sourceName": "SourceName",
+      "destinationId": "3872a36e-f961-4d38-9b3b-cdff911c582f",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "08d86435-2e45-4ba4-862c-ccb42550c0d4",
+      "name": "SegmentName: 06. Хран. хвостов в бункере хвостов SegmentId: 3872a36e-f961-4d38-9b3b-cdff911c582f Хвосты СМС.06. Хран. хвостов в бункере хвостов. На конец \nMaterialName: Хвосты СМС\nMaterialLotId: 08d86435-2e45-4ba4-862c-ccb42550c0d4\n",
+      "sourceId": "3872a36e-f961-4d38-9b3b-cdff911c582f",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "11c35b9d-fb55-4e5a-a899-26bbd5dea1c8",
+      "name": "SegmentName: 11. Хран. щебня (5-20 мм) на складе №1 (резервный) SegmentId: b5437eba-a9fc-462b-a2a0-b59014b191b6 Щебень 5-20.11. Хран. щебня (5-20 мм) на складе №1 (резервный). На начало \nMaterialName: Щебень 5-20\nMaterialLotId: 11c35b9d-fb55-4e5a-a899-26bbd5dea1c8\n",
+      "sourceName": "SourceName",
+      "destinationId": "b5437eba-a9fc-462b-a2a0-b59014b191b6",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "f57b2cf8-d0de-4404-a432-96f8b38431c0",
+      "name": "SegmentName: 11. Хран. щебня (5-20 мм) на складе №1 (резервный) SegmentId: b5437eba-a9fc-462b-a2a0-b59014b191b6 Щебень 5-20.11. Хран. щебня (5-20 мм) на складе №1 (резервный). На конец \nMaterialName: Щебень 5-20\nMaterialLotId: f57b2cf8-d0de-4404-a432-96f8b38431c0\n",
+      "sourceId": "b5437eba-a9fc-462b-a2a0-b59014b191b6",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "6417eeeb-9ac9-455d-98c6-b99b6bf5b9d8",
+      "name": "SegmentName: 19. Хран. щебня 4-8 мм на складе №3 SegmentId: 296673cb-a9ee-4b70-952f-f70408477e7d Щебень 4-8.19. Хран. щебня 4-8 мм на складе №3. На начало \nMaterialName: Щебень 4-8\nMaterialLotId: 6417eeeb-9ac9-455d-98c6-b99b6bf5b9d8\n",
+      "sourceName": "SourceName",
+      "destinationId": "296673cb-a9ee-4b70-952f-f70408477e7d",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "c7b49145-56f8-49ca-8406-82485801dbd0",
+      "name": "SegmentName: 19. Хран. щебня 4-8 мм на складе №3 SegmentId: 296673cb-a9ee-4b70-952f-f70408477e7d Щебень 4-8.19. Хран. щебня 4-8 мм на складе №3. На конец \nMaterialName: Щебень 4-8\nMaterialLotId: c7b49145-56f8-49ca-8406-82485801dbd0\n",
+      "sourceId": "296673cb-a9ee-4b70-952f-f70408477e7d",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "c1510ac0-fb85-478f-926d-ddddc293239c",
+      "name": "SegmentName: 27.Хран. богатого концентрата на складе №2 SegmentId: 6d7af43a-096e-4329-8ecb-955965f041dd Богатый концентрат.27.Хран. богатого концентрата на складе №2. На начало \nMaterialName: Богатый концентрат\nMaterialLotId: c1510ac0-fb85-478f-926d-ddddc293239c\n",
+      "sourceName": "SourceName",
+      "destinationId": "6d7af43a-096e-4329-8ecb-955965f041dd",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 50905.8,
+      "bounds": {
+        "lowerBound": 50905.8,
+        "upperBound": 50905.8
+      }
+    },
+    {
+      "id": "ff327638-4b4a-482c-bef5-f7766e19617d",
+      "name": "SegmentName: 27.Хран. богатого концентрата на складе №2 SegmentId: 6d7af43a-096e-4329-8ecb-955965f041dd Богатый концентрат.27.Хран. богатого концентрата на складе №2. На конец \nMaterialName: Богатый концентрат\nMaterialLotId: ff327638-4b4a-482c-bef5-f7766e19617d\n",
+      "sourceId": "6d7af43a-096e-4329-8ecb-955965f041dd",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 50905.8,
+      "bounds": {
+        "lowerBound": 50905.8,
+        "upperBound": 50905.8
+      }
+    },
+    {
+      "id": "ceb52c43-b9db-4cfd-b63e-290988ec6c12",
+      "name": "SegmentName: 13. Хран. отсевов на складе отсевов  SegmentId: 0fc5c9e1-16a8-4a0e-be40-ef714f0e3c21 Отсевы.13. Хран. отсевов на складе отсевов . На начало \nMaterialName: Отсевы\nMaterialLotId: ceb52c43-b9db-4cfd-b63e-290988ec6c12\n",
+      "sourceName": "SourceName",
+      "destinationId": "0fc5c9e1-16a8-4a0e-be40-ef714f0e3c21",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "b4ca353c-771e-44d6-9ed1-7faab0069cce",
+      "name": "SegmentName: 13. Хран. отсевов на складе отсевов  SegmentId: 0fc5c9e1-16a8-4a0e-be40-ef714f0e3c21 Отсевы.13. Хран. отсевов на складе отсевов . На конец \nMaterialName: Отсевы\nMaterialLotId: b4ca353c-771e-44d6-9ed1-7faab0069cce\n",
+      "sourceId": "0fc5c9e1-16a8-4a0e-be40-ef714f0e3c21",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "5c2ffbff-e838-4fb5-b49e-0cf4d1919976",
+      "name": "SegmentName: 16. Хран. отсевов на складе ДСК №3 SegmentId: 4bb6c962-42f4-4b18-a8e5-40858d290de6 Отсевы.16. Хран. отсевов на складе ДСК №3. На начало \nMaterialName: Отсевы\nMaterialLotId: 5c2ffbff-e838-4fb5-b49e-0cf4d1919976\n",
+      "sourceName": "SourceName",
+      "destinationId": "4bb6c962-42f4-4b18-a8e5-40858d290de6",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "5b147db4-6beb-459c-b2f3-6db181f3c799",
+      "name": "SegmentName: 16. Хран. отсевов на складе ДСК №3 SegmentId: 4bb6c962-42f4-4b18-a8e5-40858d290de6 Отсевы.16. Хран. отсевов на складе ДСК №3. На конец \nMaterialName: Отсевы\nMaterialLotId: 5b147db4-6beb-459c-b2f3-6db181f3c799\n",
+      "sourceId": "4bb6c962-42f4-4b18-a8e5-40858d290de6",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "6ac629a8-edc9-4472-aedd-2185061e5dda",
+      "name": "SegmentName: 02. Хран. комовой глины в бункере глинорыхлителя SegmentId: 77e9d03a-4e23-4d16-8cce-900c08c44fd8 Глина.02. Хран. комовой глины в бункере глинорыхлителя. На начало \nMaterialName: Глина\nMaterialLotId: 6ac629a8-edc9-4472-aedd-2185061e5dda\n",
+      "sourceName": "SourceName",
+      "destinationId": "77e9d03a-4e23-4d16-8cce-900c08c44fd8",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "14dda05c-81de-4918-85b6-86d236e214b6",
+      "name": "SegmentName: 02. Хран. комовой глины в бункере глинорыхлителя SegmentId: 77e9d03a-4e23-4d16-8cce-900c08c44fd8 Глина.02. Хран. комовой глины в бункере глинорыхлителя. На конец \nMaterialName: Глина\nMaterialLotId: 14dda05c-81de-4918-85b6-86d236e214b6\n",
+      "sourceId": "77e9d03a-4e23-4d16-8cce-900c08c44fd8",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "7f67a0ff-5341-4225-8f95-c02c6b284b68",
+      "name": "SegmentName: 15. Хран. известняка в бункере корпуса вагоопрокидователя  SegmentId: 24c122a4-8efa-418f-ba01-23a1b354ed92 Известняк.15. Хран. известняка в бункере корпуса вагоопрокидователя . На начало \nMaterialName: Известняк\nMaterialLotId: 7f67a0ff-5341-4225-8f95-c02c6b284b68\n",
+      "sourceName": "SourceName",
+      "destinationId": "24c122a4-8efa-418f-ba01-23a1b354ed92",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "859b3469-1077-46d0-9fb2-f2b78a07cf48",
+      "name": "SegmentName: 15. Хран. известняка в бункере корпуса вагоопрокидователя  SegmentId: 24c122a4-8efa-418f-ba01-23a1b354ed92 Известняк.15. Хран. известняка в бункере корпуса вагоопрокидователя . На конец \nMaterialName: Известняк\nMaterialLotId: 859b3469-1077-46d0-9fb2-f2b78a07cf48\n",
+      "sourceId": "24c122a4-8efa-418f-ba01-23a1b354ed92",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "9b76481a-b623-447b-b4eb-cdac7d6f5967",
+      "name": "SegmentName: 03. Хран. шихты в промежуточных бункерах  SegmentId: f108ac2e-54b7-4230-b72e-a1257682387d Шихта.03. Хран. шихты в промежуточных бункерах . На начало \nMaterialName: Шихта\nMaterialLotId: 9b76481a-b623-447b-b4eb-cdac7d6f5967\n",
+      "sourceName": "SourceName",
+      "destinationId": "f108ac2e-54b7-4230-b72e-a1257682387d",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "f914c763-be19-49dc-a973-da31e0d5451d",
+      "name": "SegmentName: 03. Хран. шихты в промежуточных бункерах  SegmentId: f108ac2e-54b7-4230-b72e-a1257682387d Шихта.03. Хран. шихты в промежуточных бункерах . На конец \nMaterialName: Шихта\nMaterialLotId: f914c763-be19-49dc-a973-da31e0d5451d\n",
+      "sourceId": "f108ac2e-54b7-4230-b72e-a1257682387d",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "12c27119-c502-44b3-9b3e-5a69b0fe4c42",
+      "name": "SegmentName: 02. Хран. окатышей в вагонах (ЗНК) SegmentId: 2b8539d9-4507-41e2-b087-56b36e3a8870 Окатыши.02. Хран. окатышей в вагонах (ЗНК). На начало \nMaterialName: Окатыши\nMaterialLotId: 12c27119-c502-44b3-9b3e-5a69b0fe4c42\n",
+      "sourceName": "SourceName",
+      "destinationId": "2b8539d9-4507-41e2-b087-56b36e3a8870",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "a312070a-0d7b-4e5b-a514-989cb21aff1c",
+      "name": "SegmentName: 02. Хран. окатышей в вагонах (ЗНК) SegmentId: 2b8539d9-4507-41e2-b087-56b36e3a8870 Окатыши.02. Хран. окатышей в вагонах (ЗНК). На конец \nMaterialName: Окатыши\nMaterialLotId: a312070a-0d7b-4e5b-a514-989cb21aff1c\n",
+      "sourceId": "2b8539d9-4507-41e2-b087-56b36e3a8870",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "23053d5f-e093-47d9-8161-736f96ad9c59",
+      "name": "SegmentName: 18. Хран. измельченного известняка в расходных бункерах с известняком  SegmentId: 8530ec5c-06f9-4054-a943-31a1d53f246c Измельченный известняк.18. Хран. измельченного известняка в расходных бункерах с известняком . На начало \nMaterialName: Измельченный известняк\nMaterialLotId: 23053d5f-e093-47d9-8161-736f96ad9c59\n",
+      "sourceName": "SourceName",
+      "destinationId": "8530ec5c-06f9-4054-a943-31a1d53f246c",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "b0a0b161-dab2-4558-91e9-c3409b5688ad",
+      "name": "SegmentName: 18. Хран. измельченного известняка в расходных бункерах с известняком  SegmentId: 8530ec5c-06f9-4054-a943-31a1d53f246c Измельченный известняк.18. Хран. измельченного известняка в расходных бункерах с известняком . На конец \nMaterialName: Измельченный известняк\nMaterialLotId: b0a0b161-dab2-4558-91e9-c3409b5688ad\n",
+      "sourceId": "8530ec5c-06f9-4054-a943-31a1d53f246c",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "ad33511e-2d29-4c78-8501-212b10064fc3",
+      "name": "SegmentName: 10. Хран. щебня на открытом складе отсевов (0-10 мм) SegmentId: 224af7f9-a7f5-4b7c-90ea-6c4620b96050 Отсевы 0-10.10. Хран. щебня на открытом складе отсевов (0-10 мм). На начало \nMaterialName: Отсевы 0-10\nMaterialLotId: ad33511e-2d29-4c78-8501-212b10064fc3\n",
+      "sourceName": "SourceName",
+      "destinationId": "224af7f9-a7f5-4b7c-90ea-6c4620b96050",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "daf3a5fe-b185-4ca0-81db-6a8ae2d3f7d3",
+      "name": "SegmentName: 10. Хран. щебня на открытом складе отсевов (0-10 мм) SegmentId: 224af7f9-a7f5-4b7c-90ea-6c4620b96050 Отсевы 0-10.10. Хран. щебня на открытом складе отсевов (0-10 мм). На конец \nMaterialName: Отсевы 0-10\nMaterialLotId: daf3a5fe-b185-4ca0-81db-6a8ae2d3f7d3\n",
+      "sourceId": "224af7f9-a7f5-4b7c-90ea-6c4620b96050",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "2ed87024-f371-4eaf-8e3e-4e7613abe9de",
+      "name": "SegmentName: 04. Хран.  дробленой руды в бункерах обогащения ОФ 2 половина SegmentId: ff563aaf-13b1-40a2-9e42-b36fa288ab96 Руда.04. Хран.  дробленой руды в бункерах обогащения ОФ 2 половина. На начало \nMaterialName: Руда\nMaterialLotId: 2ed87024-f371-4eaf-8e3e-4e7613abe9de\n",
+      "sourceName": "SourceName",
+      "destinationId": "ff563aaf-13b1-40a2-9e42-b36fa288ab96",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 15.68614151220703,
+      "measured": 15686.14151220703,
+      "bounds": {
+        "lowerBound": 15670.455370694823,
+        "upperBound": 15701.827653719238
+      }
+    },
+    {
+      "id": "7edfcf14-2c36-4a3f-84bf-8aa8c5a78ea1",
+      "name": "SegmentName: 04. Хран.  дробленой руды в бункерах обогащения ОФ 2 половина SegmentId: ff563aaf-13b1-40a2-9e42-b36fa288ab96 Руда.04. Хран.  дробленой руды в бункерах обогащения ОФ 2 половина. На конец \nMaterialName: Руда\nMaterialLotId: 7edfcf14-2c36-4a3f-84bf-8aa8c5a78ea1\n",
+      "sourceId": "ff563aaf-13b1-40a2-9e42-b36fa288ab96",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 15.162053005859374,
+      "measured": 15162.053005859374,
+      "bounds": {
+        "lowerBound": 15146.890952853515,
+        "upperBound": 15177.215058865233
+      }
+    },
+    {
+      "id": "46b399ca-f28f-4525-9ebb-2b04b22c2513",
+      "name": "SegmentName: 14. Хран. щебня \u002B20 мм на складе  SegmentId: 83aebc0f-8375-4d53-a921-33b1e5eb370b Щебень \u002B20 мм.14. Хран. щебня \u002B20 мм на складе . На начало \nMaterialName: Щебень \u002B20 мм\nMaterialLotId: 46b399ca-f28f-4525-9ebb-2b04b22c2513\n",
+      "sourceName": "SourceName",
+      "destinationId": "83aebc0f-8375-4d53-a921-33b1e5eb370b",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "fe22f894-5e61-420c-a766-7159bb055c38",
+      "name": "SegmentName: 14. Хран. щебня \u002B20 мм на складе  SegmentId: 83aebc0f-8375-4d53-a921-33b1e5eb370b Щебень \u002B20 мм.14. Хран. щебня \u002B20 мм на складе . На конец \nMaterialName: Щебень \u002B20 мм\nMaterialLotId: fe22f894-5e61-420c-a766-7159bb055c38\n",
+      "sourceId": "83aebc0f-8375-4d53-a921-33b1e5eb370b",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "4a4df366-1731-4d44-9394-94b4e4f8ac20",
+      "name": "SegmentName: 07. Хран. бенторошка в силосах (6шт) SegmentId: a354c99f-af4d-4394-aa4d-18de81d645ca Бентопорошок.07. Хран. бенторошка в силосах (6шт). На начало \nMaterialName: Бентопорошок\nMaterialLotId: 4a4df366-1731-4d44-9394-94b4e4f8ac20\n",
+      "sourceName": "SourceName",
+      "destinationId": "a354c99f-af4d-4394-aa4d-18de81d645ca",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "524ffb2c-2aa6-47c6-80d3-bd5ed474c462",
+      "name": "SegmentName: 07. Хран. бенторошка в силосах (6шт) SegmentId: a354c99f-af4d-4394-aa4d-18de81d645ca Бентопорошок.07. Хран. бенторошка в силосах (6шт). На конец \nMaterialName: Бентопорошок\nMaterialLotId: 524ffb2c-2aa6-47c6-80d3-bd5ed474c462\n",
+      "sourceId": "a354c99f-af4d-4394-aa4d-18de81d645ca",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "a728cb03-beca-4f4f-8b8b-e09b429b20e1",
+      "name": "SegmentName: 15. Хран. щебня 5-20 мм ГОСТ на складе SegmentId: f9912952-eefa-4427-8e50-1bd12bc06816 Щебень 5-20 мм ГОСТ.15. Хран. щебня 5-20 мм ГОСТ на складе. На начало \nMaterialName: Щебень 5-20 мм ГОСТ\nMaterialLotId: a728cb03-beca-4f4f-8b8b-e09b429b20e1\n",
+      "sourceName": "SourceName",
+      "destinationId": "f9912952-eefa-4427-8e50-1bd12bc06816",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "e727f73b-0cb0-455b-ae2d-f8bf2f6c360d",
+      "name": "SegmentName: 15. Хран. щебня 5-20 мм ГОСТ на складе SegmentId: f9912952-eefa-4427-8e50-1bd12bc06816 Щебень 5-20 мм ГОСТ.15. Хран. щебня 5-20 мм ГОСТ на складе. На конец \nMaterialName: Щебень 5-20 мм ГОСТ\nMaterialLotId: e727f73b-0cb0-455b-ae2d-f8bf2f6c360d\n",
+      "sourceId": "f9912952-eefa-4427-8e50-1bd12bc06816",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "7ad840e3-e75d-405d-bc5d-2f7379005bcc",
+      "name": "SegmentName: 10. Хран. соды в бункере соды SegmentId: 1e5b5329-2fbd-4185-8953-59a63ed8dda5 Сода.10. Хран. соды в бункере соды. На начало \nMaterialName: Сода\nMaterialLotId: 7ad840e3-e75d-405d-bc5d-2f7379005bcc\n",
+      "sourceName": "SourceName",
+      "destinationId": "1e5b5329-2fbd-4185-8953-59a63ed8dda5",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "0fd40752-9bb3-4767-8a62-462a964cc87d",
+      "name": "SegmentName: 10. Хран. соды в бункере соды SegmentId: 1e5b5329-2fbd-4185-8953-59a63ed8dda5 Сода.10. Хран. соды в бункере соды. На конец \nMaterialName: Сода\nMaterialLotId: 0fd40752-9bb3-4767-8a62-462a964cc87d\n",
+      "sourceId": "1e5b5329-2fbd-4185-8953-59a63ed8dda5",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "2a4f11bf-7845-44e1-857c-cee995bbf2e4",
+      "name": "SegmentName: 12. Хран. топлива на складе топлива SegmentId: 763733fd-1138-4c85-b31d-070b49405917 Топливо.12. Хран. топлива на складе топлива. На начало \nMaterialName: Топливо\nMaterialLotId: 2a4f11bf-7845-44e1-857c-cee995bbf2e4\n",
+      "sourceName": "SourceName",
+      "destinationId": "763733fd-1138-4c85-b31d-070b49405917",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "ce53756e-909c-4c20-bf57-4acde3b11453",
+      "name": "SegmentName: 12. Хран. топлива на складе топлива SegmentId: 763733fd-1138-4c85-b31d-070b49405917 Топливо.12. Хран. топлива на складе топлива. На конец \nMaterialName: Топливо\nMaterialLotId: ce53756e-909c-4c20-bf57-4acde3b11453\n",
+      "sourceId": "763733fd-1138-4c85-b31d-070b49405917",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "54b7bf05-b4cf-4580-9d2c-91d77dd1e8e4",
+      "name": "SegmentName: 08. Хран.  щебня на открытом складе щебня (20-40 мм) SegmentId: 350af09e-9e06-4015-b71d-5773e3249d1b Щебень 20-40.08. Хран.  щебня на открытом складе щебня (20-40 мм). На начало \nMaterialName: Щебень 20-40\nMaterialLotId: 54b7bf05-b4cf-4580-9d2c-91d77dd1e8e4\n",
+      "sourceName": "SourceName",
+      "destinationId": "350af09e-9e06-4015-b71d-5773e3249d1b",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "c729833e-a2f8-4096-9f09-897f6cad1351",
+      "name": "SegmentName: 08. Хран.  щебня на открытом складе щебня (20-40 мм) SegmentId: 350af09e-9e06-4015-b71d-5773e3249d1b Щебень 20-40.08. Хран.  щебня на открытом складе щебня (20-40 мм). На конец \nMaterialName: Щебень 20-40\nMaterialLotId: c729833e-a2f8-4096-9f09-897f6cad1351\n",
+      "sourceId": "350af09e-9e06-4015-b71d-5773e3249d1b",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "dbeaf906-6838-4b95-b311-b6b61076a500",
+      "name": "SegmentName: 23. Хран. щебня 10-15 мм на складе №3 SegmentId: 223a435e-138f-4bfe-b8a8-119a1b5efa5a Щебень 10-15.23. Хран. щебня 10-15 мм на складе №3. На начало \nMaterialName: Щебень 10-15\nMaterialLotId: dbeaf906-6838-4b95-b311-b6b61076a500\n",
+      "sourceName": "SourceName",
+      "destinationId": "223a435e-138f-4bfe-b8a8-119a1b5efa5a",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "195012de-83c2-4022-a169-76f2763b2a1d",
+      "name": "SegmentName: 23. Хран. щебня 10-15 мм на складе №3 SegmentId: 223a435e-138f-4bfe-b8a8-119a1b5efa5a Щебень 10-15.23. Хран. щебня 10-15 мм на складе №3. На конец \nMaterialName: Щебень 10-15\nMaterialLotId: 195012de-83c2-4022-a169-76f2763b2a1d\n",
+      "sourceId": "223a435e-138f-4bfe-b8a8-119a1b5efa5a",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "449458e0-939a-41e8-bdd5-bd2c5bcee833",
+      "name": "SegmentName: 01. Хран.  комовой глины на складе корпуса модификации SegmentId: a7ce8deb-0c09-4386-bf06-959e9b85e5a1 Глина.01. Хран.  комовой глины на складе корпуса модификации. На начало \nMaterialName: Глина\nMaterialLotId: 449458e0-939a-41e8-bdd5-bd2c5bcee833\n",
+      "sourceName": "SourceName",
+      "destinationId": "a7ce8deb-0c09-4386-bf06-959e9b85e5a1",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "486e1348-0438-4352-9ca7-ca0843af2b81",
+      "name": "SegmentName: 01. Хран.  комовой глины на складе корпуса модификации SegmentId: a7ce8deb-0c09-4386-bf06-959e9b85e5a1 Глина.01. Хран.  комовой глины на складе корпуса модификации. На конец \nMaterialName: Глина\nMaterialLotId: 486e1348-0438-4352-9ca7-ca0843af2b81\n",
+      "sourceId": "a7ce8deb-0c09-4386-bf06-959e9b85e5a1",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "898bc0db-6cde-4c76-820c-9d54bd24c7b2",
+      "name": "SegmentName: 03. Хран.  дробленой руды в бункерах обогащения ОФ 1 половина SegmentId: 61a1c43f-52cd-457a-a2e3-f02962a3d054 Руда.03. Хран.  дробленой руды в бункерах обогащения ОФ 1 половина. На начало \nMaterialName: Руда\nMaterialLotId: 898bc0db-6cde-4c76-820c-9d54bd24c7b2\n",
+      "sourceName": "SourceName",
+      "destinationId": "61a1c43f-52cd-457a-a2e3-f02962a3d054",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 17.18182714746094,
+      "measured": 17181.82714746094,
+      "bounds": {
+        "lowerBound": 17164.645320313477,
+        "upperBound": 17199.0089746084
+      }
+    },
+    {
+      "id": "f6e943fd-92af-412e-9e4d-cf5011fa2eb2",
+      "name": "SegmentName: 03. Хран.  дробленой руды в бункерах обогащения ОФ 1 половина SegmentId: 61a1c43f-52cd-457a-a2e3-f02962a3d054 Руда.03. Хран.  дробленой руды в бункерах обогащения ОФ 1 половина. На конец \nMaterialName: Руда\nMaterialLotId: f6e943fd-92af-412e-9e4d-cf5011fa2eb2\n",
+      "sourceId": "61a1c43f-52cd-457a-a2e3-f02962a3d054",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 16.019727649707033,
+      "measured": 16019.72764970703,
+      "bounds": {
+        "lowerBound": 16003.707922057323,
+        "upperBound": 16035.747377356738
+      }
+    },
+    {
+      "id": "d4cf133e-c860-4667-b6f3-bc5c3aa01556",
+      "name": "SegmentName: 09. Хран.  щебня на открытом складе щебня (5-20 мм) SegmentId: 27ea8df3-b210-4813-8676-c4acbd7decb1 Щебень 5-20.09. Хран.  щебня на открытом складе щебня (5-20 мм). На начало \nMaterialName: Щебень 5-20\nMaterialLotId: d4cf133e-c860-4667-b6f3-bc5c3aa01556\n",
+      "sourceName": "SourceName",
+      "destinationId": "27ea8df3-b210-4813-8676-c4acbd7decb1",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "8ccfb7f6-fc1e-4513-b1cf-f37c24bf0790",
+      "name": "SegmentName: 09. Хран.  щебня на открытом складе щебня (5-20 мм) SegmentId: 27ea8df3-b210-4813-8676-c4acbd7decb1 Щебень 5-20.09. Хран.  щебня на открытом складе щебня (5-20 мм). На конец \nMaterialName: Щебень 5-20\nMaterialLotId: 8ccfb7f6-fc1e-4513-b1cf-f37c24bf0790\n",
+      "sourceId": "27ea8df3-b210-4813-8676-c4acbd7decb1",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "75fe9b3a-5d47-4063-affa-9b429df770e4",
+      "name": "SegmentName: 10. Хран.высева постели в бункере постели SegmentId: 36422e2c-b24a-4bb1-a9e2-cede9fe8996d Постель агломерата.10. Хран.высева постели в бункере постели. На начало \nMaterialName: Постель агломерата\nMaterialLotId: 75fe9b3a-5d47-4063-affa-9b429df770e4\n",
+      "sourceName": "SourceName",
+      "destinationId": "36422e2c-b24a-4bb1-a9e2-cede9fe8996d",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 12.713124847412109,
+      "bounds": {
+        "lowerBound": 12.713124847412109,
+        "upperBound": 12.713124847412109
+      }
+    },
+    {
+      "id": "fdad9ddc-f6a9-453e-aaa0-d9c4d42571e3",
+      "name": "SegmentName: 10. Хран.высева постели в бункере постели SegmentId: 36422e2c-b24a-4bb1-a9e2-cede9fe8996d Постель агломерата.10. Хран.высева постели в бункере постели. На конец \nMaterialName: Постель агломерата\nMaterialLotId: fdad9ddc-f6a9-453e-aaa0-d9c4d42571e3\n",
+      "sourceId": "36422e2c-b24a-4bb1-a9e2-cede9fe8996d",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 13.94375,
+      "bounds": {
+        "lowerBound": 13.94375,
+        "upperBound": 13.94375
+      }
+    },
+    {
+      "id": "bedabaa5-779b-4c01-9918-66f64fdf5e1f",
+      "name": "SegmentName: 20. Хран. богатого концентрата в бункере с концентратом для окатышей SegmentId: b65d53e5-c023-48e7-a529-76bc43cad511 Богатый концентрат.20. Хран. богатого концентрата в бункере с концентратом для окатышей. На начало \nMaterialName: Богатый концентрат\nMaterialLotId: bedabaa5-779b-4c01-9918-66f64fdf5e1f\n",
+      "sourceName": "SourceName",
+      "destinationId": "b65d53e5-c023-48e7-a529-76bc43cad511",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "1300e684-0b0b-47f1-ad82-8e8cfc8291bc",
+      "name": "SegmentName: 20. Хран. богатого концентрата в бункере с концентратом для окатышей SegmentId: b65d53e5-c023-48e7-a529-76bc43cad511 Богатый концентрат.20. Хран. богатого концентрата в бункере с концентратом для окатышей. На конец \nMaterialName: Богатый концентрат\nMaterialLotId: 1300e684-0b0b-47f1-ad82-8e8cfc8291bc\n",
+      "sourceId": "b65d53e5-c023-48e7-a529-76bc43cad511",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "8c6f40d4-3581-4f4f-b1a6-9a43b0a84cbc",
+      "name": "SegmentName: 05. Хран. окомкованной шихты в бункерах шихты SegmentId: 9aa09831-c7a5-4bec-814b-d3ab3acfdc4c Аглошихта.05. Хран. окомкованной шихты в бункерах шихты. На начало \nMaterialName: Аглошихта\nMaterialLotId: 8c6f40d4-3581-4f4f-b1a6-9a43b0a84cbc\n",
+      "sourceName": "SourceName",
+      "destinationId": "9aa09831-c7a5-4bec-814b-d3ab3acfdc4c",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 0.17061925566196443,
+      "measured": 34.123851132392886,
+      "bounds": {
+        "lowerBound": 33.953231876730925,
+        "upperBound": 34.29447038805485
+      }
+    },
+    {
+      "id": "9b5a306c-6da0-4820-b04d-fc83067f4511",
+      "name": "SegmentName: 05. Хран. окомкованной шихты в бункерах шихты SegmentId: 9aa09831-c7a5-4bec-814b-d3ab3acfdc4c Аглошихта.05. Хран. окомкованной шихты в бункерах шихты. На конец \nMaterialName: Аглошихта\nMaterialLotId: 9b5a306c-6da0-4820-b04d-fc83067f4511\n",
+      "sourceId": "9aa09831-c7a5-4bec-814b-d3ab3acfdc4c",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 0.18108867383003235,
+      "measured": 36.21773476600647,
+      "bounds": {
+        "lowerBound": 36.03664609217644,
+        "upperBound": 36.398823439836505
+      }
+    },
+    {
+      "id": "da2b315e-c4c6-4884-a6f5-8ffaf70db157",
+      "name": "SegmentName: 04. Хран. агломерата в вагонах (ЗНК) SegmentId: 3a355bd7-a417-4c6e-b569-3c61f5bce69f Агломерат.04. Хран. агломерата в вагонах (ЗНК). На начало \nMaterialName: Агломерат\nMaterialLotId: da2b315e-c4c6-4884-a6f5-8ffaf70db157\n",
+      "sourceName": "SourceName",
+      "destinationId": "3a355bd7-a417-4c6e-b569-3c61f5bce69f",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "3a883979-8aca-4224-85b3-977a0480609b",
+      "name": "SegmentName: 04. Хран. агломерата в вагонах (ЗНК) SegmentId: 3a355bd7-a417-4c6e-b569-3c61f5bce69f Агломерат.04. Хран. агломерата в вагонах (ЗНК). На конец \nMaterialName: Агломерат\nMaterialLotId: 3a883979-8aca-4224-85b3-977a0480609b\n",
+      "sourceId": "3a355bd7-a417-4c6e-b569-3c61f5bce69f",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "ce149ce6-eda6-44a3-a9ff-ded2ffbccd54",
+      "name": "SegmentName: 22. Хран. щебня 5-15 мм на складе №3 SegmentId: ab0e41db-d401-4390-92a3-6833121d7f78 Щебень 5-15.22. Хран. щебня 5-15 мм на складе №3. На начало \nMaterialName: Щебень 5-15\nMaterialLotId: ce149ce6-eda6-44a3-a9ff-ded2ffbccd54\n",
+      "sourceName": "SourceName",
+      "destinationId": "ab0e41db-d401-4390-92a3-6833121d7f78",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "02642e8d-de36-4a7e-8a74-5af6d6a3db22",
+      "name": "SegmentName: 22. Хран. щебня 5-15 мм на складе №3 SegmentId: ab0e41db-d401-4390-92a3-6833121d7f78 Щебень 5-15.22. Хран. щебня 5-15 мм на складе №3. На конец \nMaterialName: Щебень 5-15\nMaterialLotId: 02642e8d-de36-4a7e-8a74-5af6d6a3db22\n",
+      "sourceId": "ab0e41db-d401-4390-92a3-6833121d7f78",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "de35051a-fbea-4b8a-8c44-db30f312c7f9",
+      "name": "SegmentName: 08. Хран. бентопрошка в расходных бункерах SegmentId: c90e1fa2-a9cd-48f9-81ed-f55c80a83090 Бентопорошок.08. Хран. бентопрошка в расходных бункерах. На начало \nMaterialName: Бентопорошок\nMaterialLotId: de35051a-fbea-4b8a-8c44-db30f312c7f9\n",
+      "sourceName": "SourceName",
+      "destinationId": "c90e1fa2-a9cd-48f9-81ed-f55c80a83090",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "00df97f6-84e6-4229-b399-073959fe7d8c",
+      "name": "SegmentName: 08. Хран. бентопрошка в расходных бункерах SegmentId: c90e1fa2-a9cd-48f9-81ed-f55c80a83090 Бентопорошок.08. Хран. бентопрошка в расходных бункерах. На конец \nMaterialName: Бентопорошок\nMaterialLotId: 00df97f6-84e6-4229-b399-073959fe7d8c\n",
+      "sourceId": "c90e1fa2-a9cd-48f9-81ed-f55c80a83090",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "510dd7bd-88c7-4b00-b204-63cfd57d2183",
+      "name": "SegmentName: 06. Хран. окатышей в погрузочном бункере SegmentId: b4848fb9-9807-4da1-b7c1-d7fdf5f14e31 Окатыши.06. Хран. окатышей в погрузочном бункере. На начало \nMaterialName: Окатыши\nMaterialLotId: 510dd7bd-88c7-4b00-b204-63cfd57d2183\n",
+      "sourceName": "SourceName",
+      "destinationId": "b4848fb9-9807-4da1-b7c1-d7fdf5f14e31",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "4427348b-6966-47ff-9ea6-c9329d9494ce",
+      "name": "SegmentName: 06. Хран. окатышей в погрузочном бункере SegmentId: b4848fb9-9807-4da1-b7c1-d7fdf5f14e31 Окатыши.06. Хран. окатышей в погрузочном бункере. На конец \nMaterialName: Окатыши\nMaterialLotId: 4427348b-6966-47ff-9ea6-c9329d9494ce\n",
+      "sourceId": "b4848fb9-9807-4da1-b7c1-d7fdf5f14e31",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "e1640497-eebf-4b6a-be66-1a4c25373d6f",
+      "name": "SegmentName: 14. Хран. измельченного топлива в расходных бункерах с твердым топливом SegmentId: c3483051-b182-4de7-a392-8de636b7b265 Измельченное топливо.14. Хран. измельченного топлива в расходных бункерах с твердым топливом. На начало \nMaterialName: Измельченное топливо\nMaterialLotId: e1640497-eebf-4b6a-be66-1a4c25373d6f\n",
+      "sourceName": "SourceName",
+      "destinationId": "c3483051-b182-4de7-a392-8de636b7b265",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "b4dbb7d5-0b54-4d95-84af-775c26901822",
+      "name": "SegmentName: 14. Хран. измельченного топлива в расходных бункерах с твердым топливом SegmentId: c3483051-b182-4de7-a392-8de636b7b265 Измельченное топливо.14. Хран. измельченного топлива в расходных бункерах с твердым топливом. На конец \nMaterialName: Измельченное топливо\nMaterialLotId: b4dbb7d5-0b54-4d95-84af-775c26901822\n",
+      "sourceId": "c3483051-b182-4de7-a392-8de636b7b265",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "8b24e40e-25ef-4646-8621-6df50d41ec21",
+      "name": "SegmentName: 16. Хран. известняка на складе изветняка  SegmentId: 33666395-351f-452e-bb32-e27a6a681acb Известняк.16. Хран. известняка на складе изветняка . На начало \nMaterialName: Известняк\nMaterialLotId: 8b24e40e-25ef-4646-8621-6df50d41ec21\n",
+      "sourceName": "SourceName",
+      "destinationId": "33666395-351f-452e-bb32-e27a6a681acb",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "f9d1ea71-c0cb-4e7b-8794-84849c8f281f",
+      "name": "SegmentName: 16. Хран. известняка на складе изветняка  SegmentId: 33666395-351f-452e-bb32-e27a6a681acb Известняк.16. Хран. известняка на складе изветняка . На конец \nMaterialName: Известняк\nMaterialLotId: f9d1ea71-c0cb-4e7b-8794-84849c8f281f\n",
+      "sourceId": "33666395-351f-452e-bb32-e27a6a681acb",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "3ab8e92a-67b7-4b4c-90c9-4becc1f923f0",
+      "name": "SegmentName: 26. Хран. бедного концентрата на складе №1 SegmentId: aade80e0-5b02-45d3-8f4d-680b6975d3ee Бедный концентрат.26. Хран. бедного концентрата на складе №1. На начало \nMaterialName: Бедный концентрат\nMaterialLotId: 3ab8e92a-67b7-4b4c-90c9-4becc1f923f0\n",
+      "sourceName": "SourceName",
+      "destinationId": "aade80e0-5b02-45d3-8f4d-680b6975d3ee",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 19877.8,
+      "bounds": {
+        "lowerBound": 19877.8,
+        "upperBound": 19877.8
+      }
+    },
+    {
+      "id": "1de193cf-520b-45df-a46c-47467f2216b4",
+      "name": "SegmentName: 26. Хран. бедного концентрата на складе №1 SegmentId: aade80e0-5b02-45d3-8f4d-680b6975d3ee Бедный концентрат.26. Хран. бедного концентрата на складе №1. На конец \nMaterialName: Бедный концентрат\nMaterialLotId: 1de193cf-520b-45df-a46c-47467f2216b4\n",
+      "sourceId": "aade80e0-5b02-45d3-8f4d-680b6975d3ee",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "const",
+      "tolerance": 0,
+      "measured": 19877.8,
+      "bounds": {
+        "lowerBound": 19877.8,
+        "upperBound": 19877.8
+      }
+    },
+    {
+      "id": "2bcd1e2c-1185-48cd-a55c-ba30a6427f40",
+      "name": "SegmentName: 11. Хран. топлива в бункере корпуса вагоноопрокидователя SegmentId: 92cc5ab5-7cdd-4926-8246-a957c497042d Топливо.11. Хран. топлива в бункере корпуса вагоноопрокидователя. На начало \nMaterialName: Топливо\nMaterialLotId: 2bcd1e2c-1185-48cd-a55c-ba30a6427f40\n",
+      "sourceName": "SourceName",
+      "destinationId": "92cc5ab5-7cdd-4926-8246-a957c497042d",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "a63b85c0-13ee-40e5-a7e2-89a7c7a46cec",
+      "name": "SegmentName: 11. Хран. топлива в бункере корпуса вагоноопрокидователя SegmentId: 92cc5ab5-7cdd-4926-8246-a957c497042d Топливо.11. Хран. топлива в бункере корпуса вагоноопрокидователя. На конец \nMaterialName: Топливо\nMaterialLotId: a63b85c0-13ee-40e5-a7e2-89a7c7a46cec\n",
+      "sourceId": "92cc5ab5-7cdd-4926-8246-a957c497042d",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "a6d3a5e3-6617-4bf0-aff5-a14a326bb0cf",
+      "name": "SegmentName: 24. Хран. промпродукта в бункере промпродукта SegmentId: 645e8dca-e954-4760-9655-669cd8d7d33d Промпродукт.24. Хран. промпродукта в бункере промпродукта. На начало \nMaterialName: Промпродукт\nMaterialLotId: a6d3a5e3-6617-4bf0-aff5-a14a326bb0cf\n",
+      "sourceName": "SourceName",
+      "destinationId": "645e8dca-e954-4760-9655-669cd8d7d33d",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "767643d3-7ff4-4c7f-9281-4a213e1577b4",
+      "name": "SegmentName: 24. Хран. промпродукта в бункере промпродукта SegmentId: 645e8dca-e954-4760-9655-669cd8d7d33d Промпродукт.24. Хран. промпродукта в бункере промпродукта. На конец \nMaterialName: Промпродукт\nMaterialLotId: 767643d3-7ff4-4c7f-9281-4a213e1577b4\n",
+      "sourceId": "645e8dca-e954-4760-9655-669cd8d7d33d",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "d3fe6b31-de56-47fd-ade5-f8fb625d0837",
+      "name": "SegmentName: 13. Хран. агломерата на складе агломерата  SegmentId: 498ef678-b7f2-4f34-9e3e-c0f555f09f7b Агломерат.13. Хран. агломерата на складе агломерата . На начало \nMaterialName: Агломерат\nMaterialLotId: d3fe6b31-de56-47fd-ade5-f8fb625d0837\n",
+      "sourceName": "SourceName",
+      "destinationId": "498ef678-b7f2-4f34-9e3e-c0f555f09f7b",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "3a44598c-b596-4724-9f04-e66559f8f831",
+      "name": "SegmentName: 13. Хран. агломерата на складе агломерата  SegmentId: 498ef678-b7f2-4f34-9e3e-c0f555f09f7b Агломерат.13. Хран. агломерата на складе агломерата . На конец \nMaterialName: Агломерат\nMaterialLotId: 3a44598c-b596-4724-9f04-e66559f8f831\n",
+      "sourceId": "498ef678-b7f2-4f34-9e3e-c0f555f09f7b",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "96875fb4-4633-4f22-a109-f02eb9b32000",
+      "name": "SegmentName: 19. Хран. бедного концентрата в бункере с концентратом для агломерации SegmentId: 5fb7ddac-ee4c-466f-9608-e02e328d3e44 Бедный концентрат.19. Хран. бедного концентрата в бункере с концентратом для агломерации. На начало \nMaterialName: Бедный концентрат\nMaterialLotId: 96875fb4-4633-4f22-a109-f02eb9b32000\n",
+      "sourceName": "SourceName",
+      "destinationId": "5fb7ddac-ee4c-466f-9608-e02e328d3e44",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "9fac9659-389c-4ecb-b5b2-7ee5c2f35670",
+      "name": "SegmentName: 19. Хран. бедного концентрата в бункере с концентратом для агломерации SegmentId: 5fb7ddac-ee4c-466f-9608-e02e328d3e44 Бедный концентрат.19. Хран. бедного концентрата в бункере с концентратом для агломерации. На конец \nMaterialName: Бедный концентрат\nMaterialLotId: 9fac9659-389c-4ecb-b5b2-7ee5c2f35670\n",
+      "sourceId": "5fb7ddac-ee4c-466f-9608-e02e328d3e44",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "b37478bb-1255-41d7-b352-8cccfb1cd014",
+      "name": "SegmentName: 08. Хран. окатышей на складе окатышей SegmentId: ab3a3d5d-975d-4729-b940-a8538cc9b57c Окатыши.08. Хран. окатышей на складе окатышей. На начало \nMaterialName: Окатыши\nMaterialLotId: b37478bb-1255-41d7-b352-8cccfb1cd014\n",
+      "sourceName": "SourceName",
+      "destinationId": "ab3a3d5d-975d-4729-b940-a8538cc9b57c",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "9d9264d3-4a36-4e38-8e82-130e65fcaa0b",
+      "name": "SegmentName: 08. Хран. окатышей на складе окатышей SegmentId: ab3a3d5d-975d-4729-b940-a8538cc9b57c Окатыши.08. Хран. окатышей на складе окатышей. На конец \nMaterialName: Окатыши\nMaterialLotId: 9d9264d3-4a36-4e38-8e82-130e65fcaa0b\n",
+      "sourceId": "ab3a3d5d-975d-4729-b940-a8538cc9b57c",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "a4d1fc71-e863-4eee-86c7-fe72a68d02b0",
+      "name": "SegmentName: 01. Хран. руды в промежуточных бункерах SegmentId: 89e0ca1f-3ef4-4e42-880e-eed0c9502cb2 Руда.01. Хран. руды в промежуточных бункерах. На начало \nMaterialName: Руда\nMaterialLotId: a4d1fc71-e863-4eee-86c7-fe72a68d02b0\n",
+      "sourceName": "SourceName",
+      "destinationId": "89e0ca1f-3ef4-4e42-880e-eed0c9502cb2",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 2.447378176660539,
+      "measured": 2447.378176660539,
+      "bounds": {
+        "lowerBound": 2444.9307984838783,
+        "upperBound": 2449.8255548371994
+      }
+    },
+    {
+      "id": "37f9160b-a0f1-4cbd-a39a-da46d2d860ac",
+      "name": "SegmentName: 01. Хран. руды в промежуточных бункерах SegmentId: 89e0ca1f-3ef4-4e42-880e-eed0c9502cb2 Руда.01. Хран. руды в промежуточных бункерах. На конец \nMaterialName: Руда\nMaterialLotId: 37f9160b-a0f1-4cbd-a39a-da46d2d860ac\n",
+      "sourceId": "89e0ca1f-3ef4-4e42-880e-eed0c9502cb2",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "measured",
+      "tolerance": 2.886960544807434,
+      "measured": 2886.960544807434,
+      "bounds": {
+        "lowerBound": 2884.0735842626264,
+        "upperBound": 2889.8475053522416
+      }
+    },
+    {
+      "id": "f3cfa575-65e5-4800-9e0f-93004605c41a",
+      "name": "SegmentName: 23. Хран. извести в расходных бункерах SegmentId: ddb99c35-3153-4dbf-aad1-ae119fe6e6cc Известь.23. Хран. извести в расходных бункерах. На начало \nMaterialName: Известь\nMaterialLotId: f3cfa575-65e5-4800-9e0f-93004605c41a\n",
+      "sourceName": "SourceName",
+      "destinationId": "ddb99c35-3153-4dbf-aad1-ae119fe6e6cc",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "a6eeef3d-8a0f-4a79-9010-7c5de034a4a4",
+      "name": "SegmentName: 23. Хран. извести в расходных бункерах SegmentId: ddb99c35-3153-4dbf-aad1-ae119fe6e6cc Известь.23. Хран. извести в расходных бункерах. На конец \nMaterialName: Известь\nMaterialLotId: a6eeef3d-8a0f-4a79-9010-7c5de034a4a4\n",
+      "sourceId": "ddb99c35-3153-4dbf-aad1-ae119fe6e6cc",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "90e9041c-4260-48af-a9d0-488912d6065c",
+      "name": "SegmentName: 09. Хран. соды на складе соды SegmentId: 0d901a99-d04e-4050-bd19-ef7349095dca Сода.09. Хран. соды на складе соды. На начало \nMaterialName: Сода\nMaterialLotId: 90e9041c-4260-48af-a9d0-488912d6065c\n",
+      "sourceName": "SourceName",
+      "destinationId": "0d901a99-d04e-4050-bd19-ef7349095dca",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "731960bc-d565-4c48-8267-a5855379fdbd",
+      "name": "SegmentName: 09. Хран. соды на складе соды SegmentId: 0d901a99-d04e-4050-bd19-ef7349095dca Сода.09. Хран. соды на складе соды. На конец \nMaterialName: Сода\nMaterialLotId: 731960bc-d565-4c48-8267-a5855379fdbd\n",
+      "sourceId": "0d901a99-d04e-4050-bd19-ef7349095dca",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "5d633734-4fe7-47e2-810c-bb220d0b8ce4",
+      "name": "SegmentName: 20. Хран. Щебня 8-16 мм на складе №3 SegmentId: 3690c3cf-3fa1-47a6-9fd3-ab25a7acc560 Щебень 8-16.20. Хран. Щебня 8-16 мм на складе №3. На начало \nMaterialName: Щебень 8-16\nMaterialLotId: 5d633734-4fe7-47e2-810c-bb220d0b8ce4\n",
+      "sourceName": "SourceName",
+      "destinationId": "3690c3cf-3fa1-47a6-9fd3-ab25a7acc560",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "84c3a695-4803-49c5-8308-1bfd15aa2bf6",
+      "name": "SegmentName: 20. Хран. Щебня 8-16 мм на складе №3 SegmentId: 3690c3cf-3fa1-47a6-9fd3-ab25a7acc560 Щебень 8-16.20. Хран. Щебня 8-16 мм на складе №3. На конец \nMaterialName: Щебень 8-16\nMaterialLotId: 84c3a695-4803-49c5-8308-1bfd15aa2bf6\n",
+      "sourceId": "3690c3cf-3fa1-47a6-9fd3-ab25a7acc560",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "2774c631-a3b4-47d6-9607-e3a6acb3e67f",
+      "name": "SegmentName: 03. Хран. просыпи сырых окатышей в промежуточном бункере  SegmentId: 915278fd-64c0-4687-b21d-8848fdecda8a Просыпь сырых окатышей.03. Хран. просыпи сырых окатышей в промежуточном бункере . На начало \nMaterialName: Просыпь сырых окатышей\nMaterialLotId: 2774c631-a3b4-47d6-9607-e3a6acb3e67f\n",
+      "sourceName": "SourceName",
+      "destinationId": "915278fd-64c0-4687-b21d-8848fdecda8a",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "7ab33b99-efc3-49a7-b0d8-a9e3781dafed",
+      "name": "SegmentName: 03. Хран. просыпи сырых окатышей в промежуточном бункере  SegmentId: 915278fd-64c0-4687-b21d-8848fdecda8a Просыпь сырых окатышей.03. Хран. просыпи сырых окатышей в промежуточном бункере . На конец \nMaterialName: Просыпь сырых окатышей\nMaterialLotId: 7ab33b99-efc3-49a7-b0d8-a9e3781dafed\n",
+      "sourceId": "915278fd-64c0-4687-b21d-8848fdecda8a",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "3ea2a30e-d548-4f3f-befd-99dded701a8c",
+      "name": "SegmentName: 05. Хран. модифицированной глины на складе корпуса бентонита SegmentId: 56a180e2-197b-4ec9-bf8e-ed4e218bbacf Глина.05. Хран. модифицированной глины на складе корпуса бентонита. На начало \nMaterialName: Глина\nMaterialLotId: 3ea2a30e-d548-4f3f-befd-99dded701a8c\n",
+      "sourceName": "SourceName",
+      "destinationId": "56a180e2-197b-4ec9-bf8e-ed4e218bbacf",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "928dbbc2-190d-45db-a064-ccb550e05a2f",
+      "name": "SegmentName: 05. Хран. модифицированной глины на складе корпуса бентонита SegmentId: 56a180e2-197b-4ec9-bf8e-ed4e218bbacf Глина.05. Хран. модифицированной глины на складе корпуса бентонита. На конец \nMaterialName: Глина\nMaterialLotId: 928dbbc2-190d-45db-a064-ccb550e05a2f\n",
+      "sourceId": "56a180e2-197b-4ec9-bf8e-ed4e218bbacf",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "bc1adb0c-809e-4bea-b26e-028be3e9ba4c",
+      "name": "SegmentName: 21. Хран. щебня 5-10 мм на складе №3 SegmentId: c3524694-07a3-405d-a299-893e3c3704ee Щебень 5-10.21. Хран. щебня 5-10 мм на складе №3. На начало \nMaterialName: Щебень 5-10\nMaterialLotId: bc1adb0c-809e-4bea-b26e-028be3e9ba4c\n",
+      "sourceName": "SourceName",
+      "destinationId": "c3524694-07a3-405d-a299-893e3c3704ee",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "eefda0db-6029-4d87-9c68-aa4b52d31ce5",
+      "name": "SegmentName: 21. Хран. щебня 5-10 мм на складе №3 SegmentId: c3524694-07a3-405d-a299-893e3c3704ee Щебень 5-10.21. Хран. щебня 5-10 мм на складе №3. На конец \nMaterialName: Щебень 5-10\nMaterialLotId: eefda0db-6029-4d87-9c68-aa4b52d31ce5\n",
+      "sourceId": "c3524694-07a3-405d-a299-893e3c3704ee",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "fd51e5cf-ef2d-449b-a865-1d652cbaceaa",
+      "name": "SegmentName: 11. Хран. агломерата в бункере погрузки  SegmentId: d6093e47-5292-4695-8516-2c15759d7304 Агломерат.11. Хран. агломерата в бункере погрузки . На начало \nMaterialName: Агломерат\nMaterialLotId: fd51e5cf-ef2d-449b-a865-1d652cbaceaa\n",
+      "sourceName": "SourceName",
+      "destinationId": "d6093e47-5292-4695-8516-2c15759d7304",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "e058dc68-5f07-4816-8365-4fc9758ee407",
+      "name": "SegmentName: 11. Хран. агломерата в бункере погрузки  SegmentId: d6093e47-5292-4695-8516-2c15759d7304 Агломерат.11. Хран. агломерата в бункере погрузки . На конец \nMaterialName: Агломерат\nMaterialLotId: e058dc68-5f07-4816-8365-4fc9758ee407\n",
+      "sourceId": "d6093e47-5292-4695-8516-2c15759d7304",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "bda3fa3b-e525-41df-a510-cec41ad39357",
+      "name": "SegmentName: 17. Хран. щебня 5-20 на складе №3 SegmentId: af7375e5-2943-4cfd-a6e9-cd918cabb55e Щебень 5-20.17. Хран. щебня 5-20 на складе №3. На начало \nMaterialName: Щебень 5-20\nMaterialLotId: bda3fa3b-e525-41df-a510-cec41ad39357\n",
+      "sourceName": "SourceName",
+      "destinationId": "af7375e5-2943-4cfd-a6e9-cd918cabb55e",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    },
+    {
+      "id": "9d7b4f4f-dc5c-4b3c-b8e3-2e2bdf15023b",
+      "name": "SegmentName: 17. Хран. щебня 5-20 на складе №3 SegmentId: af7375e5-2943-4cfd-a6e9-cd918cabb55e Щебень 5-20.17. Хран. щебня 5-20 на складе №3. На конец \nMaterialName: Щебень 5-20\nMaterialLotId: 9d7b4f4f-dc5c-4b3c-b8e3-2e2bdf15023b\n",
+      "sourceId": "af7375e5-2943-4cfd-a6e9-cd918cabb55e",
+      "sourceName": "SourceName",
+      "destinationName": "DestinationName",
+      "flowType": "not_measured",
+      "tolerance": 0,
+      "measured": 0,
+      "bounds": {
+        "lowerBound": 0,
+        "upperBound": 1000000
+      }
+    }
+  ]

@@ -18,9 +18,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4a801d17-b998-4472-b204-32f74370046a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MaterialBalance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/Services/BackgroundSolverService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Services/BackgroundSolverService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/API/Request/SolverResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/API/Request/SolverResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/Services/SolverService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/Services/SolverService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/bin/Debug/net9.0/MaterialBalance.exe" afterDir="false" />
@@ -35,8 +35,23 @@
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/refint/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/refint/MaterialBalance.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalance/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/MaterialBalanceTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/MaterialBalanceTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/SolverServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/SolverServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/bin/Debug/net9.0/MaterialBalance.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/bin/Debug/net9.0/MaterialBalance.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/bin/Debug/net9.0/MaterialBalance.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/bin/Debug/net9.0/MaterialBalance.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/bin/Debug/net9.0/MaterialBalance.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/bin/Debug/net9.0/MaterialBalance.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/bin/Debug/net9.0/MaterialBalanceTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/bin/Debug/net9.0/MaterialBalanceTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/bin/Debug/net9.0/MaterialBalanceTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/bin/Debug/net9.0/MaterialBalanceTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/MaterialBalanceTests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/ref/MaterialBalanceTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/ref/MaterialBalanceTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/refint/MaterialBalanceTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialBalanceTests/obj/Debug/net9.0/refint/MaterialBalanceTests.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +84,9 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41cc61bcbc19425f8f9018ba4b79c072e8e918/7a/018bc913/ArgumentNullException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b81cb3be224213a6a73519b6e340a628d9a1fb8629c351a186a26f6376669/List.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e5d623ea960f2c3c9fda144954d339f8d4cd3dad6dd8bd4ab96093a010ab/Dictionary.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MaterialBalance/API/Request/QpData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MaterialBalance/API/Request/ResultType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MaterialBalance/API/Request/SolverResult.cs" root0="FORCE_HIGHLIGHTING" />
@@ -78,6 +96,8 @@
     <setting file="file://$PROJECT_DIR$/MaterialBalance/Services/BackgroundSolverService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MaterialBalance/Services/GraphService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MaterialBalance/Services/SolverService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MaterialBalanceTests/CasesTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MaterialBalanceTests/GraphServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MaterialBalanceTests/PostgresBdProviderTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MaterialBalanceTests/SolverServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -91,61 +111,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.4226781076046162" />
-      <entry key="MS500" value="2.584263619285517" />
-      <entry key="S2" value="6.333354680877033" />
-      <entry key="S5" value="9.462205986928383" />
-      <entry key="S10" value="11.792868733611545" />
-      <entry key="S30" value="20.766012114763573" />
-      <entry key="S60" value="28.484895516058486" />
-      <entry key="M2" value="34.804178907215636" />
-      <entry key="M5" value="44.178374239983306" />
-      <entry key="M10" value="56.63062725802231" />
-      <entry key="M15" value="65.61053290771673" />
-      <entry key="M30" value="80.53327746079712" />
-      <entry key="H1" value="92.1671196532544" />
-      <entry key="H2" value="102.44758073494548" />
-      <entry key="H4" value="116.54219749706822" />
-      <entry key="D1" value="152.77433715327146" />
-      <entry key="W1" value="165.51312345218753" />
+      <entry key="MS100" value="7.086460715355938E-13" />
+      <entry key="MS500" value="0.0038238388475229754" />
+      <entry key="S2" value="0.3487842569116712" />
+      <entry key="S5" value="0.9725805200638318" />
+      <entry key="S10" value="1.3892866612263137" />
+      <entry key="S30" value="1.7697282845062314" />
+      <entry key="S60" value="1.8811405190906456" />
+      <entry key="M2" value="1.941323267010096" />
+      <entry key="M5" value="2.1546561251801273" />
+      <entry key="M10" value="2.950300362505425" />
+      <entry key="M15" value="3.906375652091059" />
+      <entry key="M30" value="7.010240062474863" />
+      <entry key="H1" value="17.885215188125358" />
+      <entry key="H2" value="50.68949464868289" />
+      <entry key="H4" value="104.53120208149736" />
+      <entry key="D1" value="227.55725226890362" />
+      <entry key="W1" value="268.16905616664644" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="4.584824683437839E-280" />
-      <entry key="S5" value="1.8387771296043389E-112" />
-      <entry key="S10" value="1.3560151656985014E-56" />
-      <entry key="S30" value="2.384633009567997E-19" />
-      <entry key="S60" value="4.885507862558227E-10" />
-      <entry key="M2" value="2.2893732322244965E-5" />
-      <entry key="M5" value="0.02069801699070764" />
-      <entry key="M10" value="0.2615312957647394" />
-      <entry key="M15" value="0.6362025410950721" />
-      <entry key="M30" value="1.5805891651057333" />
-      <entry key="H1" value="2.591362591060366" />
-      <entry key="H2" value="4.419688571922103" />
-      <entry key="H4" value="8.773855352236993" />
-      <entry key="D1" value="22.725419543960292" />
-      <entry key="W1" value="27.96675981338945" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000000224654" />
+      <entry key="S60" value="1.0000076360354977" />
+      <entry key="M2" value="1.005471898908551" />
+      <entry key="M5" value="1.340731399930296" />
+      <entry key="M10" value="2.4402115866936773" />
+      <entry key="M15" value="3.410235707577085" />
+      <entry key="M30" value="5.476574515378916" />
+      <entry key="H1" value="8.776060789957908" />
+      <entry key="H2" value="14.439508185165446" />
+      <entry key="H4" value="22.545714753292984" />
+      <entry key="D1" value="46.2441088038047" />
+      <entry key="W1" value="56.01509417538448" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.120692215412818" />
-      <entry key="MS500" value="2.4403650397385626" />
-      <entry key="S2" value="6.259064635707219" />
-      <entry key="S5" value="9.420842011244982" />
-      <entry key="S10" value="11.767841380286573" />
-      <entry key="S30" value="20.75195844085501" />
-      <entry key="S60" value="28.475416932195113" />
-      <entry key="M2" value="34.79846107756405" />
-      <entry key="M5" value="44.19606176195609" />
-      <entry key="M10" value="56.889598452813054" />
-      <entry key="M15" value="66.24417454779486" />
-      <entry key="M30" value="82.11158838019749" />
-      <entry key="H1" value="94.75680886100537" />
-      <entry key="H2" value="106.86590073353022" />
-      <entry key="H4" value="125.31470983006089" />
-      <entry key="D1" value="175.4991817821648" />
-      <entry key="W1" value="193.4797823168327" />
+      <entry key="MS100" value="0.011048543456039811" />
+      <entry key="MS500" value="0.40647499364699446" />
+      <entry key="S2" value="1.0143329747829941" />
+      <entry key="S5" value="1.7303344678356885" />
+      <entry key="S10" value="2.232613722363913" />
+      <entry key="S30" value="2.7067781399278172" />
+      <entry key="S60" value="2.848109455503699" />
+      <entry key="M2" value="2.929830279790314" />
+      <entry key="M5" value="3.4873511171687603" />
+      <entry key="M10" value="5.384238915232127" />
+      <entry key="M15" value="7.31086046693691" />
+      <entry key="M30" value="12.481867734324151" />
+      <entry key="H1" value="26.65643470982253" />
+      <entry key="H2" value="65.12402627201148" />
+      <entry key="H4" value="127.07259216515547" />
+      <entry key="D1" value="273.799875768836" />
+      <entry key="W1" value="324.1838971950196" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -264,7 +284,14 @@
       <workItem from="1779754521358" duration="1173000" />
       <workItem from="1779803260469" duration="5361000" />
       <workItem from="1779826199958" duration="15234000" />
-      <workItem from="1779914545895" duration="5072000" />
+      <workItem from="1779914545895" duration="5137000" />
+      <workItem from="1780674008231" duration="4507000" />
+      <workItem from="1781045266578" duration="763000" />
+      <workItem from="1781047615489" duration="11565000" />
+      <workItem from="1781062435289" duration="257000" />
+      <workItem from="1781063103318" duration="8921000" />
+      <workItem from="1781074602782" duration="7124000" />
+      <workItem from="1781216428618" duration="16566000" />
     </task>
     <servers />
   </component>

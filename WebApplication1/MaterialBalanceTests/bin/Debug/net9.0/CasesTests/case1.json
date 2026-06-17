@@ -1,0 +1,36 @@
+[
+        {
+            "id": "11111111-1111-1111-1111-111111111111",
+            "sourceNodeId": null,
+            "targetNodeId": "11111111-1111-1111-1111-111111111112",
+            "measured": 50,
+            "tolerance": 5,
+            "type": 0,
+        
+                "lowerBound": 0,
+                "upperBound": 2000
+
+        },
+        {
+            "id": "02222222-2222-2222-2222-222222222222",
+            "sourceNodeId": "11111111-1111-1111-1111-111111111112",
+            "targetNodeId": null,
+            "measured": 100,
+            "tolerance": 5,
+            "type": 0,
+                "lowerBound": 0,
+                "upperBound": 500
+        },
+        {
+            "id": "33333333-3333-3333-3333-333333333333",
+            "sourceNodeId": "11111111-1111-1111-1111-111111111112",
+            "targetNodeId": null,
+            "measured": 50,
+            "tolerance": 5,
+            "type": 0,
+
+                "lowerBound": 0,
+                "upperBound": 2000
+
+        }
+    ]

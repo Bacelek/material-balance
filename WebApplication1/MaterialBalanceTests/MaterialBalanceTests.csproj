@@ -25,4 +25,15 @@
       <ProjectReference Include="..\MaterialBalance\MaterialBalance.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="CasesTests\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="CasesTests\*.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    
+
 </Project>

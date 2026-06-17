@@ -1,0 +1,502 @@
+[
+  {
+    "id": "38810bfa-583d-4c79-8980-299d92de372f",
+    "sourceNodeId": "b16474e2-8cc4-4373-a1c9-f95e6189ac0f",
+    "targetNodeId": "50534dec-7c7b-4ce6-abbf-805df77739d2",
+    "measured": 358.65,
+    "tolerance": 0,
+    "type": 2,
+    "lowerBound": 358.65,
+    "upperBound": 358.65
+  },
+  {
+    "id": "0fa47c3c-9021-44f1-86c2-aaee6d84043b",
+    "sourceNodeId": "f78672ea-8fa9-4878-97ab-81216d9ce4ff",
+    "targetNodeId": "50534dec-7c7b-4ce6-abbf-805df77739d2",
+    "measured": 494.16,
+    "tolerance": 5,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 1388.35
+  },
+  {
+    "id": "aeb5827d-13af-41ce-a19c-2e37b45b7e20",
+    "sourceNodeId": "4f93f6a0-a12e-4a71-add2-79d36c904ba8",
+    "targetNodeId": null,
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 198.9
+  },
+  {
+    "id": "73e04e56-1607-4fc1-a21d-0a8c8297b083",
+    "sourceNodeId": "91dfae7c-e8f9-4059-a99e-7dcd857b3e14",
+    "targetNodeId": "b16474e2-8cc4-4373-a1c9-f95e6189ac0f",
+    "measured": 295.67,
+    "tolerance": 0,
+    "type": 2,
+    "lowerBound": 295.67,
+    "upperBound": 295.67
+  },
+  {
+    "id": "b9572aa6-ccd8-427c-9abb-beaaaffe1743",
+    "sourceNodeId": "c7576fcd-b552-42ed-bd8a-2db615931d2e",
+    "targetNodeId": "4f93f6a0-a12e-4a71-add2-79d36c904ba8",
+    "measured": 310.96,
+    "tolerance": 1,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 1180.09
+  },
+  {
+    "id": "afd713b4-fdd5-4f42-86c6-8f39be8049dc",
+    "sourceNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "targetNodeId": null,
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 941.97
+  },
+  {
+    "id": "0a0c0195-1a65-41a8-97e3-8b18be39e64e",
+    "sourceNodeId": "1dc1dc02-d28f-49fc-997f-3bbe08074e74",
+    "targetNodeId": null,
+    "measured": 6.0,
+    "tolerance": 7,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 186.07
+  },
+  {
+    "id": "0524f533-3571-489c-86f6-216391d73cdd",
+    "sourceNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "targetNodeId": "b16474e2-8cc4-4373-a1c9-f95e6189ac0f",
+    "measured": 96.96,
+    "tolerance": 2,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 209.34
+  },
+  {
+    "id": "510dfda7-d77b-43b8-9290-bb1df328a5d5",
+    "sourceNodeId": null,
+    "targetNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "measured": 449.16,
+    "tolerance": 6,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 740.84
+  },
+  {
+    "id": "b3eb3407-cddb-4933-bf9d-f868f3c9bab5",
+    "sourceNodeId": "b16474e2-8cc4-4373-a1c9-f95e6189ac0f",
+    "targetNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 452.74
+  },
+  {
+    "id": "ee00ea64-c5f5-4a27-ac22-2f4f7f8aa72b",
+    "sourceNodeId": "f78672ea-8fa9-4878-97ab-81216d9ce4ff",
+    "targetNodeId": null,
+    "measured": 451.44,
+    "tolerance": 2,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 945.14
+  },
+  {
+    "id": "904f4e1e-6cd7-403c-b114-c4bdb0635974",
+    "sourceNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "targetNodeId": "b2f85896-e9e1-4106-b74a-4b7d0ecc13b7",
+    "measured": 220.93,
+    "tolerance": 5,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 1213.04
+  },
+  {
+    "id": "6e06e320-3dd1-44b8-ba4d-caf9f5737120",
+    "sourceNodeId": null,
+    "targetNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 165.52
+  },
+  {
+    "id": "8cc62bd0-9e97-4d5a-9bab-7d9a90adc618",
+    "sourceNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "targetNodeId": "1dc1dc02-d28f-49fc-997f-3bbe08074e74",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 661.91
+  },
+  {
+    "id": "65747ba7-dd34-46cb-a3ce-1d75772ee4d9",
+    "sourceNodeId": "b16474e2-8cc4-4373-a1c9-f95e6189ac0f",
+    "targetNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "measured": 0.35,
+    "tolerance": 1,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 862.75
+  },
+  {
+    "id": "f7fe72ab-f412-455c-a505-96740211466d",
+    "sourceNodeId": "50534dec-7c7b-4ce6-abbf-805df77739d2",
+    "targetNodeId": "f78672ea-8fa9-4878-97ab-81216d9ce4ff",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 724.12
+  },
+  {
+    "id": "d51e7948-0b21-4b8f-b5f8-b2d44dcc0e0b",
+    "sourceNodeId": "50534dec-7c7b-4ce6-abbf-805df77739d2",
+    "targetNodeId": null,
+    "measured": 376.04,
+    "tolerance": 0,
+    "type": 2,
+    "lowerBound": 376.04,
+    "upperBound": 376.04
+  },
+  {
+    "id": "2ad20f1c-774b-4838-84cf-5eb343639369",
+    "sourceNodeId": "2dd8378d-2fa4-4cfb-b52f-af931884e0ef",
+    "targetNodeId": "c7576fcd-b552-42ed-bd8a-2db615931d2e",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 693.93
+  },
+  {
+    "id": "0e66a5dd-5a12-4a1e-bb7c-a87111de0cd0",
+    "sourceNodeId": "4f93f6a0-a12e-4a71-add2-79d36c904ba8",
+    "targetNodeId": "f78672ea-8fa9-4878-97ab-81216d9ce4ff",
+    "measured": 3.02,
+    "tolerance": 2,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 688.42
+  },
+  {
+    "id": "3e8a4ac6-a2f0-48cf-a8c2-bd3983358fa9",
+    "sourceNodeId": null,
+    "targetNodeId": "c7576fcd-b552-42ed-bd8a-2db615931d2e",
+    "measured": 9.49,
+    "tolerance": 8,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 344.25
+  },
+  {
+    "id": "10e273d6-8614-441f-ac4b-b6864f27cfbb",
+    "sourceNodeId": null,
+    "targetNodeId": "b16474e2-8cc4-4373-a1c9-f95e6189ac0f",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 471.25
+  },
+  {
+    "id": "1778f3e7-212b-42ff-8cb5-ca111c37d6c2",
+    "sourceNodeId": "2dd8378d-2fa4-4cfb-b52f-af931884e0ef",
+    "targetNodeId": null,
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 300.01
+  },
+  {
+    "id": "10c22e4c-3da6-4fc6-ab54-8f22922541cf",
+    "sourceNodeId": "b2f85896-e9e1-4106-b74a-4b7d0ecc13b7",
+    "targetNodeId": "91dfae7c-e8f9-4059-a99e-7dcd857b3e14",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 919.67
+  },
+  {
+    "id": "b073f730-0c6f-4646-8c63-d1a27022e46a",
+    "sourceNodeId": null,
+    "targetNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 902.93
+  },
+  {
+    "id": "293de1cd-af1b-46ce-a894-ef48169abdbe",
+    "sourceNodeId": "2dd8378d-2fa4-4cfb-b52f-af931884e0ef",
+    "targetNodeId": null,
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 854.83
+  },
+  {
+    "id": "5352905d-9c31-49af-8533-fee245ce9e6f",
+    "sourceNodeId": null,
+    "targetNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 859.42
+  },
+  {
+    "id": "742d251a-62e1-47b1-a6f0-0e17306a3c8f",
+    "sourceNodeId": "f78672ea-8fa9-4878-97ab-81216d9ce4ff",
+    "targetNodeId": null,
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 988.94
+  },
+  {
+    "id": "a9fb427d-235b-4000-ae83-9ad08bca514e",
+    "sourceNodeId": "50534dec-7c7b-4ce6-abbf-805df77739d2",
+    "targetNodeId": "b2f85896-e9e1-4106-b74a-4b7d0ecc13b7",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 88.05
+  },
+  {
+    "id": "f82befe6-ce6a-4409-8609-2c022d7b882f",
+    "sourceNodeId": "4f93f6a0-a12e-4a71-add2-79d36c904ba8",
+    "targetNodeId": "c7576fcd-b552-42ed-bd8a-2db615931d2e",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 116.38
+  },
+  {
+    "id": "0d2067e7-665b-4f54-b636-7200a01c4c7b",
+    "sourceNodeId": "2dd8378d-2fa4-4cfb-b52f-af931884e0ef",
+    "targetNodeId": "f78672ea-8fa9-4878-97ab-81216d9ce4ff",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 411.32
+  },
+  {
+    "id": "6d23a81c-ef44-4aa2-ac66-01f381bb3d22",
+    "sourceNodeId": "f78672ea-8fa9-4878-97ab-81216d9ce4ff",
+    "targetNodeId": "2dd8378d-2fa4-4cfb-b52f-af931884e0ef",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 326.52
+  },
+  {
+    "id": "20900f67-5b33-45d2-9c45-0bb5cab68f2c",
+    "sourceNodeId": "50534dec-7c7b-4ce6-abbf-805df77739d2",
+    "targetNodeId": "4f93f6a0-a12e-4a71-add2-79d36c904ba8",
+    "measured": 292.59,
+    "tolerance": 4,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 924.99
+  },
+  {
+    "id": "89032e27-533b-4722-b41f-bbfc75e06607",
+    "sourceNodeId": null,
+    "targetNodeId": "1dc1dc02-d28f-49fc-997f-3bbe08074e74",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 944.25
+  },
+  {
+    "id": "682da98c-b719-4688-b731-03b4b15c8923",
+    "sourceNodeId": "b16474e2-8cc4-4373-a1c9-f95e6189ac0f",
+    "targetNodeId": null,
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 944.41
+  },
+  {
+    "id": "33c374b0-2cc6-4d8a-8246-7aca4f35752b",
+    "sourceNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "targetNodeId": null,
+    "measured": 938.44,
+    "tolerance": 10,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 1359.74
+  },
+  {
+    "id": "64bf21a1-193b-41ba-a063-8b4d36d68c9d",
+    "sourceNodeId": "2dd8378d-2fa4-4cfb-b52f-af931884e0ef",
+    "targetNodeId": "91dfae7c-e8f9-4059-a99e-7dcd857b3e14",
+    "measured": 309.94,
+    "tolerance": 10,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 910.56
+  },
+  {
+    "id": "0a113497-6417-4d02-8ebd-48908977b6c8",
+    "sourceNodeId": null,
+    "targetNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 894.17
+  },
+  {
+    "id": "3c4aa2e8-767c-494f-99d2-ae005337836c",
+    "sourceNodeId": "91dfae7c-e8f9-4059-a99e-7dcd857b3e14",
+    "targetNodeId": "2dd8378d-2fa4-4cfb-b52f-af931884e0ef",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 962.38
+  },
+  {
+    "id": "88371ee3-903e-46ea-afcb-1e1a9e0588fc",
+    "sourceNodeId": "4f93f6a0-a12e-4a71-add2-79d36c904ba8",
+    "targetNodeId": "1dc1dc02-d28f-49fc-997f-3bbe08074e74",
+    "measured": 95.12,
+    "tolerance": 7,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 292.23
+  },
+  {
+    "id": "ab6a759e-e294-46c3-ab53-4cba8a3e6a28",
+    "sourceNodeId": "c7576fcd-b552-42ed-bd8a-2db615931d2e",
+    "targetNodeId": "4f93f6a0-a12e-4a71-add2-79d36c904ba8",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 704.57
+  },
+  {
+    "id": "7e4ffb74-16e7-406b-92c9-fbe74f6483cf",
+    "sourceNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "targetNodeId": null,
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 427.47
+  },
+  {
+    "id": "7a410960-2665-4cd1-a65f-b454e02c17e9",
+    "sourceNodeId": "c7576fcd-b552-42ed-bd8a-2db615931d2e",
+    "targetNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 492.95
+  },
+  {
+    "id": "bb51277d-7290-4ab3-820e-8c1242c9351f",
+    "sourceNodeId": "2dd8378d-2fa4-4cfb-b52f-af931884e0ef",
+    "targetNodeId": "f78672ea-8fa9-4878-97ab-81216d9ce4ff",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 363.96
+  },
+  {
+    "id": "314b92a5-cf80-4f65-8761-f984ea326bae",
+    "sourceNodeId": "2dd8378d-2fa4-4cfb-b52f-af931884e0ef",
+    "targetNodeId": "b2f85896-e9e1-4106-b74a-4b7d0ecc13b7",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 84.27
+  },
+  {
+    "id": "23504aa1-c8e7-4007-85d0-95262bcb66f9",
+    "sourceNodeId": "1dc1dc02-d28f-49fc-997f-3bbe08074e74",
+    "targetNodeId": "2dd8378d-2fa4-4cfb-b52f-af931884e0ef",
+    "measured": 114.25,
+    "tolerance": 2,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 413.99
+  },
+  {
+    "id": "edabe0ea-8296-4717-b92e-0c347f9a3cb3",
+    "sourceNodeId": null,
+    "targetNodeId": "c7576fcd-b552-42ed-bd8a-2db615931d2e",
+    "measured": 161.76,
+    "tolerance": 8,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 270.89
+  },
+  {
+    "id": "b74ddc60-cfa7-431b-bb06-9870eedb76f1",
+    "sourceNodeId": null,
+    "targetNodeId": "4f93f6a0-a12e-4a71-add2-79d36c904ba8",
+    "measured": 325.92,
+    "tolerance": 0,
+    "type": 2,
+    "lowerBound": 325.92,
+    "upperBound": 325.92
+  },
+  {
+    "id": "ab2b127f-52ce-432d-a9e8-84935cb19b5c",
+    "sourceNodeId": "91dfae7c-e8f9-4059-a99e-7dcd857b3e14",
+    "targetNodeId": "f78672ea-8fa9-4878-97ab-81216d9ce4ff",
+    "measured": 195.3,
+    "tolerance": 9,
+    "type": 0,
+    "lowerBound": 0.0,
+    "upperBound": 680.59
+  },
+  {
+    "id": "f8d073c2-5012-4bde-b7db-296692efc2ad",
+    "sourceNodeId": "b16474e2-8cc4-4373-a1c9-f95e6189ac0f",
+    "targetNodeId": "1dc1dc02-d28f-49fc-997f-3bbe08074e74",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 356.59
+  },
+  {
+    "id": "63b12c3c-47b4-40c7-b5e8-0867751ebf91",
+    "sourceNodeId": "b16474e2-8cc4-4373-a1c9-f95e6189ac0f",
+    "targetNodeId": "f91aa981-3218-4288-be42-0dff8288709c",
+    "measured": 0.0,
+    "tolerance": 0,
+    "type": 1,
+    "lowerBound": 0.0,
+    "upperBound": 798.47
+  }
+]

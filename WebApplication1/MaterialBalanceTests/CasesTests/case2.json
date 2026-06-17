@@ -1,0 +1,79 @@
+[
+        {
+            "id": "006d38ad-7b82-477d-b60b-91e69d414c9d",
+            "sourceNodeId": null,
+            "targetNodeId": "a11b7af9-dc51-4bbb-8940-97b10e0eed2f",
+            "measured": 400,
+            "tolerance": 0,
+            "type": 2,
+        
+                "lowerBound": 0,
+                "upperBound": 2000
+
+        },
+        {
+            "id": "2635dac7-b171-487b-bb89-5220c5b38dec",
+            "sourceNodeId": null,
+            "targetNodeId": "a11b7af9-dc51-4bbb-8940-97b10e0eed2f",
+            "measured": 0,
+            "tolerance": 0,
+            "type": 1,
+                "lowerBound": 0,
+                "upperBound": 500
+        },
+        {
+            "id": "54eec3bf-0475-406f-b76e-958abec720c6",
+            "sourceNodeId": "a11b7af9-dc51-4bbb-8940-97b10e0eed2f",
+            "targetNodeId": null,
+            "measured": 300,
+            "tolerance": 5,
+            "type": 0,
+
+                "lowerBound": 0,
+                "upperBound": 2000
+
+        },
+        {
+            "id": "2401db8c-5cca-4d73-b51c-9bcc76377a4f",
+            "sourceNodeId": "a11b7af9-dc51-4bbb-8940-97b10e0eed2f",
+            "targetNodeId": "9b09a76f-2b72-45c4-95ae-b902c0aa6377",
+            "measured": 0,
+            "tolerance": 0,
+            "type": 1,
+                "lowerBound": 0,
+                "upperBound": 500
+        },
+        {
+            "id": "4804b272-8630-4157-b603-2d6b28677e2c",
+            "sourceNodeId": "a11b7af9-dc51-4bbb-8940-97b10e0eed2f",
+            "targetNodeId": "0170a01e-7a64-4524-8644-e4432b7ec4ae",
+            "measured": 0,
+            "tolerance": 0,
+            "type": 1,
+
+                "lowerBound": 0,
+                "upperBound": 1000
+
+        },
+        {
+            "id": "97877ab5-7281-4e05-8f1c-d4bbf4782a0a",
+            "sourceNodeId": "9b09a76f-2b72-45c4-95ae-b902c0aa6377",
+            "targetNodeId": null,
+            "measured": 20,
+            "tolerance": 5,
+            "type": 0,
+                "lowerBound": 0,
+                "upperBound": 200
+        },
+        {
+            "id": "8d77c11c-1a85-4801-a34d-4e1e74f8c815",
+            "sourceNodeId": "0170a01e-7a64-4524-8644-e4432b7ec4ae",
+            "targetNodeId": null,
+            "measured": 140,
+            "tolerance": 5,
+            "type": 0,
+                "lowerBound": 0,
+                "upperBound": 600
+            
+        }
+    ]

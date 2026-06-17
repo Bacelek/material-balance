@@ -1,7 +1,7 @@
 ﻿using Moq;
 using MaterialBalance.API.Request;
 using MaterialBalance.Interfaces;
-
+using Xunit;
 using MathNet.Numerics.LinearAlgebra;
 
 namespace MaterialBalanceTests

@@ -21,7 +21,7 @@ public class SolverService : ISolverService
         
         public async Task<SolverResult> Solve(IEnumerable<Flow> flows)
         {
-            
+            var solveTime = System.Diagnostics.Stopwatch.StartNew();
             Graph graph;
             graph = _graphService.CreateGraph(flows);
             if (!graph.IsConnectedGraph)
@@ -42,11 +42,18 @@ public class SolverService : ISolverService
             }
             data.x0 = x0;
             Vector<double> solution;
+            
             solution = ActiveSet(data);
+            
+            var disbalance = CalculateDisbalance(data, solution);
+            solveTime.Stop();
             return new SolverResult
             {
                 Status = SolverResultStatus.Optimal,
-                FlowsData = solution.AsArray()
+                FlowsData = solution.AsArray(),
+                Disbalance = disbalance,
+                SolveTime = solveTime.ElapsedMilliseconds
+                
             };
         }
 
@@ -66,12 +73,12 @@ public class SolverService : ISolverService
             for (int i = 0; i < n; i++)
             {
                 var flow = flowList[i];
-                if (flow.SourceNodeId != Guid.Empty)
+                if (flow.SourceNodeId != Guid.Empty && flow.SourceNodeId != null)
                 {
                     int sourceIndex = nodeIndex[flow.SourceNodeId];
                     A[sourceIndex, i] = -1.0;
                 }
-                if (flow.TargetNodeId != Guid.Empty)
+                if (flow.TargetNodeId != Guid.Empty && flow.TargetNodeId != null)
                 {
                     int targetIndex = nodeIndex[flow.TargetNodeId];
                     A[targetIndex, i] = 1.0;
@@ -172,6 +179,14 @@ public class SolverService : ISolverService
             return result;
         }
         
+        public double CalculateDisbalance(QpData data, Vector<double> x)
+        {
+            double eps = 1e-5;
+            var disbalance = data.A * x;
+            double norm = disbalance.L2Norm();
+            return norm;
+        }
+        
         public Vector<double> ActiveSet(QpData data)
         {
             var W = data.W;
@@ -185,7 +200,7 @@ public class SolverService : ISolverService
             int n = l.Count;          
             int m = A.RowCount;       
             
-            const double tol = 1e-8;
+            const double tol = 1e-6;
             
             int[] boundStatus = new int[n]; 
             
@@ -197,7 +212,6 @@ public class SolverService : ISolverService
                     boundStatus[i] = 2;
             }
 
-            
             while (true)
             {
                 var freeIndices = new List<int>();
@@ -364,7 +378,6 @@ public class SolverService : ISolverService
                     }
                     
                     
-
                     x = x + alpha * p;
                     
                     if (alpha < 1.0 - 1e-12) 

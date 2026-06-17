@@ -554,3 +554,7 @@ C:\Users\Bacelek\Documents\GitHub\material-balance\WebApplication1\MaterialBalan
 C:\Users\Bacelek\Documents\GitHub\material-balance\WebApplication1\MaterialBalanceTests\bin\Debug\net9.0\Renci.SshNet.dll
 C:\Users\Bacelek\Documents\GitHub\material-balance\WebApplication1\MaterialBalanceTests\bin\Debug\net9.0\Testcontainers.dll
 C:\Users\Bacelek\Documents\GitHub\material-balance\WebApplication1\MaterialBalanceTests\bin\Debug\net9.0\Testcontainers.PostgreSql.dll
+C:\Users\Bacelek\Documents\GitHub\material-balance\WebApplication1\MaterialBalanceTests\bin\Debug\net9.0\CasesTests\case1.json
+C:\Users\Bacelek\Documents\GitHub\material-balance\WebApplication1\MaterialBalanceTests\bin\Debug\net9.0\CasesTests\case2.json
+C:\Users\Bacelek\Documents\GitHub\material-balance\WebApplication1\MaterialBalanceTests\bin\Debug\net9.0\CasesTests\case3.json
+C:\Users\Bacelek\Documents\GitHub\material-balance\WebApplication1\MaterialBalanceTests\bin\Debug\net9.0\CasesTests\case4.json

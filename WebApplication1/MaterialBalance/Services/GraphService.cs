@@ -35,9 +35,9 @@ public class GraphService : IGraphService
         var nodesSet = new HashSet<Guid?>();
         foreach (var flow in flows)
         {
-            if (flow.SourceNodeId != Guid.Empty)
+            if (flow.SourceNodeId != Guid.Empty && flow.SourceNodeId != null)
                 nodesSet.Add(flow.SourceNodeId);
-            if (flow.TargetNodeId != Guid.Empty)
+            if (flow.TargetNodeId != Guid.Empty && flow.TargetNodeId != null)
                 nodesSet.Add(flow.TargetNodeId);
         }
         return nodesSet.ToList();
@@ -57,7 +57,7 @@ public class GraphService : IGraphService
         
         foreach (var flow in flows)
         {
-            if (flow.SourceNodeId != Guid.Empty && flow.TargetNodeId != Guid.Empty)
+            if (flow.SourceNodeId != Guid.Empty && flow.TargetNodeId != Guid.Empty && flow.SourceNodeId != null && flow.TargetNodeId != null)
             {
                 int i = indexMap[flow.SourceNodeId];
                 int j = indexMap[flow.TargetNodeId];
